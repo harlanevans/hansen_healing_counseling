@@ -10,21 +10,17 @@ class NavMobile extends React.Component {
   toggleModal = () => {
     const { showModal } = this.state;
     this.setState({ showModal: !showModal });
-    console.log("clicked");
+    // console.log("clicked");
   };
 
   render() {
     const { showModal } = this.state;
     return (
       <div>
-        <Menu secondary fixed="top" className="main-nav">
-          <Menu.Item>
+        <div className="main-nav">
             <HashLink to="/#home" smooth>
               <Icon name="leaf" className="leaf-icon" size="large" />
             </HashLink>
-          </Menu.Item>
-          <Menu.Menu position="right">
-            <Menu.Item>
               <Icon
                 name="bars"
                 className="drop-down"
@@ -32,9 +28,7 @@ class NavMobile extends React.Component {
                 onClick={this.toggleModal}
                 style={{ color: "white" }}
               />
-            </Menu.Item>
-          </Menu.Menu>
-        </Menu>
+        </div>
         <Fade duration={3000} delay={200}>
           <div className={showModal ? 'fadeIn-modal' : 'fadeOut-modal'}>
         <NavModal showModal={showModal} toggleModal={this.toggleModal} />

@@ -2,6 +2,7 @@ import React from 'react';
 import { Fade } from "react-reveal";
 import { SubTitle, AboutText } from "../Global";
 import { Grid } from 'semantic-ui-react';
+import { HashLink } from "react-router-hash-link";
 
 const ServeThree = () => {
   return (
@@ -61,9 +62,9 @@ const ServeThree = () => {
           </AboutText>
 
         <Grid.Row>
-          <a href='/#services'>
+          <HashLink to='/#services'>
             <button>Go Back To Services</button>
-          </a>
+          </HashLink>
         </Grid.Row>
       </Grid>
     </div>

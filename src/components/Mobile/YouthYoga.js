@@ -1,5 +1,7 @@
 import React from "react";
 import { Fade } from "react-reveal";
+import { HashLink } from "react-router-hash-link";
+
 import { SubTitle, ServicesText } from "./Styles";
 import FooterMobile from "./FooterMobile";
 
@@ -60,9 +62,9 @@ const YouthYoga = () => {
           </Fade>
         </ServicesText>
         <Fade>
-          <a href="/#services">
+          <HashLink to="/#services">
             <button>Go Back To Services</button>
-          </a>
+          </HashLink>
         </Fade>
       </div>
       <FooterMobile />

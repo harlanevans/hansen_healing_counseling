@@ -6,12 +6,14 @@ const Footer = () => {
   return (
     <footer>
       <Grid columns={1}>
-        <Grid.Row textAlign="center" style={{ padding: "4em" }}>
+        <Grid.Row textAlign="center" style={{ padding: "4em", width: '20em' }}>
           <Grid.Column textAlign="center">
             <FooterText>Hayley Hansen, MC, LPC ®</FooterText>
             <FooterText>(480) 717-2223</FooterText>
             <a href='mailto: hayleyhansen@gmail.com'>
-            <FooterText>Hayleyhansen@gmail.com</FooterText>
+            <FooterText>
+              Hayleyhansen@gmail.com
+              </FooterText>
             </a>
           </Grid.Column>
         </Grid.Row>

@@ -1,10 +1,8 @@
 import React from "react";
 // import SImage from "../../assets/images/Service-Lotus.jpg";
-import { SubTitleAbout, } from "./Styles";
+import { SubTitleAbout } from "./Styles";
 import { NavLink } from "react-router-dom";
 import { Fade } from "react-reveal";
-
-
 
 
 const ServicesMobile = () => {
@@ -12,7 +10,7 @@ const ServicesMobile = () => {
     <div className="services-container">
       <div className="s-mob-bg-img">
         <div className="services-opacity">
-        <SubTitleAbout>Services</SubTitleAbout>
+          <SubTitleAbout>Services</SubTitleAbout>
           <Fade>
             <div className="button-wrapper">
               {/* <NavLink to="/phase-two" className="service-link">
@@ -20,10 +18,10 @@ const ServicesMobile = () => {
                   </NavLink> */}
               <NavLink to="/adult-yoga-group" className="service-link">
                 Adult Yoga Group
-                  </NavLink>
+              </NavLink>
               <NavLink to="/youth-yoga-group" className="service-link">
                 Youth Yoga Group
-                  </NavLink>
+              </NavLink>
             </div>
           </Fade>
         </div>

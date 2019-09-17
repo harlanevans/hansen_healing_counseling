@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { Grid } from "semantic-ui-react";
 import { SubTitle } from "../Global";
 import SImage from "../assets/images/Service-Lotus.jpg";
@@ -9,27 +9,31 @@ class Services extends React.Component {
   render() {
     return (
       <div className="service-wrapper">
-        <Grid textAlign="center" columns={2}>
-          <Grid.Row>
-            <Fade duration={3000}>
+        <Grid textAlign="center">
+          <Fade duration={3000}>
+            <Grid.Row>
               <SubTitle style={{ fontSize: "2.5em" }}>Services</SubTitle>
-            </Fade>
-          </Grid.Row>
-          <Grid.Row>
-            <Grid.Column>
-              <Fade>
-                <div className="button-wrapper">
-                  <NavLink to="/phase-two" className="service-link">
-                    EMDR Phase Two Group
-                  </NavLink>
-                  <NavLink to="/adult-yoga-group" className="service-link">
-                    Adult Yoga Group
-                  </NavLink>
-                  <NavLink to="/youth-yoga-group" className="service-link">
-                    Youth Yoga Group
+            </Grid.Row>
+          </Fade>
+          <Grid.Row columns={2}>
+            <Grid.Column style={{ padding: "3em" }} className='button-wrapper'>
+                {/* <div className="button-wrapper"> */}
+                <div>
+                  <NavLink to="/phase-two" className='service-link-window'>
+                    <button className='service-button'>EMDR Phase Two Group</button>
                   </NavLink>
                 </div>
-              </Fade>
+              <NavLink to="/adult-yoga-group">
+                    <button  className='service-button'>
+                      Adult Yoga Group
+                      </button>
+                  </NavLink>
+              <NavLink to="/youth-yoga-group">
+                    <button className='service-button'>
+                      Youth Yoga Group
+                      </button>
+                  </NavLink>
+                {/* </div> */}
             </Grid.Column>
             <Grid.Column style={{ padding: "3em" }}>
               <Fade>
