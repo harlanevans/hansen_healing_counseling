@@ -58,6 +58,9 @@ const About = () => {
                 experience.
               </AboutText>
             </Grid.Row>
+            <div className='about-button'>
+      <button>More about Hayley</button>
+            </div>
           </Fade>
         </Grid.Column>
         <Grid.Column>

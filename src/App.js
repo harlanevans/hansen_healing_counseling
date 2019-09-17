@@ -9,6 +9,7 @@ import { Fade } from "react-reveal";
 import Loader from "./components/Loader";
 import Window from "./components/Window";
 // import About from "./components/About";
+import Services from './components/Services';
 import ServOne from "./components/ServeOne";
 import ServTwo from "./components/ServeTwo";
 import ServThree from "./components/ServeThree";
@@ -18,8 +19,8 @@ import Mobile from "./components/Mobile/Mobile";
 import ContactMobile from "./components/Mobile/ContactMobile";
 import AboutMobile from "./components/Mobile/AboutMobile";
 import ServicesMobile from "./components/Mobile/ServicesMobile";
-import YouthYoga from './components/Mobile/YouthYoga';
-import AdultYoga from './components/Mobile/AdultYoga';
+import YouthYoga from "./components/Mobile/YouthYoga";
+import AdultYoga from "./components/Mobile/AdultYoga";
 
 class App extends React.Component {
   state = { pageLoaded: false, width: window.innerWidth };
@@ -71,9 +72,10 @@ class App extends React.Component {
           <Fade duration={2000}>
             <Switch>
               <Route exact path="/" component={Window} />
-              <Route exact path="/phase-two" component={ServOne} />
-              <Route exact path="/adult-yoga-group" component={ServTwo} />
-              <Route exact path="/youth-yoga-group" component={ServThree} />
+                <Route exact path="/services" component={Services} />
+                <Route exact path="/phase-two" component={ServOne} />
+                <Route exact path="/adult-yoga-group" component={ServTwo} />
+                <Route exact path="/youth-yoga-group" component={ServThree} />
             </Switch>
           </Fade>
         </>

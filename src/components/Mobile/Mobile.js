@@ -9,26 +9,35 @@ import CarouselMobile from "./CarouselMobile";
 import FooterMobile from "./FooterMobile";
 import { Fade } from "react-reveal";
 // import { WhiteBGGlobal } from './Styles';
+import ScrollToTop from "../../ScrollToTop";
 
 const Mobile = () => {
   return (
-    <Fade duration={3000} delay={500}>
+    <Fade duration={2000}>
       <div className="width">
         <NavMobile />
-        <div id="home">
-          <LandingMobile />
-        </div>
+        <ScrollToTop>
+          <div id="home">
+            <LandingMobile />
+          </div>
+        </ScrollToTop>
         {/* <WhiteBGGlobal /> */}
-        <div id="contact">
-          <ContactMobile />
-        </div>
-        <div id="about">
-          <AboutMobile />
-        </div>
+        <ScrollToTop>
+          <div id="contact">
+            <ContactMobile />
+          </div>
+        </ScrollToTop>
+        <ScrollToTop>
+          <div id="about">
+            <AboutMobile />
+          </div>
+        </ScrollToTop>
         <CarouselMobile />
-        <div id="services">
-          <ServicesMobile />
-        </div>
+        <ScrollToTop>
+          <div id="services">
+            <ServicesMobile />
+          </div>
+        </ScrollToTop>
         <FooterMobile />
       </div>
     </Fade>

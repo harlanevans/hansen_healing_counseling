@@ -11,7 +11,7 @@ import "../Global.css";
 
 const Window = () => {
   return (
-    <div className='z-index-low'>
+    <div className='z-index-low footer-bottom'>
     <Nav />
       <div id="home">
         <Landing />
@@ -22,7 +22,7 @@ const Window = () => {
       <div id="about">
         <About />
       </div>
-      <WhiteSpace />
+      {/* <WhiteSpace /> */}
       <div id='services'>
         <Services />
       </div>
