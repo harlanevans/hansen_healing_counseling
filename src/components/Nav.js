@@ -1,44 +1,38 @@
 import React from "react";
 import "../Global.css";
-// import { Link } from 'react-router-dom';
-import { Menu, Icon } from "semantic-ui-react";
+import { Link } from 'react-router-dom';
+import { Icon } from "semantic-ui-react";
 import { HashLink } from "react-router-hash-link";
+import { directiveLiteral } from "@babel/types";
 
 const Nav = () => {
   return (
-    <Menu secondary fixed="top" className="main-nav">
-      <Menu.Item className="nav-item">
+    <div className="main-nav-window">
+      <div className="nav-item">
         <HashLink to="/#home" smooth>
-          <Icon name="leaf" className="leaf-icon" size="large" />
+          <Icon name="leaf" className="leaf-icon-window" size="large" />
         </HashLink>
-      </Menu.Item>
-      <Menu.Menu position="right">
-        <Menu.Item>
-          <HashLink to="/#about" smooth className="nav-item">
-            About
-          </HashLink>
-        </Menu.Item>
-        <Menu.Item>
-          <HashLink to="/#contact" smooth className="nav-item">
-            Contact
-          </HashLink>
-        </Menu.Item>
-        <Menu.Item>
-          <HashLink to="/#services" smooth className="nav-item">
-            Services
-          </HashLink>
-        </Menu.Item>
-        <Menu.Item>
-          <a
+      </div>
+      <div className="right-nav-items">
+        <HashLink to="/#about" smooth className="nav-item">
+          About
+        </HashLink>
+        <HashLink to="/#contact" smooth className="nav-item">
+          Contact
+        </HashLink>
+        <HashLink to="/#services" smooth className="nav-item">
+          Services
+        </HashLink>
+          <Link
             href="https://hayley-hansen.clientsecure.me/"
             target="_blank"
             rel="noopener noreferrer"
+             className="nav-client-portal"
           >
-            <div className="nav-client-portal">Client Portal</div>
-          </a>
-        </Menu.Item>
-      </Menu.Menu>
-    </Menu>
+            Client Portal
+          </Link>
+      </div>
+    </div>
   );
 };
 
