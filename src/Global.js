@@ -1,13 +1,24 @@
 import styled from "styled-components";
-// import './Global.css'
 
-export const MainTitle = styled.h1`
+export const LandingTitle = styled.h1`
   font-family: "Quicksand", sans-serif;
-  color: #1d4c4b;
-  padding: 1em;
+  color: white;
   font-size: 3em;
-  text-shadow: 0.5px 0.5px white;
+  text-shadow: 1px 1px #1D4C4B;
 `;
+
+export const LandingSubTitle = styled.h3`
+font-family: "Open Sans", sans-serif;
+color: white;
+font-size: 2em;
+`
+
+export const LandingText = styled.p`
+font-family: "Open Sans", sans-serif;
+color: white;
+letter-spacing: 1px;
+line-height: 1.5em;
+`
 
 export const SubTitle = styled.h1`
   font-family: "Open Sans", sans-serif;
@@ -16,6 +27,8 @@ export const SubTitle = styled.h1`
   font-size: 2em;
   text-shadow: 0.5px 0.5px white;
 `;
+
+
 
 export const SubTitleAbout = styled.h1`
   font-family: "Quicksand", sans-serif;
@@ -64,13 +77,13 @@ export const CaptionText = styled.h3`
   letter-spacing: 1px;
   background-color: rgba(29, 76, 75, 0.5);
   border-radius: 5px;
-  padding: .5em;
-  `;
-  
-  export const FooterText = styled.h3`
+  padding: 0.5em;
+`;
+
+export const FooterText = styled.h3`
   font-family: "Quicksand", sans-serif;
   color: white;
   padding: 0em;
   font-size: 1em;
   margin: 1em;
-`
+`;

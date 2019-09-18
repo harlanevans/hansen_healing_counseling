@@ -68,7 +68,7 @@ const ServeThree = () => {
         </Grid.Row>
       </Grid>
     </div>
-  );
-}
+  )
+};
 
 export default ServeThree;

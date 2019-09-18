@@ -11,7 +11,7 @@ import "../Global.css";
 
 const Window = () => {
   return (
-    <div className='z-index-low footer-bottom'>
+    <div>
     <Nav />
       <div id="home">
         <Landing />
