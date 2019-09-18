@@ -31,7 +31,7 @@ class ContactMobile extends React.Component {
 
         {/* Either my own form orrr */}
         {/* --------------------- */}
-        <form className='contact-column'>
+        <form className='contact-column-mobile'>
           <input 
           type='text' 
           placeholder="First Name"

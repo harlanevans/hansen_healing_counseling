@@ -9,7 +9,7 @@ class Landing extends React.Component {
   render() {
     return (
       <div className="landing-wrapper-window">
-        <div className="background-image">
+        <div className="background-image" style={{height: '130vh'}}>
           <div className="landing-title-container">
             <Fade duration={2000}>
               <LandingTitle>
@@ -84,7 +84,7 @@ class Landing extends React.Component {
                   empowered.
                 </LandingText>
               </div>
-              <LandingText style={{ padding: "1em" }}>
+              <LandingText style={{ padding: "2em" }}>
                 <b className="im-hayley">I&#39;m Hayley.</b> Through bodywork, I
                 help athletic Millennials just like you overhaul their
                 disconnected and chaotic lifestyles to grounded, embodied, and
