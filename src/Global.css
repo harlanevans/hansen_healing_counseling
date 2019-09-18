@@ -61,7 +61,7 @@ body {
 
 .nav-client-portal:hover {
   color: white !important;
-  background-color: rgba(242, 209, 89, 0.7);
+  background-color: #93C1E5;
   transition: 1s;
 }
 
@@ -70,30 +70,24 @@ body {
   padding: 0em 0em;
 }
 
-.leaf-icon-window:hover {
-  color: #F2D159;
-  transition: 1s;
-}
 
 a:hover {
   color: #93C1E5 !important;
   transition: 1s;
 }
 
-
-
 /* ----------- BackGrounds ----------*/
 
 .background-image {
   background-image: url("./assets/images/Sky_Palm_Trees.jpg");
   background-position: center;
-  height: 100%;
+  height: 200vh;
   position: relative;
   background-size: cover;
   width: 100%;
   z-index: -500;
-  /* opacity: .9; */
 }
+
 /* ----------------- Landing ----------------- */
 
 .landing-wrapper-window {
@@ -104,10 +98,12 @@ a:hover {
   justify-content: center;
   align-content: space-around;
   z-index: -100;
+  min-height: 100vh;
+
 }
 
 .landing-title-container {
-  padding-top: 6em;
+  padding-top: 10em;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -117,7 +113,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 1em 5em;
+  padding: 4em 5em;
   z-index: 200;
   border-radius: 5px;
   width: 100%;
@@ -168,13 +164,114 @@ b.im-hayley {
   padding: 2em 0em;
 }
 
+
 /* -----------------  Contact -----------------  */
+
+.contact-form-wrapper {
+  padding: 3em 5em 0em;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.contact-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-column-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0em 5em;
+  height: 70vh;
+}
+
+button {
+  padding: 1em;
+  background-color: transparent;
+  border-radius: 5px;
+  font-family: "Quicksand", sans-serif !important;
+  color: #1d4c4b !important;
+  font-size: 1.25em;
+  border: solid 1px #d1d1d1;
+}
+
+button:hover {
+  color: white !important;
+  background-color: #1d4c4b;
+  transition: 1s;
+}
+
+::-webkit-input-placeholder {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(163, 163, 163) !important;
+  font-size: 1.25em !important;
+  font-weight: 700;
+}
+
+label {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(163, 163, 163) !important;
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+.input-style-window,
+.textarea-style-window {
+  padding: .25em 0em;
+  margin: 0em 0em;
+  border-bottom: 1.25px solid #1d4c4b;
+}
+
+select {
+  background-color: white;
+  color: #1d4c4b;
+  width: 20%;
+  border-radius: 0 !important;
+  border: 1.25px solid #1d4c4b;
+  box-sizing: border-box;
+  background-size: 1em;
+}
+
+.select-style:hover {
+  cursor: pointer;
+}
+
+.select-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+input {
+  color: #1d4c4b;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  border-bottom: 2px solid #1d4c4b;
+}
+
+textarea {
+  font-family: "Open Sans", sans-serif;
+  color: #1d4c4b;
+  width: 100%;
+  /* padding: 0em 2em; */
+  border: none;
+  line-height: 1px;
+  border-bottom: 1px solid #1d4c4b;
+
+}
+
+/* -----------------  Carousel -----------------  */
 
 .carousel-wrapper {
   /* background-color: #5D5D47; */
   width: 100%;
   height: 100%;
-  padding: 5em 5em 0em;
+  padding: 5em 15em 0em;
 }
 
 .carousel-main {
@@ -198,60 +295,30 @@ b.im-hayley {
 }
 
 .caption-two {
-  padding: 3em;
+  /* padding-bottom: 10em; */
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .caption-three {
-  /* position: absolute; */
-  top: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
 }
 
 .caption-four {
-  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .carousel-images {
   width: 100%;
-  height: 30em;
+  height: 80vh;
   border-radius: 5px;
-}
-
-/* -----------------  Contact -----------------  */
-
-.label,
-.label-area {
-  font-family: "Quicksand", sans-serif;
-  color: #1d4c4b !important;
-  padding: 0em 0em;
-  font-size: 1.25em;
-  text-shadow: 0.5px 0.5px white;
-}
-
-.label-area {
-  padding: 0em !important;
-}
-
-button {
-  padding: 1em;
-  background-color: transparent;
-  border-radius: 5px;
-  font-family: "Quicksand", sans-serif !important;
-  color: #1d4c4b !important;
-  font-size: 1.25em;
-  border: solid 1px #d1d1d1;
-}
-
-button:hover {
-  color: white !important;
-  background-color: #1d4c4b;
-  transition: 1s;
-}
-
-::-webkit-input-placeholder {
-  font-family: "Open Sans", sans-serif;
-  color: rgb(163, 163, 163) !important;
-  font-size: 0.75em;
-  font-weight: 700;
 }
 
 /* -----------------  Services Landing -----------------  */

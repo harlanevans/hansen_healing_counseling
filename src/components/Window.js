@@ -2,7 +2,8 @@ import React from "react";
 import Landing from "./Landing";
 import About from "./About";
 import Services from "./Services";
-import CarouselContact from "./CarouselContact";
+import Contact from "./Contact";
+import CarouselWindow from "./CarouselWindow";
 import { WhiteSpace } from "../Global";
 import Footer from './Footer';
 import Nav from './Nav';
@@ -17,8 +18,9 @@ const Window = () => {
         <Landing />
       </div>
       <div id="contact">
-        <CarouselContact />
+        <Contact />
       </div>
+      <CarouselWindow />
       <div id="about">
         <About />
       </div>

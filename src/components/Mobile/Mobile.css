@@ -176,7 +176,7 @@ i.cancel.big {
   width: 100%;
 }
 
-.contact-column {
+.contact-column-mobile {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
