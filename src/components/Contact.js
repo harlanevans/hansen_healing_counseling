@@ -41,7 +41,7 @@ class Contact extends React.Component {
         <Fade duration={2000}>
           <form
             className="contact-column-window"
-            action="https://formspree.io/hayleyrevans@gmail.com"
+            action="https://formspree.io/hayleyhansentherapy@gmail.com"
             method="POST"
           >
             <input
@@ -107,7 +107,7 @@ class Contact extends React.Component {
               className="textarea-style-window"
               required
               rows="5"
-              cols='30'
+              cols="30"
               name="questions"
               value={questions}
               onChange={this.handleChange}
