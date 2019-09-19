@@ -15,7 +15,7 @@ const CarouselWindow = () => {
         <Carousel
           fade={true}
           indicators={false}
-          interval={400000}
+          interval={5000}
           controls={true}
           pauseOnHover={false}
         >

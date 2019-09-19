@@ -10,7 +10,7 @@ const About = () => {
     <div className="about-padding">
       {/* <WhiteBGGlobal> */}
       <Grid columns={2}>
-        <Grid.Column textAlign="center">
+        <Grid.Column>
           <Fade duration={2500} left>
             <Grid.Row className='about-row'>
               <SubTitleAbout>About Hayley Hansen</SubTitleAbout>

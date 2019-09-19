@@ -48,7 +48,7 @@ export const AboutText = styled.p`
   text-shadow: 0.5px 0.5px white;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: 1em;
   letter-spacing: 1px;
   line-height: 2.25em;

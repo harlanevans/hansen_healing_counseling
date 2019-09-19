@@ -73,7 +73,7 @@ class Landing extends React.Component {
                         you can show up as your truest and best authentic self
                       </b>{" "}
                       at work and in your treasured
-                      <b>relationships.</b>
+                      <b> relationships.</b>
                     </li>
                     <li>
                       <b>Decreased </b>physical annoyances like headaches and
