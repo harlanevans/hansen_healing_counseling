@@ -17,7 +17,7 @@ const CarouselMobile = () => {
         pauseOnHover={false}
       >
         <Carousel.Item>
-          <img src={PlantsDark} className="carousel-images" alt="plants-dark" />
+          <img src={PlantsDark}  className="c-img-mob" alt="plants-dark" />
           <Carousel.Caption className="caption-three">
             <CaptionText>
               "Nature does not hurry, yet everything is accomplished" -Lao Tzu
@@ -25,7 +25,7 @@ const CarouselMobile = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src={Rocks} className="carousel-images" alt="rocks" />
+          <img src={Rocks}  className="c-img-mob" alt="rocks" />
           <Carousel.Caption className="caption-two">
             <CaptionText>"The way out is in." -Thich Nhat Hanh</CaptionText>
           </Carousel.Caption>
@@ -41,7 +41,7 @@ const CarouselMobile = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src={Meditate} className="carousel-images" alt="meditate" />
+          <img src={Meditate}  className="c-img-mob" alt="meditate" />
           <Carousel.Caption className="caption-four">
             <CaptionText>
               “Yoga is the journey of the self, through the self, to the self.”

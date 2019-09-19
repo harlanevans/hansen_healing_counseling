@@ -34,7 +34,6 @@ const NavModal = ({ showModal, toggleModal }) => {
       </div>
     </div>
   ) : (
-    // </div>
     <></>
   );
 };

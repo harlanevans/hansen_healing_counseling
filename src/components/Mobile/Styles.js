@@ -15,7 +15,13 @@ export const SubTitle = styled.h3`
   text-shadow: 0.5px 0.5px white;
   background-color: rgba(0, 0, 0, 0.2)
   border-radius: 5px;
-`;
+  `;
+  
+  export const MobileLandingText = styled.p`
+  font-family: "Open Sans", sans-serif;
+  color: black;
+
+`
 
 export const ButtonMobile = styled.button`
   padding: 1em;
