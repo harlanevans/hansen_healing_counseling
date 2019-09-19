@@ -1,9 +1,9 @@
 import React from "react";
-import { Grid } from "semantic-ui-react";
+// import { Grid } from "semantic-ui-react";
 import { LandingTitle, LandingText } from "../Global";
 import { Fade } from "react-reveal";
 import "../Global.css";
-import { HashLink } from "react-router-hash-link";
+// import { HashLink } from "react-router-hash-link";
 
 class Landing extends React.Component {
   render() {
