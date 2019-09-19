@@ -1,6 +1,7 @@
 import React from "react";
 import NavMobile from "./NavMobile";
 import LandingMobile from "./LandingMobile";
+import LandingText from './LandingText';
 import AboutMobile from "./AboutMobile";
 import ContactMobile from "./ContactMobile";
 import ServicesMobile from "./ServicesMobile";
@@ -20,6 +21,7 @@ const Mobile = () => {
           <div id="home">
             <LandingMobile />
           </div>
+          <LandingText />
         </ScrollToTop>
         {/* <WhiteBGGlobal /> */}
         <ScrollToTop>

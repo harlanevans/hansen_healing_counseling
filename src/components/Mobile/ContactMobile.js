@@ -69,10 +69,30 @@ class ContactMobile extends React.Component {
           value={email}
           onChange={this.handleChange}
           />
+            <div className="select-window">
+              <label>How did you hear about us?</label>
+              <select name="where" className="select-style">
+                <option value="friend" name="friend">
+                  Friend
+                </option>
+                <option value="facebook" name="facebook">
+                  FaceBook
+                </option>
+                <option value="google" name="google">
+                  Google
+                </option>
+                <option value="professional" name="professional">
+                  Professional
+                </option>
+                <option value="other" name="other">
+                  Other
+                </option>
+              </select>
+            </div>
           <textarea 
           type='text' 
           placeholder="Is there anything you would like me to know before contacting you?" 
-          className='textarea-style' 
+          className='textarea-style-mobile' 
           required
           rows='3'
           name="questions"

@@ -1,6 +1,6 @@
 import React from "react";
 import { SubTitleAbout, AboutText } from "./Styles";
-// import Hayley from "../../assets/images/Hayley_wedding.jpg";
+import Hayley from "../../assets/images/Hayley_About.jpg";
 import { Link } from "react-router-dom";
 import { Fade } from "react-reveal";
 // import { Grid } from "semantic-ui-react";
@@ -14,6 +14,7 @@ const AboutMobile = () => {
             <Fade duration={2000}>
               <SubTitleAbout>About Hayley</SubTitleAbout>
             </Fade>
+            <img src={Hayley} alt='Hayley' className='hayley-image'/>
             <AboutText>
               I moved to the desert seeking healing and learning, and boy did I
               find it! I am a Licensed Professional Counselor, with my academic
