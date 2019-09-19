@@ -29,7 +29,7 @@ class App extends React.Component {
     window.addEventListener("resize", this.handleWindowSizeChange);
     setTimeout(() => {
       this.setState({ pageLoaded: true });
-    }, 0);
+    }, 1000);
   };
 
   // make sure to remove the listener

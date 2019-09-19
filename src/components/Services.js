@@ -17,6 +17,7 @@ class Services extends React.Component {
           </Fade>
           <Grid.Row columns={2}>
             <Grid.Column style={{ padding: "3em" }} className='button-wrapper'>
+          <Fade duration={3000} left>
                 {/* <div className="button-wrapper"> */}
                 <div>
                   <NavLink to="/phase-two" className='service-link-window'>
@@ -34,9 +35,10 @@ class Services extends React.Component {
                       </button>
                   </NavLink>
                 {/* </div> */}
+          </Fade>
             </Grid.Column>
             <Grid.Column style={{ padding: "3em" }}>
-              <Fade>
+              <Fade duration={3000} right>
                 <img src={SImage} className="service-images" alt="services" />
               </Fade>
             </Grid.Column>

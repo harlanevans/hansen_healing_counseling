@@ -106,7 +106,8 @@ class Contact extends React.Component {
               placeholder="Is there anything you would like me to know before contacting you?"
               className="textarea-style-window"
               required
-              rows="3"
+              rows="5"
+              cols='30'
               name="questions"
               value={questions}
               onChange={this.handleChange}
