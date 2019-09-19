@@ -240,7 +240,7 @@ select {
   height: 4em;
   border: none;
   border-bottom: solid 1px #1d4c4b;
-  padding: 1em;
+  padding: 1em 0em;
 }
 .select-style:hover {
   cursor: pointer;
