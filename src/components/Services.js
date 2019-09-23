@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Grid } from "semantic-ui-react";
 import { SubTitle } from "../Global";
 import SImage from "../assets/images/Service-Lotus.jpg";

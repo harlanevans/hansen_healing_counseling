@@ -3,7 +3,7 @@ import React from "react";
 import axios from "axios";
 
 import { Fade } from "react-reveal";
-import { CaptionText, SubTitle } from "../Global";
+import { SubTitle } from "../Global";
 
 class Contact extends React.Component {
   state = {
@@ -83,7 +83,7 @@ class Contact extends React.Component {
             />
             <div className="select-window">
               <label>How did you hear about us?</label>
-              <select name="where" className="select-style">
+              <select name="where" className="select-style" value={where}>
                 <option value="friend" name="friend">
                   Friend
                 </option>

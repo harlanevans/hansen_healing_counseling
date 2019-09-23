@@ -1,5 +1,5 @@
 import React from "react";
-import axios from 'axios'
+// import axios from 'axios'
 import { SubTitleContact } from "./Styles";
 // import { Form, } from "semantic-ui-react";
 import { Fade } from 'react-reveal';
@@ -13,13 +13,11 @@ class ContactMobile extends React.Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    const contact = { ...this.state }
-
+    // const contact = { ...this.state }
     // axios.post('/api/contact', contact)
-      .then(res => {
-        this.props.history.push("/#contact");
-      })
-    // this.setState({ ...this.defaultValues })
+      // .then(res => {
+      //   this.props.history.push("/#contact");
+      // })
   }
 
   render() {

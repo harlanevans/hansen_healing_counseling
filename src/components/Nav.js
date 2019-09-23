@@ -3,7 +3,6 @@ import "../Global.css";
 import { Link } from 'react-router-dom';
 import { Icon } from "semantic-ui-react";
 import { HashLink } from "react-router-hash-link";
-import { directiveLiteral } from "@babel/types";
 
 const Nav = () => {
   return (

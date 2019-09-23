@@ -4,7 +4,7 @@ import About from "./About";
 import Services from "./Services";
 import Contact from "./Contact";
 import CarouselWindow from "./CarouselWindow";
-import { WhiteSpace } from "../Global";
+// import { WhiteSpace } from "../Global";
 import Footer from './Footer';
 import Nav from './Nav';
 import "../Global.css";

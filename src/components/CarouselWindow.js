@@ -5,8 +5,8 @@ import PlantsOne from "../assets/images/C-Plants-One.jpg";
 import PlantsDark from "../assets/images/C-PlantsDark-Two.jpg";
 import Rocks from "../assets/images/C-Rocks.jpg";
 
-import { Fade } from "react-reveal";
-import { CaptionText, SubTitle } from "../Global";
+// import { Fade } from "react-reveal";
+import { CaptionText } from "../Global";
 
 const CarouselWindow = () => {
   return (
