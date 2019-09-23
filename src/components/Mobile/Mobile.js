@@ -16,7 +16,9 @@ const Mobile = () => {
   return (
     // <Fade duration={2000}>
     <div>
+      <div className='fixed'>
         <NavMobile />
+      </div>
         <ScrollToTop>
           <div id="home">
             <LandingMobile />
