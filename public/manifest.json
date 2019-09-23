@@ -8,13 +8,13 @@
       "type": "image/x-icon"
     },
     {
-      "src": "Leaf.ico",
-      "type": "image/x-icon",
-      "sizes": "192x192"
+      "src": "Leaf128.png",
+      "type": "image/png",
+      "sizes": "128x128"
     },
     {
-      "src": "Leaf.ico",
-      "type": "image/x-icon",
+      "src": "Leaf512.png",
+      "type": "image/png",
       "sizes": "512x512"
     }	    
   ],
