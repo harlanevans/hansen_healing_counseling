@@ -16,7 +16,7 @@ class NavMobile extends React.Component {
   render() {
     const { showModal } = this.state;
     return (
-      <div>
+      <div className='fixed'>
         <div className="main-nav-mobile">
             <HashLink to="/#home" smooth>
               <Icon name="leaf" className="leaf-icon" size="large" />

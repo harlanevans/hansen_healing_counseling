@@ -45,11 +45,6 @@ body {
   justify-content: space-between;
   padding: 1.25em;
   width: 100%;
-  position: fixed !important;
-  z-index: 10 !important;
-  top: 0;
-  left: 0;
-  /* width: 100%; */
 }
 
 .leaf-icon {
@@ -58,6 +53,9 @@ body {
 
 .fixed {
   position: fixed !important;
+  z-index: 10000 !important;
+  top: 0;
+  left: 0;
 }
 
 
