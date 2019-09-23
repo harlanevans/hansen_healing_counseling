@@ -38,7 +38,7 @@ body {
 
 /* --------------- Nav --------------- */
 
-.main-nav {
+.main-nav-mobile {
   background-color: rgba(29, 76, 75, 0.8) !important;
   display: flex;
   flex-direction: row;
@@ -46,11 +46,18 @@ body {
   padding: 1.25em;
   width: 100%;
   position: fixed !important;
-  z-index: 5000;
+  z-index: 10 !important;
+  top: 0;
+  left: 0;
+  /* width: 100%; */
 }
 
 .leaf-icon {
   color: #93C1E5;
+}
+
+.fixed {
+  position: fixed !important;
 }
 
 
@@ -249,7 +256,7 @@ select {
   background-color: white;
   color: #1d4c4b;
   width: 70%;
-  border-radius: 0 !important;
+  border-radius: 5px !important;
   border: 1.25px solid #1d4c4b;
   box-sizing: border-box;
   background-size: 1em;
@@ -260,6 +267,7 @@ select {
   border: none;
   border-bottom: solid 1px #1d4c4b;
   padding: 1em 0em;
+  flex-wrap: wrap;
 }
 
 .select-style-mobile:hover {
@@ -448,7 +456,7 @@ footer {
   }
 }
 
-@keyframes fadeout {
+/* @keyframes fadeout {
   from {
     opacity: 1;
   }
@@ -456,4 +464,4 @@ footer {
   to {
     opacity: 0;
   }
-}
+} */

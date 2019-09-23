@@ -14,8 +14,8 @@ import ScrollToTop from "../../ScrollToTop";
 
 const Mobile = () => {
   return (
-    <Fade duration={2000}>
-      <div className="width">
+    // <Fade duration={2000}>
+    <div>
         <NavMobile />
         <ScrollToTop>
           <div id="home">
@@ -41,8 +41,8 @@ const Mobile = () => {
           </div>
         </ScrollToTop>
         <FooterMobile />
-      </div>
-    </Fade>
+        </div>
+    // </Fade>
   );
 };
 

@@ -89,7 +89,7 @@ class ContactMobile extends React.Component {
             </div>
           <textarea 
           type='text' 
-          placeholder="Is there anything you would like me to know before contacting you?" 
+          placeholder="Is there anything I should know before contacting you?" 
           className='textarea-style-mobile' 
           required
           rows='3'
