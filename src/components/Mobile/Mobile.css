@@ -53,9 +53,9 @@ body {
 
 .fixed {
   position: fixed !important;
-  z-index: 10000 !important;
-  top: 0;
-  left: 0;
+  z-index: 9999 !important;
+  top: 0px;
+  width: 100%;
 }
 
 
