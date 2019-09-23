@@ -17,12 +17,12 @@ const Window = () => {
       <div id="home">
         <Landing />
       </div>
-      <div id="contact">
-        <Contact />
-      </div>
-      <CarouselWindow />
       <div id="about">
         <About />
+      </div>
+      <CarouselWindow />
+      <div id="contact">
+        <Contact />
       </div>
       {/* <WhiteSpace /> */}
       <div id='services'>

@@ -25,13 +25,13 @@ const Mobile = () => {
         </ScrollToTop>
         {/* <WhiteBGGlobal /> */}
         <ScrollToTop>
-          <div id="contact">
-            <ContactMobile />
+          <div id="about">
+            <AboutMobile />
           </div>
         </ScrollToTop>
         <ScrollToTop>
-          <div id="about">
-            <AboutMobile />
+          <div id="contact">
+            <ContactMobile />
           </div>
         </ScrollToTop>
         <CarouselMobile />
