@@ -47,7 +47,7 @@ body {
   justify-content: space-between;
   padding: 1.25em;
   width: 100%;
-  /* position: fixed !important; */
+  position: fixed !important;
   z-index: 9999;
   top: 0;
 }
@@ -58,7 +58,6 @@ body {
 
 .fixed {
   position: fixed !important;
-  top: 0;
 }
 
 
