@@ -56,7 +56,10 @@ body {
   color: #93C1E5;
 }
 
-.fixed {}
+.fixed {
+  position: fixed !important;
+  top: 0px;
+}
 
 
 
