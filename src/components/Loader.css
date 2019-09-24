@@ -12,7 +12,7 @@ svg {
 
 circle {
   fill: none;
-  stroke: #1D4C4B;
+  stroke: #FFD700;
   stroke-width: 2;
   stroke-dasharray: 1, 200;
   stroke-dashoffset: 0;

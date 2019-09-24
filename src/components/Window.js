@@ -1,5 +1,6 @@
 import React from "react";
 import Landing from "./Landing";
+import LandingTextWindow from "./LandingTextWindow";
 import About from "./About";
 import Services from "./Services";
 import Contact from "./Contact";
@@ -17,6 +18,7 @@ const Window = () => {
       <div id="home">
         <Landing />
       </div>
+      <LandingTextWindow />
       <div id="about">
         <About />
       </div>

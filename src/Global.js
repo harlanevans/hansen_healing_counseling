@@ -1,24 +1,28 @@
 import styled from "styled-components";
 
+/* #FFD700 #FFDAB9 #FFFFFF #40E0D0 #008B8B */
+/* #ffb6b9, #fae3d9 #FFFFFF #bbded6 #61c0bf */
+
 export const LandingTitle = styled.h1`
   font-family: "Quicksand", sans-serif;
   color: white;
   font-size: 3em;
-  text-shadow: 1px 1px #1D4C4B;
+  text-shadow: 0.75px 0.75px 0.75px black;
 `;
 
 export const LandingSubTitle = styled.h3`
-font-family: "Open Sans", sans-serif;
-color: white;
-font-size: 2em;
-`
-
-export const LandingText = styled.p`
-font-family: "Open Sans", sans-serif;
-color: white;
-letter-spacing: 1px;
-line-height: 1.5em;
-`
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 2em;
+  `;
+  
+  export const LandingText = styled.p`
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  line-height: 2em;
+`;
 
 export const SubTitle = styled.h1`
   font-family: "Open Sans", sans-serif;
@@ -27,8 +31,6 @@ export const SubTitle = styled.h1`
   font-size: 2em;
   text-shadow: 0.5px 0.5px white;
 `;
-
-
 
 export const SubTitleAbout = styled.h1`
   font-family: "Quicksand", sans-serif;

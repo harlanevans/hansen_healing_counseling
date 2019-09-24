@@ -15,19 +15,11 @@ const About = () => {
       </div>
       <Fade>
         <AboutText>
-          I moved to the desert seeking healing and learning, and boy did I find
-          it! I am a Licensed Professional Counselor, with my academic career
-          starting in 2007. With a Bachelors of Science in Psychology and Family
-          Consumer Human Development from Utah State University, I preceded to
-          graduate from Arizona State University with my Masters in Counseling
-          in 2013. I have been practicing now for seven years and it has been
-          such a wonderful learning experience. I have continued my journey and
-          received my 200 level Registered Yoga Teacher (RYT) certificate this
-          last year. Along with my RYT certificate, I am trained in EMDR,
-          Mindfulness Based Stress Reduction, and Dialectical Behavioral Therapy
-          (DBT). The populations I love to work with are teenagers (12 and up)
-          and young adults/college age men and women. I love to work with Empath
-          or Highly Sensitive People, and those people who just need a break!
+          I'm Hayley. Through natural and organic bodywork methods, I help high
+          achieving Millennials with active lifestyles just like you overhaul
+          your stressed out and chaotic bodily systems to grounded, embodied,
+          authentic ones, so that you can live in the present and still achieve
+          your goals with crazy amounts of intention, joy, and calm.
         </AboutText>
       </Fade>
       {/* <Fade duration={2500} left>

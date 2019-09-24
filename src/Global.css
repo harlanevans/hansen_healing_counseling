@@ -15,6 +15,10 @@ body {
 
 /* ----------- Colors ----------*/
 
+/* #FFD700 #FFDAB9 #FFFFFF #40E0D0 #008B8B */
+/* #ffb6b9, #fae3d9 #FFFFFF #bbded6 #61c0bf */
+
+
 /* #1D4C4B #217B5F #1EA855 #78C468 #F2D159 */
 /* #817F8D #D9E9F9 #5E654C #6C4939 #93C1E5*/
 
@@ -25,7 +29,7 @@ body {
 /* ----------- Nav -------- */
 
 .main-nav-window {
-  background-color: rgba(29, 76, 75, 0.8) !important;
+  background-color: rgba(0, 139, 139, 0.8) !important;
   display: flex;
   flex-direction: row;
   padding: 1em 5em;
@@ -61,27 +65,32 @@ body {
 
 .nav-client-portal:hover {
   color: white !important;
-  background-color: #93C1E5;
+  background-color: #FFDAB9;
   transition: 1s;
 }
 
 .leaf-icon-window {
-  color: #93C1E5;
+  color: #FFFFFF;
   padding: 0em 0em;
+}
+
+.leaf-icon-window:hover {
+  color: #FFDAB9 !important;
+  transition: 1s;
 }
 
 
 a:hover {
-  color: #93C1E5 !important;
+  color: #FFDAB9 !important;
   transition: 1s;
 }
 
 /* ----------- BackGrounds ----------*/
 
-.background-image {
-  background-image: url("./assets/images/Sky_Palm_Trees.jpg");
+.background-image-window {
+  background-image: url("./assets/images/YogaSpace.jpg");
   background-position: center;
-  height: 200vh;
+  height: 100vh;
   position: relative;
   background-size: cover;
   width: 100%;
@@ -99,14 +108,17 @@ a:hover {
   align-content: space-around;
   z-index: -100;
   min-height: 100vh;
-
 }
 
 .landing-title-container {
-  padding-top: 10em;
+  padding: 10em 5em;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 8em;
+  border-radius: 5px;
+  /* background-color: rgba(255, 218, 185, 0.9); */
+  /* background-color: rgba(0, 139, 139, 0.5); */
 }
 
 .landing-text-container {
@@ -117,6 +129,7 @@ a:hover {
   z-index: 200;
   border-radius: 5px;
   width: 100%;
+  text-align: center;
 }
 
 .landing-text-list {
@@ -126,15 +139,20 @@ a:hover {
   padding: 0em 3em;
 }
 
-.text-opacity { 
+.text-opacity {
   background-color: rgba(0, 0, 0, 0.65);
   padding: 2em;
   border-radius: 10px;
   height: 100%;
 }
 
-b {
-  color: #F2D159
+b.landing-b {
+  color: #FFD700;
+}
+
+b.landing-b-two {
+  color: #FFD700;
+  text-shadow: .5px .5px .5px black;
 }
 
 b.im-hayley {
@@ -255,6 +273,7 @@ select {
   border-bottom: solid 1px #1d4c4b;
   padding: 1em 0em;
 }
+
 .select-style:hover {
   cursor: pointer;
 }

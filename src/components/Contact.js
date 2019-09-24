@@ -103,7 +103,7 @@ class Contact extends React.Component {
             </div>
             <textarea
               type="text"
-              placeholder="Is there anything you would like me to know before contacting you?"
+              placeholder="Anything I should know before contacting you?"
               className="textarea-style-window"
               required
               rows="5"
