@@ -4,7 +4,7 @@ import { LandingText } from "../Global";
 
 const LandingTextWindow = () => {
   return (
-    <Fade duration={2000}>
+    <Fade duration={3000}>
       <div className="landing-text-container">
         <LandingText>
           You're <b className="landing-b-two">done. </b>

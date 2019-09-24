@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Grid } from "semantic-ui-react";
 import { SubTitle } from "../Global";
-import SImage from "../assets/images/Service-Lotus.jpg";
+import SImage from "../assets/images/HYoga.jpg";
 import { Fade } from "react-reveal";
 
 class Services extends React.Component {
@@ -17,7 +17,7 @@ class Services extends React.Component {
           </Fade>
           <Grid.Row columns={2}>
             <Grid.Column style={{ padding: "3em" }} className='button-wrapper'>
-          <Fade >
+          <Fade top duration={3000}>
                 {/* <div className="button-wrapper"> */}
                 <div>
                   <NavLink to="/phase-two" className='service-link-window'>
@@ -38,7 +38,7 @@ class Services extends React.Component {
           </Fade>
             </Grid.Column>
             <Grid.Column style={{ padding: "3em" }}>
-              <Fade>
+              <Fade duration={3000} bottom>
                 <img src={SImage} className="service-images" alt="services" />
               </Fade>
             </Grid.Column>

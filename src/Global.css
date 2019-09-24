@@ -13,12 +13,14 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
-/* ----------- Colors ----------*/
+/* ----------- Color Palette to Be Used!!!  ----------*/
+/* https://colorhunt.co/palette/107482 */
+/* ##FFD700 #ffb6b9, #fae3d9 #FFFFFF #bbded6 #61c0bf #425E4F*/
 
+
+
+/*-------------------- Other colors not to be used -------------------- */
 /* #FFD700 #FFDAB9 #FFFFFF #40E0D0 #008B8B */
-/* #ffb6b9, #fae3d9 #FFFFFF #bbded6 #61c0bf */
-
-
 /* #1D4C4B #217B5F #1EA855 #78C468 #F2D159 */
 /* #817F8D #D9E9F9 #5E654C #6C4939 #93C1E5*/
 
@@ -29,7 +31,9 @@ body {
 /* ----------- Nav -------- */
 
 .main-nav-window {
-  background-color: rgba(0, 139, 139, 0.8) !important;
+  background-color: rgba(97, 192, 191, 0.8) !important;
+  /* background-color: rgba(255, 218, 185, .8) !important; */
+  /* background-color: rgba(64, 224, 208, .8) !important; */
   display: flex;
   flex-direction: row;
   padding: 1em 5em;
@@ -45,6 +49,7 @@ body {
   align-content: space-around;
   width: 100%;
   padding: 0em;
+  font-size: 1.15em;
 }
 
 .nav-item,
@@ -65,7 +70,7 @@ body {
 
 .nav-client-portal:hover {
   color: white !important;
-  background-color: #FFDAB9;
+  background-color: rgba(250, 227, 217, 0.3);
   transition: 1s;
 }
 
@@ -75,13 +80,13 @@ body {
 }
 
 .leaf-icon-window:hover {
-  color: #FFDAB9 !important;
+  color: #fae3d9 !important;
   transition: 1s;
 }
 
 
 a:hover {
-  color: #FFDAB9 !important;
+  color: #fae3d9 !important;
   transition: 1s;
 }
 
@@ -98,6 +103,9 @@ a:hover {
 }
 
 /* ----------------- Landing ----------------- */
+/* #FFD700 #ffb6b9, #fae3d9 #FFFFFF #bbded6 #61c0bf #425E4F*/
+
+
 
 .landing-wrapper-window {
   height: 100%;
@@ -108,6 +116,7 @@ a:hover {
   align-content: space-around;
   z-index: -100;
   min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 .landing-title-container {
@@ -125,7 +134,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 4em 5em;
+  padding: 10em 5em 5em;
   z-index: 200;
   border-radius: 5px;
   width: 100%;
@@ -147,12 +156,13 @@ a:hover {
 }
 
 b.landing-b {
-  color: #FFD700;
+  color: #61c0bf;
 }
 
 b.landing-b-two {
-  color: #FFD700;
-  text-shadow: .5px .5px .5px black;
+  color: #ffb6b9;
+  font-weight: 700 !important;
+  /* text-shadow: .5px .5px .5px black; */
 }
 
 b.im-hayley {
@@ -161,8 +171,11 @@ b.im-hayley {
 
 /* -----------------  About -----------------  */
 
+/* #FFD700 #ffb6b9, #fae3d9 #FFFFFF #bbded6 #61c0bf #425E4F*/
+
+
 .about-padding {
-  padding: 6em 5em 0em;
+  padding: 5em 5em 10em;
 }
 
 .about-image {
@@ -176,6 +189,16 @@ b.im-hayley {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  height: 100%;
+}
+
+.about-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 50%;
 }
 
 .about-button {
@@ -195,14 +218,36 @@ b.im-hayley {
   height: 100%;
 }
 
+#box-left {
+  background-color: rgba(66, 94, 79, 1);
+  padding: 2em;
+  z-index: -500;
+  width: 50vw;
+}
+
+#box-right {
+  /* background-color: rgba(255, 182, 185, .8); */
+  background-color: #bbded6;
+  padding: 2em;
+  z-index: -500;
+  width: 50vw;
+}
+
+#inner-box {
+  background-color: white;
+  border-radius: 5px;
+}
+
 
 /* -----------------  Contact -----------------  */
+/* #FFD700 #ffb6b9, #fae3d9 #FFFFFF #bbded6 #61c0bf #425E4F*/
 
 .contact-form-wrapper {
   padding: 3em 5em 0em;
   width: 100%;
   height: 100%;
   min-height: 100vh;
+  /* background-color: rgba(255, 182, 185, .8); */
 }
 
 .contact-title {
@@ -219,20 +264,24 @@ b.im-hayley {
   padding: 0em 5em;
   height: 70vh;
 }
+/* form {
+  background-color: white;
+  border-radius: 5px;
+} */
 
 button {
   padding: 1em;
   background-color: transparent;
   border-radius: 5px;
   font-family: "Quicksand", sans-serif !important;
-  color: #1d4c4b !important;
+  color: rgba(66, 94, 79, .5) !important;
   font-size: 1.25em;
-  border: solid 1px #d1d1d1;
+  border: solid 1px rgba(66, 94, 79, 1) !important;
 }
 
 button:hover {
   color: white !important;
-  background-color: #1d4c4b;
+  background-color: rgba(66, 94, 79, 1);
   transition: 1s;
 }
 
@@ -254,7 +303,7 @@ label {
 .textarea-style-window {
   padding: .25em 0em;
   margin: 0em 0em;
-  border-bottom: 1.25px solid #1d4c4b;
+  border-bottom: 1.25px solid #425E4F;
 }
 
 select {
@@ -262,7 +311,7 @@ select {
   color: #1d4c4b;
   width: 20%;
   border-radius: 0 !important;
-  border: 1.25px solid #1d4c4b;
+  border: 1.25px solid #425E4F;
   box-sizing: border-box;
   background-size: 1em;
 }
@@ -270,7 +319,7 @@ select {
 .textarea-style-window {
   height: 4em;
   border: none;
-  border-bottom: solid 1px #1d4c4b;
+  border-bottom: solid 1px #425E4F;
   padding: 1em 0em;
 }
 
@@ -286,19 +335,19 @@ select {
 
 
 input {
-  color: #1d4c4b;
+  color: #425E4F;
   font-family: "Open Sans", sans-serif;
   border: none;
-  border-bottom: 2px solid #1d4c4b;
+  border-bottom: 2px solid #425E4F;
 }
 
 textarea {
   font-family: "Open Sans", sans-serif;
-  color: #1d4c4b;
+  color: #425E4F;
   width: 100%;
   height: 10em;
   line-height: 1px;
-  border-bottom: 1px solid #1d4c4b;
+  border-bottom: 1px solid #425E4F;
 
 }
 
@@ -392,7 +441,7 @@ textarea {
 footer {
   width: 100%;
   height: 15em;
-  background-color: #1d4c4b;
+  background-color: #425E4F;
   font-weight: lighter;
   /* position: absolute; */
   bottom: 0;

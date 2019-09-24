@@ -26,9 +26,9 @@ class App extends React.Component {
   state = { pageLoaded: false, width: window.innerWidth };
 
   componentDidMount = () => {
-    setTimeout(() => {
+    // setTimeout(() => {
       this.setState({ pageLoaded: true });
-    }, 4000);
+    // }, 4000);
     window.addEventListener("resize", this.handleWindowSizeChange);
   };
 
