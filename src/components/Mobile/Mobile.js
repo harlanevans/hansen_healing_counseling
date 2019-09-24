@@ -25,8 +25,10 @@ class Mobile extends React.Component {
   render() {
     return (
       <div>
-        <NavMobile toggleModal={this.toggleModal} className='fixed'/>
+        <div className='fixed'>
+        <NavMobile toggleModal={this.toggleModal}/>
         <NavModal showModal={this.state.showModal} toggleModal={this.toggleModal}/>
+        </div>
         <ScrollToTop>
           <div id="home">
             <LandingMobile />
