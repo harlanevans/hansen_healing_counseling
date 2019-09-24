@@ -68,7 +68,7 @@ body {
   justify-content: center;
   align-content: space-between;
   background-color: rgba(0, 0, 0, 0.8);
-  height: 100%;
+  height: 100vh;
   width: 100%;
   z-index: 4000;
   position: fixed;
