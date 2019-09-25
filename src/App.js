@@ -8,11 +8,11 @@ import { Fade } from "react-reveal";
 // import Landing from "./components/Landing";
 import Loader from "./components/Loader";
 import Window from "./components/Window";
-// import About from "./components/About";
+import AboutHayley from "./components/AboutHayley";
 import Services from './components/Services';
-import ServOne from "./components/ServeOne";
-import ServTwo from "./components/ServeTwo";
-import ServThree from "./components/ServeThree";
+import EMDR from "./components/services/EMDR";
+import OHYG from "./components/services/OHYG";
+import ServThree from "./components/services/ServeThree";
 
 // Mobile Size
 import Mobile from "./components/Mobile/Mobile";
@@ -26,9 +26,11 @@ class App extends React.Component {
   state = { pageLoaded: false, width: window.innerWidth };
 
   componentDidMount = () => {
-    // setTimeout(() => {
-      this.setState({ pageLoaded: true });
-    // }, 4000);
+    setTimeout(() => {
+      setTimeout(() => {
+        this.setState({ pageLoaded: !this.state.pageLoaded });
+      }, 2000);
+    }, 4000);
     window.addEventListener("resize", this.handleWindowSizeChange);
   };
 
@@ -51,7 +53,7 @@ class App extends React.Component {
         <Loader />
       ) : (
         <>
-          <Fade duration={2000}>
+          <Fade>
             <Switch>
               <Route exact path="/" component={Mobile} />
               <Route exact path="/contact" component={ContactMobile} />
@@ -69,13 +71,13 @@ class App extends React.Component {
       ) : (
         <>
           {/* <Nav /> */}
-          <Fade duration={2000}>
+          <Fade>
             <Switch>
               <Route exact path="/" component={Window} />
+              <Route exact path="/about_hayley" component={AboutHayley} />
                 <Route exact path="/services" component={Services} />
-                <Route exact path="/phase-two" component={ServOne} />
-                <Route exact path="/adult-yoga-group" component={ServTwo} />
-                <Route exact path="/youth-yoga-group" component={ServThree} />
+                <Route exact path="/emdr" component={EMDR} />
+                <Route exact path="/organic-healing-yoga-group" component={OHYG} />
             </Switch>
           </Fade>
         </>

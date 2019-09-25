@@ -4,7 +4,8 @@ import LandingTextWindow from "./LandingTextWindow";
 import About from "./About";
 import Services from "./Services";
 import Contact from "./Contact";
-import CarouselWindow from "./CarouselWindow";
+// import CarouselWindow from "./CarouselWindow";
+import Quote from './Quote';
 // import { WhiteSpace } from "../Global";
 import Footer from './Footer';
 import Nav from './Nav';
@@ -22,7 +23,8 @@ const Window = () => {
       <div id="about">
         <About />
       </div>
-      <CarouselWindow />
+      <Quote />
+      {/* <CarouselWindow /> */}
       <div id="contact">
         <Contact />
       </div>

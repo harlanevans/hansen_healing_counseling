@@ -1,24 +1,21 @@
 import React from 'react';
 import { Fade } from "react-reveal";
-import { SubTitle, AboutText } from "../Global";
+import { SubTitle, AboutText } from "../../Global";
 import { Grid } from 'semantic-ui-react';
 import { HashLink } from "react-router-hash-link";
 
-
-
-const ServeTwo = () => {
-  return(
+const ServeThree = () => {
+  return (
     <div className='s-one-top'>
       <Grid>
         <Grid.Row>
           <Fade>
             <SubTitle>
-              Adult Yoga Group
+              Youth Yoga Group
       </SubTitle>
           </Fade>
         </Grid.Row>
         <AboutText>
-
           Eye Movement Desensitization and Reprocessing (EMDR) is one of my
             favorite trauma processing modalities. Our bodies and brains know best
             how to heal themselves, but also need some preparation work before
@@ -72,6 +69,6 @@ const ServeTwo = () => {
       </Grid>
     </div>
   )
-}
+};
 
-export default ServeTwo;
+export default ServeThree;

@@ -4,8 +4,8 @@ import { LandingText } from "../Global";
 
 const LandingTextWindow = () => {
   return (
-    <Fade duration={3000}>
-      <div className="landing-text-container">
+    <div className="landing-text-container">
+    <Fade duration={2000}>
         <LandingText>
           You're <b className="landing-b-two">done. </b>
           <br />
@@ -36,8 +36,8 @@ const LandingTextWindow = () => {
           <b className="landing-b-two">#stress </b> 
            what <b className="landing-b-two">adulting</b> has to offer?
         </LandingText>
-      </div>
     </Fade>
+      </div>
   );
 };
 

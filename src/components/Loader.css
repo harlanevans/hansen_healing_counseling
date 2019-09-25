@@ -1,3 +1,6 @@
+/* #FFD700 #ffb6b9, #fae3d9 #FFFFFF #bbded6 #61c0bf #425E4F*/
+
+
 svg {
   width: 5em;
   transform-origin: center;
@@ -12,7 +15,7 @@ svg {
 
 circle {
   fill: none;
-  stroke: #FFD700;
+  stroke: #ffb6b9;
   stroke-width: 2;
   stroke-dasharray: 1, 200;
   stroke-dashoffset: 0;
