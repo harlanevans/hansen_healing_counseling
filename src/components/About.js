@@ -1,17 +1,19 @@
 import React from "react";
 // import { WhiteBGGlobal } from "../Global";
 import Image from "../assets/images/HMeditate.jpg";
+import { NavLink } from "react-router-dom";
 import { Fade } from "react-reveal";
-import { SubTitleAbout, AboutText } from "../Global";
+import { SubTitle, AboutText } from "../Global";
 
 const About = () => {
   return (
     <div className="about-padding">
-      <div className="about-header">
-        <Fade>
-          <SubTitleAbout>About Hayley Hansen</SubTitleAbout>
+      <div className="about-wrapper">
+        <Fade duration={2000} top>
+          <div className='about-header'>
+          <SubTitle>About Hayley Hansen</SubTitle>
+          </div>
         </Fade>
-        <Fade>
           <div className="about-row">
             <Fade left duration={3000}>
               <div className="about-col" id="box-left">
@@ -44,12 +46,11 @@ const About = () => {
               </div>
             </Fade>
           </div>
-        </Fade>
       </div>
       <Fade bottom duration={3000}>
-        <div className="about-button">
-          <button>More about Hayley</button>
-        </div>
+        <NavLink to='/about_hayley' className="about-button">
+          <button >More about Hayley</button>
+        </NavLink>
       </Fade>
     </div>
   );

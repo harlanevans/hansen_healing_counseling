@@ -1,6 +1,6 @@
 import React from "react";
 // import { Grid } from "semantic-ui-react";
-import { LandingTitle, LandingText } from "../Global";
+import { LandingTitle, LandingTitleTwo } from "../Global";
 import { Fade } from "react-reveal";
 import "../Global.css";
 // import { HashLink } from "react-router-hash-link";
@@ -10,6 +10,11 @@ class Landing extends React.Component {
     return (
       <div className="background-image-window">
         <div className="landing-wrapper-window">
+        <div className='landing-title-row'>
+          <LandingTitleTwo>
+            Hayley Hansen Healing
+          </LandingTitleTwo>
+        </div>
           <div className="landing-title-container">
             <Fade duration={2000}>
               <LandingTitle>

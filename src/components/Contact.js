@@ -35,10 +35,10 @@ class Contact extends React.Component {
       <div className="contact-form-wrapper">
         <div className="contact-title">
           <Fade duration={2000} top>
-            <SubTitle style={{ fontSize: "2.5em" }}>Contact</SubTitle>
+            <SubTitle>Contact</SubTitle>
           </Fade>
         </div>
-        <Fade duration={2000}>
+        <Fade duration={3000}>
           <form
             className="contact-column-window"
             action="https://formspree.io/hayleyhansentherapy@gmail.com"

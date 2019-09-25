@@ -1,20 +1,20 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
-import { SubTitle, AboutText } from '../Global';
+import { SubTitle, AboutText } from '../../Global';
 import { Grid } from "semantic-ui-react";
 import { HashLink } from "react-router-hash-link";
 
 
 
 
-const ServeOne = () => {
+const EMDR = () => {
   return(
     <div className='s-one-top'>
       <Grid>
         <Grid.Row>
     <Fade>
       <SubTitle>
-      EMDR Phase Two Group
+      EMDR
       </SubTitle>
     </Fade>
         </Grid.Row>
@@ -75,4 +75,4 @@ const ServeOne = () => {
   )
 }
 
-export default ServeOne;
+export default EMDR;

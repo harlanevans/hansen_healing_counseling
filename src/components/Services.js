@@ -1,49 +1,37 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Grid } from "semantic-ui-react";
 import { SubTitle } from "../Global";
 import SImage from "../assets/images/HYoga.jpg";
-import { Fade } from "react-reveal";
+import { Fade } from 'react-reveal';
 
 class Services extends React.Component {
   render() {
     return (
       <div className="service-wrapper">
-        <Grid textAlign="center">
-          <Fade duration={3000}>
-            <Grid.Row>
-              <SubTitle style={{ fontSize: "2.5em" }}>Services</SubTitle>
-            </Grid.Row>
-          </Fade>
-          <Grid.Row columns={2}>
-            <Grid.Column style={{ padding: "3em" }} className='button-wrapper'>
-          <Fade top duration={3000}>
-                {/* <div className="button-wrapper"> */}
-                <div>
-                  <NavLink to="/phase-two" className='service-link-window'>
-                    <button className='service-button'>EMDR Phase Two Group</button>
-                  </NavLink>
-                </div>
-              <NavLink to="/adult-yoga-group">
-                    <button  className='service-button'>
-                      Adult Yoga Group
-                      </button>
-                  </NavLink>
-              <NavLink to="/youth-yoga-group">
-                    <button className='service-button'>
-                      Youth Yoga Group
-                      </button>
-                  </NavLink>
-                {/* </div> */}
-          </Fade>
-            </Grid.Column>
-            <Grid.Column style={{ padding: "3em" }}>
-              <Fade duration={3000} bottom>
-                <img src={SImage} className="service-images" alt="services" />
-              </Fade>
-            </Grid.Column>
-          </Grid.Row>
-        </Grid>
+      <div className='service-title'>
+        <SubTitle>Services</SubTitle>
+      </div>
+        <div className="service-row">
+        <Fade duration={2000} top>
+          <div className="service-col" id="serv-box-one">
+        <Fade duration={2000} delay={500}top>
+            <NavLink to="/organic-healing-yoga-group" className="service-link-window">
+              <button className="service-button">Organic Healing Yoga Group</button>
+            </NavLink>
+            <NavLink to="/emdr">
+              <button className="service-button">EMDR</button>
+            </NavLink>
+        </Fade>
+          </div>
+        </Fade>
+        <Fade bottom duration={2000}>
+          <div className="service-col" id="serv-box-two">
+        <Fade bottom delay={500} duration={2000}>
+            <img src={SImage} className="service-image" alt="hayley-yoga" />
+        </Fade>
+          </div>
+        </Fade>
+        </div>
       </div>
     );
   }

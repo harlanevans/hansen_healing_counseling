@@ -70,7 +70,7 @@ body {
 
 .nav-client-portal:hover {
   color: white !important;
-  background-color: rgba(250, 227, 217, 0.3);
+  background-color: rgba(250, 227, 217, 0.5);
   transition: 1s;
 }
 
@@ -116,18 +116,26 @@ a:hover {
   align-content: space-around;
   z-index: -100;
   min-height: 100vh;
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.45);
 }
 
-.landing-title-container {
-  padding: 10em 5em;
+.landing-title-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 8em;
+  padding: 1em 5em;
+  margin: 0em 10em;
+
+}
+
+.landing-title-container {
+  padding: 0em 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 4em;
   border-radius: 5px;
   /* background-color: rgba(255, 218, 185, 0.9); */
-  /* background-color: rgba(0, 139, 139, 0.5); */
 }
 
 .landing-text-container {
@@ -149,7 +157,7 @@ a:hover {
 }
 
 .text-opacity {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 2em;
   border-radius: 10px;
   height: 100%;
@@ -175,7 +183,14 @@ b.im-hayley {
 
 
 .about-padding {
-  padding: 5em 5em 10em;
+  padding: 6em 5em 8em;
+}
+
+.about-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 2em;
 }
 
 .about-image {
@@ -205,17 +220,16 @@ b.im-hayley {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 2em 0em;
+  padding-top: 4em;
 }
 
-.about-header {
+.about-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
 }
 
 #box-left {
@@ -243,7 +257,7 @@ b.im-hayley {
 /* #FFD700 #ffb6b9, #fae3d9 #FFFFFF #bbded6 #61c0bf #425E4F*/
 
 .contact-form-wrapper {
-  padding: 3em 5em 0em;
+  padding: 5em 5em 0em;
   width: 100%;
   height: 100%;
   min-height: 100vh;
@@ -264,6 +278,7 @@ b.im-hayley {
   padding: 0em 5em;
   height: 70vh;
 }
+
 /* form {
   background-color: white;
   border-radius: 5px;
@@ -408,40 +423,95 @@ textarea {
 }
 
 /* -----------------  Services Landing -----------------  */
+/* #FFD700 #ffb6b9, #fae3d9 #FFFFFF #bbded6 #61c0bf #425E4F*/
 
-.service-images {
-  width: 100%;
-  height: 100%;
+
+.service-image {
+  width: 30em;
+  height: 30em;
   border-radius: 5px;
+}
+
+.service-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 2em;
 }
 
 .service-wrapper {
   width: 100%;
   height: 100%;
-  padding: 5em 2em;
+  padding: 5em 0em;
 }
 
-.button-wrapper {
-  /* border: solid 5px red; */
+
+button.service-button {
+  margin: 2em 0em;
+  z-index: 5000;
+  background-color: white;
+  color: #425E4F !important;
+  border: none !important;
+}
+
+button.service-button:hover {
+  color: #ffb6b9 !important;
+  cursor: pointer;
+  background-color: white;
+}
+
+.service-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  z-index: -500;
+}
+
+.service-col {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: space-around;
-  height: 100%;
+  align-content: center;
+  align-items: center;
+  width: 50%;
+  z-index: -500;
 }
 
-.service-button {
-  /* border: solid 5px blue; */
-  margin: 2em 0em;
-  /* padding: 2em; */
+
+.serv-box-one {
+  min-height: 500px;
+}
+
+#serv-box-one {
+  background-color: #fae3d9;
+  /* background-image: -webkit-linear-gradient(90deg, #fae3d9 50%, #ffb6b9 50%); */
+  padding: 2em;
+  height: 70vh;
+  z-index: 500;
+  width: 50vw;
+}
+
+#serv-box-two {
+  background-color: #ffb6b9;
+  /* background-image: -webkit-linear-gradient(90deg, #fae3d9 50%, #ffb6b9 50%); */
+  padding: 2em;
+  z-index: -500;
+  height: 70vh;
+  width: 50vw;
+
 }
 
 /* -----------------  Footer -----------------  */
+/* #FFD700 #ffb6b9, #fae3d9 #FFFFFF #bbded6 #61c0bf #425E4F*/
+
 
 footer {
   width: 100%;
   height: 15em;
-  background-color: #425E4F;
+  background-color: #61c0bf !important;
   font-weight: lighter;
   /* position: absolute; */
   bottom: 0;
@@ -467,4 +537,29 @@ footer {
   flex-direction: row;
   justify-content: center;
   padding: 5em 5em;
+}
+
+/* -----------------  Quotes Page -----------------  */
+
+
+.quotation-marks {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.5em;
+}
+
+.quote-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+}
+
+.quote-wrapper {
+  padding: 8em 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
