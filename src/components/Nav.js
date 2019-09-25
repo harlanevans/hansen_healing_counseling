@@ -16,11 +16,11 @@ const Nav = () => {
         <HashLink to="/#about" smooth className="nav-item">
           About
         </HashLink>
-        <HashLink to="/#contact" smooth className="nav-item">
-          Contact
-        </HashLink>
         <HashLink to="/#services" smooth className="nav-item">
           Services
+        </HashLink>
+        <HashLink to="/#contact" smooth className="nav-item">
+          Contact
         </HashLink>
           <Link
             href="https://hayley-hansen.clientsecure.me/"

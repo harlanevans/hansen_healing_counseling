@@ -15,9 +15,9 @@ const About = () => {
           </div>
         </Fade>
           <div className="about-row">
-            <Fade left duration={3000}>
+            <Fade left duration={2000}>
               <div className="about-col" id="box-left">
-                <Fade left delay={1000} duration={3000}>
+                <Fade left delay={500} duration={2000}>
                   <img
                     src={Image}
                     className="about-image"
@@ -27,13 +27,13 @@ const About = () => {
                 </Fade>
               </div>
             </Fade>
-            <Fade right duration={3000}>
+            <Fade right duration={2000}>
               <div
                 className="about-col"
                 style={{ padding: "0em 5em" }}
                 id="box-right"
               >
-            <Fade right delay={1000} duration={3000}>
+            <Fade right delay={500} duration={2000}>
                 <AboutText id="inner-box">
                   I'm Hayley. Through natural and organic bodywork methods, I
                   help high achieving Millennials with active lifestyles just
@@ -47,7 +47,7 @@ const About = () => {
             </Fade>
           </div>
       </div>
-      <Fade bottom duration={3000}>
+      <Fade bottom duration={2000}>
         <NavLink to='/about_hayley' className="about-button">
           <button >More about Hayley</button>
         </NavLink>

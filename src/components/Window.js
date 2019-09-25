@@ -25,13 +25,13 @@ const Window = () => {
       </div>
       <Quote />
       {/* <CarouselWindow /> */}
+      <div id='services'>
+        <Services />
+      </div>
       <div id="contact">
         <Contact />
       </div>
       {/* <WhiteSpace /> */}
-      <div id='services'>
-        <Services />
-      </div>
       <Footer />
     </div>
   );
