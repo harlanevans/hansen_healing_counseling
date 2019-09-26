@@ -1,6 +1,6 @@
 import React from "react";
-import "../Global.css";
-import { Link } from 'react-router-dom';
+// import "../Global.css";
+// import { Link } from 'react-router-dom';
 import { Icon } from "semantic-ui-react";
 import { HashLink } from "react-router-hash-link";
 
@@ -22,14 +22,14 @@ const Nav = () => {
         <HashLink to="/#contact" smooth className="nav-item">
           Contact
         </HashLink>
-          <Link
+          <a
             href="https://hayley-hansen.clientsecure.me/"
             target="_blank"
             rel="noopener noreferrer"
              className="nav-client-portal"
           >
             Client Portal
-          </Link>
+          </a>
       </div>
     </div>
   );

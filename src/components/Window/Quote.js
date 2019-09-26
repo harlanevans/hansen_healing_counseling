@@ -1,6 +1,6 @@
 import React from "react";
 import { Fade } from "react-reveal";
-import { QuoteMain, QuoteAuthor } from "../Global";
+import { QuoteMain, QuoteAuthor } from "./Global";
 
 const Quote = () => {
   return (

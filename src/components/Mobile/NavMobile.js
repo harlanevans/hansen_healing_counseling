@@ -1,8 +1,8 @@
 import React from "react";
 import { Icon } from "semantic-ui-react";
 import { HashLink } from "react-router-hash-link";
-import NavModal from "./NavModal";
-import { Fade } from "react-reveal";
+// import NavModal from "./NavModal";
+// import { Fade } from "react-reveal";
 
 const NavMobile = ({toggleModal}) => {
     return (

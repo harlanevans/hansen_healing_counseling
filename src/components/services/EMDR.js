@@ -1,6 +1,6 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
-import { SubTitle, AboutText } from '../../Global';
+import { SubTitle, AboutText } from '../Window/Global';
 import { Grid } from "semantic-ui-react";
 import { HashLink } from "react-router-hash-link";
 

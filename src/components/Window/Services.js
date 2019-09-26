@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { SubTitle } from "../Global";
-import SImage from "../assets/images/HYoga.jpg";
+import { SubTitle } from "./Global";
+import SImage from "../../assets/images/HYoga.jpg";
 import { Fade } from 'react-reveal';
 
 class Services extends React.Component {

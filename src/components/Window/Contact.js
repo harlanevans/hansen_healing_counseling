@@ -3,7 +3,7 @@ import React from "react";
 import axios from "axios";
 
 import { Fade } from "react-reveal";
-import { SubTitle } from "../Global";
+import { SubTitle } from "./Global";
 
 class Contact extends React.Component {
   state = {
@@ -29,7 +29,7 @@ class Contact extends React.Component {
   };
 
   render() {
-    const { firstName, lastName, phone, email, questions, where } = this.state;
+    const { firstName, lastName, phone, email, questions } = this.state;
     // const { name } = this.state;
     return (
       <div className="contact-form-wrapper">
@@ -83,7 +83,7 @@ class Contact extends React.Component {
             />
             <div className="select-window">
               <label>How did you hear about us?</label>
-              <select name="where" className="select-style" value={where}>
+              <select name="where" className="select-style">
                 <option value="friend" name="friend">
                   Friend
                 </option>

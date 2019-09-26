@@ -11,7 +11,7 @@ const LandingMobile = () => {
           <Grid.Column textAlign="center">
             <Fade duration={2000}>
               <MainTitle>
-              Organic Healing Yoga and Mindfulness Group
+              Hayley 
               </MainTitle>
             </Fade>
             <div className="l-sub-title">

@@ -1,8 +1,8 @@
 import React from "react";
 // import { Grid } from "semantic-ui-react";
-import { LandingTitle, LandingTitleTwo } from "../Global";
+import { LandingTitle, LandingTitleTwo } from "./Global";
 import { Fade } from "react-reveal";
-import "../Global.css";
+import "./Global.css";
 // import { HashLink } from "react-router-hash-link";
 
 class Landing extends React.Component {
@@ -15,7 +15,7 @@ class Landing extends React.Component {
             Hayley Hansen Healing
           </LandingTitleTwo>
         </div>
-          <div className="landing-title-container">
+          <div className="landing-title-container"> 
             <Fade duration={2000}>
               <LandingTitle>
                 For the high acheiving, active Millennial who is ready to take

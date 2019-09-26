@@ -1,5 +1,5 @@
 import React from "react";
-import { FooterText } from "../Global";
+import { FooterText } from "./Global";
 import { Grid } from "semantic-ui-react";
 
 const Footer = () => {

@@ -9,7 +9,7 @@ import ServicesMobile from "./ServicesMobile";
 import "./Mobile.css";
 import CarouselMobile from "./CarouselMobile";
 import FooterMobile from "./FooterMobile";
-import { Fade } from "react-reveal";
+// import { Fade } from "react-reveal";
 // import { WhiteBGGlobal } from './Styles';
 import ScrollToTop from "../../ScrollToTop";
 

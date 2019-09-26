@@ -1,9 +1,9 @@
 import React from "react";
 // import { WhiteBGGlobal } from "../Global";
-import Image from "../assets/images/HMeditate.jpg";
+import Image from "../../assets/images/HMeditate.jpg";
 import { NavLink } from "react-router-dom";
 import { Fade } from "react-reveal";
-import { SubTitle, AboutText } from "../Global";
+import { SubTitle, AboutText } from "./Global";
 
 const About = () => {
   return (

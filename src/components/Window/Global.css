@@ -87,7 +87,7 @@ a:hover {
 /* ----------- BackGrounds ----------*/
 
 .background-image-window {
-  background-image: url("./assets/images/YogaSpace.jpg");
+  background-image: url("../../assets/images/YogaSpace.jpg");
   background-position: center;
   height: 100vh;
   position: relative;

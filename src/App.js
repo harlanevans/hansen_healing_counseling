@@ -6,13 +6,12 @@ import { Fade } from "react-reveal";
 // Window Size
 // import Nav from "./components/Nav";
 // import Landing from "./components/Landing";
-import Loader from "./components/Loader";
-import Window from "./components/Window";
-import AboutHayley from "./components/AboutHayley";
-import Services from './components/Services';
+import Window from "./components/Window/Window";
+import AboutHayley from "./components/Window/AboutHayley";
+import Services from './components/Window/Services';
 import EMDR from "./components/services/EMDR";
 import OHYG from "./components/services/OHYG";
-import ServThree from "./components/services/ServeThree";
+// import ServThree from "./components/services/ServeThree";
 
 // Mobile Size
 import Mobile from "./components/Mobile/Mobile";
@@ -26,11 +25,6 @@ class App extends React.Component {
   state = { pageLoaded: false, width: window.innerWidth };
 
   componentDidMount = () => {
-    setTimeout(() => {
-      setTimeout(() => {
-        this.setState({ pageLoaded: !this.state.pageLoaded });
-      }, 2000);
-    }, 4000);
     window.addEventListener("resize", this.handleWindowSizeChange);
   };
 
@@ -49,9 +43,8 @@ class App extends React.Component {
     const isMobile = width <= 600;
     // the rest is the same...
     if (isMobile) {
-      return this.state.pageLoaded === false ? (
-        <Loader />
-      ) : (
+      return(
+        
         <>
           <Fade>
             <Switch>
@@ -64,11 +57,10 @@ class App extends React.Component {
             </Switch>
           </Fade>
         </>
-      );
+        )
     } else {
-      return this.state.pageLoaded === false ? (
-        <Loader />
-      ) : (
+      return(
+
         <>
           {/* <Nav /> */}
           <Fade>
@@ -81,7 +73,7 @@ class App extends React.Component {
             </Switch>
           </Fade>
         </>
-      );
+    )
     }
   }
 }

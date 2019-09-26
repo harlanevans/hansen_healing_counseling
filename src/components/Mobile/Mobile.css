@@ -29,9 +29,9 @@ body {
 /* ----------- BackGrounds ----------*/
 
 .background-image {
-  background-image: url('../../assets/images/Sky_Palm_Trees.jpg');
+  background-image: url('../../assets/images/YogaSpace.jpg');
   background-position: center;
-  height: 103vh;
+  height: 100vh;
   position: relative;
   background-size: cover;
   width: 100vw;
