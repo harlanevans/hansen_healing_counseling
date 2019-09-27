@@ -6,27 +6,31 @@ import LandingText from "./LandingText";
 import AboutMobile from "./AboutMobile";
 import ContactMobile from "./ContactMobile";
 import ServicesMobile from "./ServicesMobile";
-import "./Mobile.css";
-import CarouselMobile from "./CarouselMobile";
+import QuoteMobile from "./QuoteMobile";
 import FooterMobile from "./FooterMobile";
+import "./Mobile.css";
+// import CarouselMobile from "./CarouselMobile";
 // import { Fade } from "react-reveal";
 // import { WhiteBGGlobal } from './Styles';
 import ScrollToTop from "../../ScrollToTop";
 
 class Mobile extends React.Component {
-    state = { showModal: false };
+  state = { showModal: false };
 
   toggleModal = () => {
     const { showModal } = this.state;
     this.setState({ showModal: !showModal });
-    console.log("Toggled")
+    // console.log("Toggled")
   };
 
   render() {
     return (
       <div>
-        <NavMobile toggleModal={this.toggleModal}/>
-        <NavModal showModal={this.state.showModal} toggleModal={this.toggleModal}/>
+        <NavMobile toggleModal={this.toggleModal} />
+        <NavModal
+          showModal={this.state.showModal}
+          toggleModal={this.toggleModal}
+        />
         <ScrollToTop>
           <div id="home">
             <LandingMobile />
@@ -39,15 +43,16 @@ class Mobile extends React.Component {
             <AboutMobile />
           </div>
         </ScrollToTop>
-        <ScrollToTop>
-          <div id="contact">
-            <ContactMobile />
-          </div>
-        </ScrollToTop>
-        <CarouselMobile />
+        <QuoteMobile />
+        {/* <CarouselMobile /> */}
         <ScrollToTop>
           <div id="services">
             <ServicesMobile />
+          </div>
+        </ScrollToTop>
+        <ScrollToTop>
+          <div id="contact">
+            <ContactMobile />
           </div>
         </ScrollToTop>
         <FooterMobile />

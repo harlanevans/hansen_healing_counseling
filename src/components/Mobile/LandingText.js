@@ -4,95 +4,42 @@ import { MobileLandingText } from "./Styles";
 
 const LandingText = () => {
   return (
-    <div>
         <div className="landing-title-container-mobile">
           <Fade duration={2000}>
-              <div>
-                <MobileLandingText>
-                  For the athletic Millennial who is ready to take their{" "}
-                  <b>stressed out, overthinking, autopilot </b>modern lifestyle
-                  to the healing place of{" "}
-                  <b>empowerment, body-centered authenticity, simplicity,</b>
-                  and <b>living in the present.</b>
-                </MobileLandingText>
-                <MobileLandingText>
-                  You&#39;re <b>done.</b> You need a vacation, but you{" "}
-                  <i>just</i> went on a weekend getaway. Your thoughts seem to
-                  run your life, along with your busy schedule, and{" "}
-                  <b>
-                    you just cant seem to get in the Flow, let alone centered
-                  </b>{" "}
-                  through your work outs anymore—they are few and far between,
-                  anyways. You really enjoy physical movement, and when you are
-                  active you are at your best, but life got in the way, and
-                  taking care of you seems to be number 100 on the to do list.{" "}
-                  <b>Feeling disconnected </b>with your partner, family, and
-                  friends are no longer a rare occasion, and you&#39;re starting
-                  to even think your fur baby is feeling neglected by you.
-                  Feeling
-                  <b> lost, confused, </b>and <b>overwhelmed </b>about{" "}
-                  <b>your life </b>is just a part of your daily routine, right
-                  along side your cup of coffee—oh, and make that a double
-                  espresso? <b>#Stress</b> seems to just be what adulting life
-                  has to offer.
-                </MobileLandingText>
-                <div className="landing-text-list-mobile">
-                  <MobileLandingText>
-                    Through <b>organic, body centered healing </b>modalities,
-                    the group will help you embody:
-                  </MobileLandingText>
-                  <MobileLandingText>
-                    <ul>
-                      <li>
-                        <b>Simplicity</b>
-                      </li>
-                      <li>
-                        More <b>Joy</b> and more <b>peace</b>(#yesplease).
-                      </li>
-                      <li>
-                        Feeling more{" "}
-                        <b>connected, rooted, and grounded to your body</b> and
-                        the <b>present</b> in as little as 12 weeks.
-                      </li>
-                      <li>
-                        A feeling of <b>being in charge</b> of your
-                        <b> emotions, thoughts, and life.</b>
-                      </li>
-                      <li>
-                        Increased self-confidence that{" "}
-                        <b>
-                          you can show up as your truest and best authentic self
-                        </b>{" "}
-                        at work and in your treasured
-                        <b> relationships.</b>
-                      </li>
-                      <li>
-                        <b>Decreased </b>physical annoyances like headaches and
-                        body aches
-                      </li>
-                    </ul>
-                    Help yourself go from scattered and stressed to centered and
-                    empowered.
-                  </MobileLandingText>
-                </div>
-                <MobileLandingText style={{ padding: "2em" }}>
-                  <b className="im-hayley">I&#39;m Hayley.</b> Through bodywork,
-                  I help athletic Millennials just like you overhaul their
-                  disconnected and chaotic lifestyles to grounded, embodied, and
-                  simple authentic ones, so that you can live in the present
-                  moment with crazy amounts of intention, joy, and calm.
-                </MobileLandingText>
-                <MobileLandingText>
-                  <center>
-                    <b className="im-hayley">
-                      Complete the form below to learn more
-                    </b>
-                  </center>
-                </MobileLandingText>
+              <div className='landing-m-text'>
+            <MobileLandingText>
+              You're <b className="landing-m-b-two">done. </b>
+              <br />
+              You need a vacation, but you <i>just</i> went on a weekend getaway.
+              Your thoughts seem to run your life, along with your busy schedule,
+          and{" "}
+              <b className="landing-m-b-two">you just cant seem to get centered</b>{" "}
+              through your work outs anymore—they are few and far between, anyways.
+          <b className="landing-m-b-two">Taking care of yourself</b> seems to be
+          number 100 on the to do list. There is just{" "}
+              <b className="landing-m-b-two">not enough time to do everything, </b>and
+          there is so much <b className="landing-m-b-two">pressure</b> to do it
+          all, and perfectly.{" "}
+              <b className="landing-m-b-two">Feeling disconnected</b> with your
+              partner, family, and friends are no longer a rare occasion, and you
+          know your{" "}
+              <b className="landing-m-b-two">
+                boss is starting to lose patience with you.
+          </b>{" "}
+              You can’t afford to cut anything out of your busy schedule, but you
+          are starting to <b className="landing-m-b-two">lose it.</b> Things just
+          feel so <b className="landing-m-b-two">out of control.</b> You don’t
+          want to go <b className="landing-m-b-two">talk</b> to a therapist, but
+          you know <b className="landing-m-b-two">you need something.</b> Feeling{" "}
+              <b className="landing-m-b-two">lost, confused, and overwhelmed</b> is
+              just a part of your daily routine, right along side your cup of
+          coffee—oh, and make that a double espresso? Is{" "}
+              <b className="landing-m-b-two">#stress </b>
+              what <b className="landing-m-b-two">adulting</b> has to offer?
+        </MobileLandingText>
               </div>
           </Fade>
         </div>
-    </div>
   );
 };
 

@@ -5,12 +5,12 @@ import { HashLink } from "react-router-hash-link";
 import { SubTitle, ServicesText } from "./Styles";
 import FooterMobile from "./FooterMobile";
 
-const YouthYoga = () => {
+const EMDRMobile = () => {
   return (
     <div>
       <div className="yoga-container">
         <Fade>
-          <SubTitle>Youth Yoga Group</SubTitle>
+          <SubTitle>EMDR</SubTitle>
         </Fade>
         <ServicesText>
           <Fade>
@@ -72,4 +72,4 @@ const YouthYoga = () => {
   );
 };
 
-export default YouthYoga;
+export default EMDRMobile;

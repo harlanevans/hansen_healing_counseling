@@ -1,32 +1,33 @@
 import React from "react";
 import { MainTitle, SubTitle } from "./Styles";
 import { Fade } from "react-reveal";
-import { Grid } from "semantic-ui-react";
 
 const LandingMobile = () => {
   return (
     <div className="background-image">
-      <div className="landing">
-        <Grid>
-          <Grid.Column textAlign="center">
-            <Fade duration={2000}>
-              <MainTitle>
-              Hayley 
-              </MainTitle>
-            </Fade>
-            <div className="l-sub-title">
-              <Fade delay={500} duration={2000}>
-                <SubTitle>Healing</SubTitle>
-              </Fade>
-              <Fade delay={1000} duration={2000}>
-                <SubTitle>Support</SubTitle>
-              </Fade>
-              <Fade delay={1500} duration={2000}>
-                <SubTitle>Growth</SubTitle>
-              </Fade>
+      <div className="landing-m-wrapper">
+        <div className="landing-m-row">
+          <Fade duration={2000}>
+            <MainTitle>Hayley Hansen Healing</MainTitle>
+          </Fade>
+        </div>
+        <div className="landing-m-row">
+          <Fade duration={2000}>
+            <div className="landing-m-sub-title">
+              <SubTitle>
+                For the high acheiving, active Millennial who is ready to take
+                their{" "}
+                <b className="landing-b">
+                  stressed out, overthinking, anxious{" "}
+                </b>
+                lifestyle to{" "}
+                <b className="landing-b">
+                  living in the present: feeling empowered, centered, and calm.
+                </b>
+              </SubTitle>
             </div>
-          </Grid.Column>
-        </Grid>
+          </Fade>
+        </div>
       </div>
     </div>
   );
