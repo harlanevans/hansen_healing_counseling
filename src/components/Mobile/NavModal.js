@@ -3,10 +3,13 @@ import React from "react";
 import { HashLink } from "react-router-hash-link";
 import { ButtonMobile } from "./Styles";
 import { Icon } from "semantic-ui-react";
+import { Fade } from 'react-reveal';
 
 const NavModal = ({ showModal, toggleModal }) => {
   return showModal === true ? (
     // <div className={showModal ? "fadeIn-modal" : "fadeOut-modal"}>
+    <Fade>
+
     <div className="modal-main">
       <div className="modal-column">
         <div className="icon-container">
@@ -33,6 +36,7 @@ const NavModal = ({ showModal, toggleModal }) => {
         </HashLink>
       </div>
     </div>
+              </Fade>
   ) : (
     <></>
   );

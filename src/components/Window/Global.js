@@ -103,6 +103,5 @@ export const QuoteAuthor = styled.h3`
   font-family: "Quicksand", sans-serif;
   font-size: 2.5em;
   text-shadow: 0.5px 0.5px #425e4f;
-
   color: #61c0bf;
 `;

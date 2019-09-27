@@ -5,12 +5,12 @@ import { HashLink } from "react-router-hash-link";
 import { SubTitle, ServicesText } from "./Styles";
 import FooterMobile from "./FooterMobile";
 
-const AdultYoga = () => {
+const OHYGMobile = () => {
   return (
     <div>
       <div className="yoga-container">
         <Fade>
-          <SubTitle>Adult Yoga Group</SubTitle>
+          <SubTitle>Organic Healing Yoga Group</SubTitle>
         </Fade>
         <ServicesText>
           <Fade>
@@ -72,4 +72,4 @@ const AdultYoga = () => {
   );
 };
 
-export default AdultYoga;
+export default OHYGMobile;
