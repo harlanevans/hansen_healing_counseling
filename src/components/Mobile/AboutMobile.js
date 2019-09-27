@@ -8,22 +8,31 @@ import { Fade } from "react-reveal";
 const AboutMobile = () => {
   return (
     <div className="about-container">
-      <div className="about-background-one">
-        <SubTitleAbout>About Hayley</SubTitleAbout>
-        <img src={Hayley} alt="Hayley" className="hayley-image" />
-      </div>
-      <div className="about-background-two">
-        <AboutText>
-          I'm Hayley. Through natural and organic bodywork methods, I help high
-          achieving Millennials with active lifestyles just like you overhaul
-          your stressed out and chaotic bodily systems to grounded, embodied,
-          authentic ones, so that you can live in the present and still achieve
-          your goals with crazy amounts of intention, joy, and calm.
-        </AboutText>
-      </div>
+      <Fade duration={2000} left>
+        <div className="about-background-one">
+          <SubTitleAbout>About Hayley</SubTitleAbout>
+          <Fade duration={2000} delay={500} right>
+            <img src={Hayley} alt="Hayley" className="hayley-image" />
+          </Fade>
+        </div>
+      </Fade>
+      <Fade duration={2000} right>
+        <div className="about-background-two">
+            <AboutText>
+          <Fade duration={2000} delay={500} left>
+              I'm Hayley. Through natural and organic bodywork methods, I help
+              high achieving Millennials with active lifestyles just like you
+              overhaul your stressed out and chaotic bodily systems to grounded,
+              embodied, authentic ones, so that you can live in the present and
+              still achieve your goals with crazy amounts of intention, joy, and
+              calm.
+          </Fade>
+            </AboutText>
+        </div>
+      </Fade>
       <div className="about-button-container">
         <Link to="/about_hayley">
-          <button>More About Hayley</button>
+          <button className='about-m-button'>More About Hayley</button>
         </Link>
       </div>
       {/* <button>Need More?</button> */}

@@ -7,12 +7,12 @@ const LandingMobile = () => {
     <div className="background-image">
       <div className="landing-m-wrapper">
         <div className="landing-m-row">
-          <Fade duration={2000}>
+          <Fade duration={3000} delay={500}>
             <MainTitle>Hayley Hansen Healing</MainTitle>
           </Fade>
         </div>
         <div className="landing-m-row">
-          <Fade duration={2000}>
+          <Fade duration={3000} delay={500}>
             <div className="landing-m-sub-title">
               <SubTitle>
                 For the high acheiving, active Millennial who is ready to take

@@ -13,9 +13,10 @@ import "./Mobile.css";
 // import { Fade } from "react-reveal";
 // import { WhiteBGGlobal } from './Styles';
 import ScrollToTop from "../../ScrollToTop";
+import Loader from "../Window/Loader";
 
 class Mobile extends React.Component {
-  state = { showModal: false };
+  state = { showModal: false, pageLoaded: false };
 
   toggleModal = () => {
     const { showModal } = this.state;
@@ -23,8 +24,16 @@ class Mobile extends React.Component {
     // console.log("Toggled")
   };
 
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({ pageLoaded: !this.state.pageLoaded });
+    }, 4000);
+  }
+
   render() {
-    return (
+    return this.state.pageLoaded === false ? (
+      <Loader />
+    ) : (
       <div>
         <NavMobile toggleModal={this.toggleModal} />
         <NavModal
