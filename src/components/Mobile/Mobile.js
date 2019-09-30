@@ -35,7 +35,7 @@ class Mobile extends React.Component {
       <Loader />
     ) : (
       <div>
-        <NavMobile toggleModal={this.toggleModal} style={styles.fixed} />
+        <NavMobile toggleModal={this.toggleModal} style={styles.fixed}  />
         <NavModal
           showModal={this.state.showModal}
           toggleModal={this.toggleModal}
@@ -76,7 +76,8 @@ export default Mobile;
 const styles = {
   fixed: {
     display: 'fixed',
-    zIndex: '10000'
+    zIndex: '10000',
+    backgroundColor: 'red'
 
   }
 }
