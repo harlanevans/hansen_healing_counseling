@@ -25,11 +25,11 @@ const NavModal = ({ showModal, toggleModal }) => {
         <HashLink to="/#about" className="modal-button" smooth>
           <ButtonMobile onClick={toggleModal}>About</ButtonMobile>
         </HashLink>
-        <HashLink to="/#contact" className="modal-button" smooth>
-          <ButtonMobile onClick={toggleModal}>Contact</ButtonMobile>
-        </HashLink>
         <HashLink to="/#services" className="modal-button" smooth>
           <ButtonMobile onClick={toggleModal}>Services</ButtonMobile>
+        </HashLink>
+        <HashLink to="/#contact" className="modal-button" smooth>
+          <ButtonMobile onClick={toggleModal}>Contact</ButtonMobile>
         </HashLink>
         <HashLink to="/#home" className="modal-button" smooth>
           <ButtonMobile onClick={toggleModal}>To Top</ButtonMobile>

@@ -4,7 +4,6 @@ import { Fade } from "react-reveal";
 
 // IMPORTS
 // Window Size
-// import Nav from "./components/Nav";
 // import Landing from "./components/Landing";
 import Window from "./components/Window/Window";
 import AboutHayley from "./components/Window/AboutHayley";
@@ -21,6 +20,11 @@ import ServicesMobile from "./components/Mobile/ServicesMobile";
 import EMDRMobile from "./components/Mobile/EMDRMobile";
 import OHYGMobile from "./components/Mobile/OHYGMobile";
 import AHayleyMobile from "./components/Mobile/AHayleyMobile";
+
+// NAV IMPORTS
+// import NavMobile from "./components/Mobile/NavMobile";
+// import NavModal from "./components/Mobile/NavModal";
+
 
 class App extends React.Component {
   state = { pageLoaded: false, width: window.innerWidth };
