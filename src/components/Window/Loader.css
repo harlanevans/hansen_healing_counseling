@@ -1,4 +1,5 @@
-/* #FFD700 #ffb6b9, #fae3d9 #FFFFFF #bbded6 #61c0bf #425E4F*/
+/* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
+
 
 
 svg {
@@ -15,7 +16,7 @@ svg {
 
 circle {
   fill: none;
-  stroke: #ffb6b9;
+  stroke: #384734;
   stroke-width: 2;
   stroke-dasharray: 1, 200;
   stroke-dashoffset: 0;

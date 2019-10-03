@@ -51,7 +51,6 @@ class App extends React.Component {
       return(
         
         <>
-          <Fade>
             <Switch>
               <Route exact path="/" component={Mobile} />
               <Route exact path="/contact" component={ContactMobile} />
@@ -61,7 +60,6 @@ class App extends React.Component {
               <Route exact path="/emdr" component={EMDRMobile} />
               <Route exact path="/organic-healing-yoga-group" component={OHYGMobile} />
             </Switch>
-          </Fade>
         </>
         )
     } else {
@@ -69,7 +67,6 @@ class App extends React.Component {
 
         <>
           {/* <Nav /> */}
-          <Fade>
             <Switch>
               <Route exact path="/" component={Window} />
               <Route exact path="/about_hayley" component={AboutHayley} />
@@ -77,7 +74,6 @@ class App extends React.Component {
                 <Route exact path="/emdr" component={EMDR} />
                 <Route exact path="/organic-healing-yoga-group" component={OHYG} />
             </Switch>
-          </Fade>
         </>
     )
     }
