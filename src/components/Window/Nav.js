@@ -1,15 +1,15 @@
 import React from "react";
 // import "../Global.css";
 // import { Link } from 'react-router-dom';
-import { Icon } from "semantic-ui-react";
+import Logo from "../../assets/images/HLogoTransparent.png";
 import { HashLink } from "react-router-hash-link";
 
 const Nav = () => {
   return (
     <div className="main-nav-window">
-      <div className="nav-item">
+      <div className="nav-logo">
         <HashLink to="/#home" smooth>
-          <Icon name="leaf" className="leaf-icon-window" size="large" />
+          <img src={Logo} className='logo'/>
         </HashLink>
       </div>
       <div className="right-nav-items">

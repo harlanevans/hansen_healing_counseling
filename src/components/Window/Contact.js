@@ -1,9 +1,7 @@
 import React from "react";
-
 import axios from "axios";
-
 import { Fade } from "react-reveal";
-import { SubTitle } from "./Global";
+import { CompTitle, GlobalButton, ButtonDiv } from "./Global";
 
 class Contact extends React.Component {
   state = {
@@ -35,7 +33,7 @@ class Contact extends React.Component {
       <div className="contact-form-wrapper">
         <div className="contact-title">
           <Fade duration={2000} top>
-            <SubTitle>Contact</SubTitle>
+            <CompTitle>Contact</CompTitle>
           </Fade>
         </div>
         <Fade duration={3000}>
@@ -82,8 +80,9 @@ class Contact extends React.Component {
               onChange={this.handleChange}
             />
             <div className="select-window">
-              <label>How did you hear about us?</label>
+              <label>How did you hear about me?</label>
               <select name="where" className="select-style">
+              <option></option>
                 <option value="friend" name="friend">
                   Friend
                 </option>
@@ -106,17 +105,17 @@ class Contact extends React.Component {
               placeholder="Anything I should know before contacting you?"
               className="textarea-style-window"
               required
-              rows="5"
-              cols="30"
+              rows="4"
+              cols="50"
               name="questions"
               value={questions}
               onChange={this.handleChange}
             />
-            <div className="button">
-              <button type="submit" className="contact-button">
+            <ButtonDiv style={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
+              <GlobalButton type="submit" className="contact-button">
                 Lets Chat
-              </button>
-            </div>
+              </GlobalButton>
+            </ButtonDiv>
           </form>
         </Fade>
       </div>

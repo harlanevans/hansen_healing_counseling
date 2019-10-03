@@ -1,6 +1,6 @@
 import React from 'react';
 import { Fade } from "react-reveal";
-import { SubTitle, AboutText } from "../../Global";
+import { SubTitle, Text } from "../../Global";
 import { Grid } from 'semantic-ui-react';
 import { HashLink } from "react-router-hash-link";
 
@@ -15,7 +15,7 @@ const ServeThree = () => {
       </SubTitle>
           </Fade>
         </Grid.Row>
-        <AboutText>
+        <Text>
           Eye Movement Desensitization and Reprocessing (EMDR) is one of my
             favorite trauma processing modalities. Our bodies and brains know best
             how to heal themselves, but also need some preparation work before
@@ -59,7 +59,7 @@ const ServeThree = () => {
             have any experience in Yoga, or in any sort of mindfulness training. I
             am trained how to help beginners as well as experienced Yogis. Must be
             seeing a therapist and prepping for EMDR processing to be in group.
-          </AboutText>
+          </Text>
 
         <Grid.Row>
           <HashLink to='/#services'>

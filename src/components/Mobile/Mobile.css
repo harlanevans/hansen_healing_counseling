@@ -324,7 +324,7 @@ select {
 
 /* --------------- MAIN HTML --------------- */
 
-button {
+/* button {
   width: 18em;
   padding: 1em;
   background-color: transparent;
@@ -332,9 +332,9 @@ button {
   font-family: "Quicksand", sans-serif !important;
   color: #1d4c4b !important;
   font-size: 1.25em;
-  /* border: none; */
+  border: none;
   border: solid 1px #D1D1D1;
-}
+} */
 
 input {
   width: 100%;
@@ -353,12 +353,12 @@ textarea {
 
 }
 
-a {
+/* a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* padding: 2em; */
-}
+  padding: 2em;
+} */
 
 /* --------------- Carousel --------------- */
 

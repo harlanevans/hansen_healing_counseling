@@ -1,77 +1,138 @@
-import React from 'react';
+import React from "react";
 import { Fade } from "react-reveal";
-import { SubTitle, AboutText } from "../Window/Global";
-import { Grid } from 'semantic-ui-react';
+import {
+  CompTitle,
+  Text,
+  GlobalButton,
+  ButtonDiv,
+  SmallerText
+} from "../Window/Global";
 import { HashLink } from "react-router-hash-link";
-
-
+import YogaImage from "../../assets/images/OHYG.jpeg";
+import Footer from "../Window/Footer";
+import Navbar from "../Window/Nav";
+import Contact from "../Window/Contact";
 
 const OHYG = () => {
-  return(
-    <div className='s-one-top'>
-      <Grid>
-        <Grid.Row>
-          <Fade>
-            <SubTitle>
-              Organic Healing Yoga Group
-      </SubTitle>
-          </Fade>
-        </Grid.Row>
-        <AboutText>
+  return (
+    <div>
+      <Navbar />
+      <div className="yoga-wrapper">
+        <Fade>
+          <div className="yoga-title">
+            <CompTitle>Organic Healing Yoga Group</CompTitle>
+          </div>
+        </Fade>
 
-          Eye Movement Desensitization and Reprocessing (EMDR) is one of my
-            favorite trauma processing modalities. Our bodies and brains know best
-            how to heal themselves, but also need some preparation work before
-            getting started. I am now doing this preparation through group
-            experiential work. Phase Two in EMDR is designed to help clients
-            handle the emotional distress they encounter in between sessions while
-            they are working with their individual therapists. The Phase 2 skills
-            can not only help a person while doing the intensive healing process,
-            but long after the EMDR is over. In this group, I combine Yoga and
-            breathing practice, as well as teaching Phase Two and Mindfulness
-            skills to support clients as they become ready to participate in EMDR
-            processing. Read more below! About Yoga: Yoga can be seen as a
-            practice to strengthen the body, get a good sweat going, or even a
-            competition to see who has the bendiest downward dog? Yoga can be
-            these things, but it is so much more. Yoga not only benefits the body,
-            but has outstanding healing effects on the mind, the body’s nervous
-            system, and spiritual wellbeing. I have had many years using movement
-            and yoga to supplement my own healing journey, and because of my
-            experience I have recently become a Registered Yoga Teacher with Yoga
-            Alliance to supplement my clinical training in healing trauma. I
-            figured it was time I use this experiential learning modality in a
-            group format to help my clients EXPERIENCE peace, and calm, not just
-            talk about it. About Mindfulness Skills: I have training in several
-            mindfulness modalities, not just Yoga. Mindfulness Based Stress
-            Reduction, as well as Dialectical Behavioral Therapy trainings have
-            helped my clients experience emotional balance in their life and
-            wellbeing. Put the two together: The first half of group will be
-            practicing Yoga and Skills techniques, and the in the second half of
-            group, you can expect to sit back on your Yoga props and get ready to
-            learn and practice some serious mindfulness and emotional regulation
-            skills that will help you regulate, both on and off your Yoga mat. See
-            you on your mat weekly, for a two hour fantastic, downward dogging,
-            mind-calming, connecting group experience. Important Facts: Cost: 50$
-            per session, for 6 weeks, and must be able to commit to 6 weeks. You
-            can pay weekly or upfront. I also provide a workbook/binder with the
-            skill teachings in it, a 10$ one time fee. When: TBD Where: TBD What
-            to Bring: You, water, an open mind, and your yoga mat if you have one!
-            If you don’t, I have extra:) Try not to eat a heavy meal before hand
-            (yoga+food baby don’t mix well), and feel free to bring a snack for
-            the second half of session if you would like. Other: You don’t have to
-            have any experience in Yoga, or in any sort of mindfulness training. I
-            am trained how to help beginners as well as experienced Yogis. Must be
-            seeing a therapist and prepping for EMDR processing to be in group.
-          </AboutText>
-
-        <Grid.Row>
-          <HashLink to='/#services'>
-            <button>Go Back To Services</button>
+        <Text style={{ textAlign: "center" }}>
+          Are you a high achieving, stressed out, active Millennial who is ready
+          to start to feel{" "}
+          <b className="landing-bold">empowered, centered, and calm?</b>
+        </Text>
+        <SmallerText style={{ textAlign: "center" }}>
+          My deep intention for this group is to hold a space where you can come
+          and <b className="landing-bold">allow your body heal itself.</b> Just
+          like when we accidentally cut our finger and our body goes wild to
+          repair itself,{" "}
+          <b className="landing-bold">
+            we have what we need within us to heal our minds and hearts.
+          </b>{" "}
+          Our bodies are so incredibly wise, and when given the space, tools,
+          and some movement, <b className="landing-bold">miracles happen.</b>
+        </SmallerText>
+        <div className="bullet-yoga">
+          <SmallerText>
+        <hr />
+            This group is for you if you are feeling like{" "}
+            <b className="landing-bold">you need a miracle</b> to help you with:
+            <ul>
+              <li>
+                Physical symptoms like headaches, insomnia, and constant aches
+                and pains from all the{" "}
+                <b className="landing-bold">stress, anxiety, and pressure</b>{" "}
+                life demands
+              </li>
+              <li>
+                The <b className="landing-bold">disconnection</b> from your true
+                self and ask yourself things like{" "}
+                <b className="landing-bold">“who am I...?"</b> and{" "}
+                <b className="landing-bold">"what is the point of all this?"</b>
+              </li>
+              <li>
+                Your{" "}
+                <b className="landing-bold">thoughts. They run the show,</b> and
+                you're <b className="landing-bold">tired.</b>
+              </li>
+              <li>
+                Feeling <b className="landing-bold">EXHAUSTED</b> from your{" "}
+                <b className="landing-bold">never-ending</b> to-do lists and
+                intense, insanely busy schedule.
+              </li>
+            </ul>
+          </SmallerText>
+        </div>
+        <div className="yoga-img-container">
+          <img src={YogaImage} className="yoga-image" alt="YogaHealingGroup" />
+        </div>
+        <div className="bullet-yoga">
+          <SmallerText>
+            Through <b className="landing-bold">organic</b> and{" "}
+            <b className="landing-bold">natural bodywork </b>methods, I hold a
+            space to help you embody:
+            <ul>
+              <li>
+                <b className="landing-bold">Simplicity</b> and more space to
+                access <b className="landing-bold">joy</b> (#yesplease).
+              </li>
+              <li>
+                Feeling more{" "}
+                <b className="landing-bold">connected, rooted, and grounded</b>{" "}
+                to your body and the <b className="landing-bold">present</b>{" "}
+                moment.
+              </li>
+              <li>
+                A feeling of <b className="landing-bold">being in charge</b> of
+                your{" "}
+                <b className="landing-bold">
+                  emotions, your thoughts, and your life.
+                </b>
+              </li>
+              <li>
+                Increased self-confidence that{" "}
+                <b className="landing-bold">
+                  you can show up as your truest and best authentic self at work
+                </b>{" "}
+                and in your treasured
+                <b className="landing-bold">relationships.</b>
+              </li>
+              <li>
+                Practices and skills to{" "}
+                <b className="landing-bold">put yourself first,</b> with out
+                having to sacrifice your <b className="landing-bold">goals.</b>
+              </li>
+            </ul>
+            <hr />
+          </SmallerText>
+        </div>
+        <div className="yoga-title">
+          <Text>
+            Help yourself go from scattered and stressed to{" "}
+            <b className="landing-bold">centered and empowered. </b>
+          </Text>
+        </div>
+        <div className="yoga-title">
+          <Text>Fill out the Contact Form now and I will be in touch!</Text>
+        </div>
+        <Contact />
+        <ButtonDiv>
+          <HashLink to="/#services">
+            <GlobalButton>Go Back To Services</GlobalButton>
           </HashLink>
-        </Grid.Row>
-      </Grid>
+        </ButtonDiv>
+      </div>
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
 export default OHYG;

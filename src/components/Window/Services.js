@@ -1,25 +1,27 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { SubTitle } from "./Global";
-import SImage from "../../assets/images/HYoga.jpg";
+import { CompTitle, GlobalButton } from "./Global";
+import SImage from "../../assets/images/LandingCactus.jpg";
 import { Fade } from 'react-reveal';
 
 class Services extends React.Component {
   render() {
     return (
       <div className="service-wrapper">
+      <Fade duration={2000} top>
       <div className='service-title'>
-        <SubTitle>Services</SubTitle>
+        <CompTitle>Services</CompTitle>
       </div>
+      </Fade>
         <div className="service-row">
         <Fade duration={2000} top>
           <div className="service-col" id="serv-box-one">
         <Fade duration={2000} delay={500}top>
             <NavLink to="/organic-healing-yoga-group" className="service-link-window">
-              <button className="service-button">Organic Healing Yoga Group</button>
+              <GlobalButton className="service-button">Organic Healing Yoga Group</GlobalButton>
             </NavLink>
             <NavLink to="/emdr">
-              <button className="service-button">EMDR</button>
+              <GlobalButton className="service-button">EMDR</GlobalButton>
             </NavLink>
         </Fade>
           </div>
