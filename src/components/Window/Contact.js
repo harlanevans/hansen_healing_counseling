@@ -31,11 +31,11 @@ class Contact extends React.Component {
     // const { name } = this.state;
     return (
       <div className="contact-form-wrapper">
-        <div className="contact-title">
           <Fade duration={2000} top>
+        <div className="contact-title">
             <CompTitle>Contact</CompTitle>
-          </Fade>
         </div>
+          </Fade>
         <Fade duration={3000}>
           <form
             className="contact-column-window"

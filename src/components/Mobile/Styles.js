@@ -1,6 +1,56 @@
 import styled from "styled-components";
 
-/* ##FFD700 #ffb6b9, #fae3d9 #FFFFFF #bbded6 #61c0bf #425E4F*/
+/* TITLE */
+// font-family: 'Cormorant SC', serif;
+/* TEXT */
+// font-family: 'Cormorant Garamond', serif;
+
+/* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
+
+
+export const GlobalButton = styled.button`
+  font-family: "Cormorant Garamond", serif;
+  padding: 0.5em 2em;
+  color: black;
+  border: solid 1px black;
+  background-color: transparent;
+  border-radius: 2px;
+  font-size: 1.5em;
+  &:hover {
+    background-color: #c0d5d4 !important;
+    transition: 1s;
+  }
+`;
+
+export const ButtonDiv = styled.div`
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+`;
+
+export const Text = styled.p`
+  font-family: "Cormorant Garamond", serif;
+  color: black;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  line-height: 2em;
+`;
+export const SmallerText = styled.p`
+  font-family: "Cormorant Garamond", serif;
+  color: black;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+  line-height: 2em;
+`;
+
+export const CompTitle = styled.h3`
+  font-family: "Cormorant SC", serif;
+  color: black;
+  font-size: 3em;
+  letter-spacing: 1px;
+  padding: 1em;
+`;
 
 
 export const MainTitle = styled.h1`

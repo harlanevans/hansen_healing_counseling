@@ -2,39 +2,39 @@ import React from "react";
 // import { WhiteBGGlobal } from "../Global";
 import Image from "../../assets/images/HMeditate.jpg";
 import { Link } from "react-router-dom";
+import { CompTitle, SmallerText, GlobalButton, ButtonDiv } from "./Global";
 import { Fade } from "react-reveal";
-import { CompTitle, Text, GlobalButton, ButtonDiv } from "./Global";
 
 const About = () => {
   return (
-    <div className="about-padding">
+    <div className="about-container">
       <div className="about-wrapper">
-        <Fade duration={2000} top>
-          <div className="about-header">
+        <div className="about-header">
+          <Fade duration={2000} top>
             <CompTitle>About Hayley Hansen</CompTitle>
-          </div>
-        </Fade>
+          </Fade>
+        </div>
         <div className="about-row">
           <Fade left duration={2000}>
-            <div className="about-col" id="box-left">
-              <Fade left delay={500} duration={2000}>
+            <div className="about-col-one">
+          <Fade left duration={2000} delay={750}>
+              <div className="abt-img-cont">
                 <img
                   src={Image}
                   className="about-image"
                   alt="hayley-hansen"
                   id="inner-box"
                 />
-              </Fade>
+              </div>
+          </Fade>
             </div>
           </Fade>
+
           <Fade right duration={2000}>
-            <div
-              className="about-col"
-              style={{ padding: "0em 5em" }}
-              id="box-right"
-            >
-              <Fade right delay={500} duration={2000}>
-                <Text id="inner-box">
+            <div className="about-col-two">
+          <Fade right duration={2000} delay={750}>
+              <div className="abt-txt-cont">
+                <SmallerText>
                   <b className="landing-b-text">I'm Hayley. </b>Through natural
                   and organic bodywork methods, I help high achieving
                   Millennials with active lifestyles just like you overhaul your
@@ -42,8 +42,9 @@ const About = () => {
                   authentic ones, so that you can live in the present and still
                   achieve your goals with crazy amounts of intention, joy, and
                   calm.
-                </Text>
-              </Fade>
+                </SmallerText>
+              </div>
+          </Fade>
             </div>
           </Fade>
         </div>

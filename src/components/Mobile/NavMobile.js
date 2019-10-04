@@ -1,5 +1,6 @@
 import React from "react";
-import { Icon } from "semantic-ui-react";
+import { Icon } from 'semantic-ui-react';
+import Logo from '../../assets/images/HLogoTransparent.png';
 import { HashLink } from "react-router-hash-link";
 // import NavModal from "./NavModal";
 // import { Fade } from "react-reveal";
@@ -7,8 +8,8 @@ import { HashLink } from "react-router-hash-link";
 const NavMobile = ({toggleModal}) => {
     return (
         <div className="main-nav-mobile">
-          <HashLink to="/#home" smooth>
-            <Icon name="leaf" className="leaf-icon" size="large" />
+          <HashLink to="/#home" smooth className='logo-mob'>
+            <img src={Logo} alt='hlogo'/>
           </HashLink>
           <Icon
             name="bars"

@@ -3,6 +3,7 @@ body {
   margin: 0;
 }
 
+
 /* ----------- FONT ----------*/
 @import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond|Cormorant+SC&display=swap");
 
@@ -72,6 +73,7 @@ body {
   margin: 0em 1em;
   /* height: 4em; */
 }
+
 a {
   margin: 0;
   padding: 0;
@@ -84,8 +86,9 @@ a {
   justify-content: flex-start;
   /* padding: 0em 1em;
   margin: 0em 1em; */
-  
+
 }
+
 .logo {
   width: 6em;
   height: 5em;
@@ -112,11 +115,25 @@ a {
 .logo:hover {
   color: #F1E7DA !important;
   transition: 1s;
+  /* box-shadow: 0 0 60px 30px #fff; */
+    /* animation: spinning-logo infinite linear 5s; */
 }
 
 a:hover {
   color: #F1E7DA !important;
   transition: 1s;
+  text-decoration: none;
+
+}
+
+@keyframes spinning-logo {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* ----------------- Landing ----------------- */
@@ -185,93 +202,88 @@ b.landing-b-text {
 
 /* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
 
-.about-padding {
-  padding: 3em 5em;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  /* align-content: space-evenly; */
-
+.about-container {
+  width: 100%;
+  height: 50vh;
+  /* padding: 0em 5em; */
+  /* border: 5px solid teal; */
 }
 
 .about-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  width: 100%;
+  width: 100vw;
+  /* border: 5px solid darkblue; */
 }
 
 .about-header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* padding-bottom: 2em; */
-}
-
-.about-image {
-  width: 27em;
-  height: 30em;
-  padding: 2em;
-  border-radius: 5px !important;
 }
 
 .about-row {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  height: 60vh;
+  /* border: 5px solid blue; */
+}
+
+.about-image {
+  /* width: 23em;
+  height: 23em; */
+  width: 50%;
   height: 100%;
 }
 
-.about-col {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  width: 50%;
-}
-
-/* 
-.about-button {
+/* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
+.abt-img-cont {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 2em;
-} */
-
-
-#box-left {
-  background-color: #384734;
-  padding: 2em;
-  z-index: -500;
-  width: 50vw;
+  /* border: 5px solid brown; */
+  height: 100%;
+  width: 100%;
 }
 
-#box-right {
-  /* background-color: rgba(255, 182, 185, .8); */
-  background-color: #F1E7DA;
-  padding: 2em;
-  z-index: -500;
-  width: 50vw;
-}
-
-#inner-box {
-  padding: 2em;
+.abt-txt-cont {
+  /* border: 5px solid green; */
   background-color: white;
-  border-radius: 5px;
+  padding: 1em;
 }
 
-/* -----------------  Contact -----------------  */
+
+.about-col-one {
+  /* border: 5px solid orange; */
+  flex: 50%;
+  padding: 2em;
+  background-color: #FBFAF2;
+  padding: 2em 5em;
+
+}
+
+.about-col-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 5px solid purple; */
+  flex: 50%;
+  padding: 1em;
+  background-color: #F1E7DA;
+  padding: 2em 5em;
+}
+
+
+
+/* -----;------------  Contact -----------------  */
 /* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
 
 .contact-form-wrapper {
-  padding: 3em 5em 0em;
+  padding: 3em 5em;
   width: 100%;
   height: 100%;
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* border: solid 1px red; */
   /* background-color: rgba(255, 182, 185, .8); */
 }
 
@@ -279,15 +291,20 @@ b.landing-b-text {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  /* height: 100%;
+  width: 100%; */
+  padding: 0;
+  margin: 0;
+
 }
 
 .contact-column-window {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   width: 100%;
   padding: 0em 5em;
-  height: 70vh;
+  height: 100%;
 }
 
 
@@ -302,7 +319,7 @@ b.landing-b-text {
 label {
   font-family: "Cormorant Garamond", serif;
   color: rgb(163, 163, 163) !important;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 200;
 }
 
@@ -310,6 +327,7 @@ label {
   height: 2em;
   padding: 1em 0em;
   border-bottom: 1.25px solid #384734;
+  margin: 1em 0em;
 }
 
 select {
@@ -327,6 +345,8 @@ select {
   margin: 0em 0em;
   height: 4em;
   border: none;
+  /* border: solid 1px #384734; */
+  border-radius: 2px;
   border-bottom: solid 1px #384734;
   padding: 2em 0em;
 }
@@ -339,7 +359,7 @@ select {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 2em 0em;
+  padding: 0em 0em 1em;
 }
 
 option {
@@ -358,14 +378,14 @@ input[type="text"],
 [type='email'],
 [type='tel'] {
   font-family: "Cormorant Garamond", serif;
-  font-size: 1.25em;
-  height: 6em;
+  /* font-size: 1.25em; */
+  height: 1em;
 }
 
 textarea[type='text'] {
   font-family: "Cormorant Garamond", serif;
-  font-size: 1.25em;
-  height: 10em;
+  /* font-size: 1.25em; */
+  height: 4em;
 
 }
 
@@ -439,6 +459,12 @@ textarea {
 /* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
 
 
+.service-wrapper {
+  width: 100%;
+  height: 100vh;
+  padding: 3em 0em;
+}
+
 .service-title {
   display: flex;
   flex-direction: row;
@@ -447,15 +473,10 @@ textarea {
   /* padding: 2em; */
 }
 
-.service-wrapper {
-  width: 100%;
-  height: 100%;
-  padding: 3em 0em;
-}
 
 .service-image {
-  width: 40em;
-  height: 30em;
+  width: 75%;
+  height: 75%;
   border-radius: 5px;
 }
 
@@ -471,7 +492,7 @@ textarea {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 100%;
+  height: 65vh;
   width: 100%;
   z-index: -500;
 }
@@ -487,26 +508,26 @@ textarea {
 }
 
 .serv-box-one {
-  min-height: 500px;
+  /* min-height: 500px; */
 }
 
 /* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
 #serv-box-one {
   background-color: #EFEAE4;
   /* background-image: -webkit-linear-gradient(90deg, #fae3d9 50%, #ffb6b9 50%); */
-  padding: 2em;
+  /* padding: 2em;
   height: 70vh;
+  width: 50vw; */
   z-index: 500;
-  width: 50vw;
 }
 
 #serv-box-two {
   background-color: #FBFAF2;
   /* background-image: -webkit-linear-gradient(90deg, #fae3d9 50%, #ffb6b9 50%); */
-  padding: 2em;
+  /* padding: 2em; */
   z-index: -500;
-  height: 70vh;
-  width: 50vw;
+  /* height: 70vh; */
+  /* width: 50vw; */
 }
 
 /* -----------------  Footer -----------------  */
@@ -519,13 +540,16 @@ footer {
   font-weight: lighter;
   /* position: absolute; */
   bottom: 0;
+  text-align: center;
 }
 
 .footer-column {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2em;
+  align-content: space-evenly;
+  padding: 0em;
+  height: 100%;
 }
 
 .footer-row {
@@ -533,6 +557,8 @@ footer {
   flex-direction: row;
   justify-content: center;
 }
+
+
 
 /* -----------------  Services Pages - Yoga -----------------  */
 /* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
@@ -616,6 +642,7 @@ footer {
   width: 100%;
   padding-bottom: 4em;
 }
+
 /* -----------------  Quotes Page -----------------  */
 
 .quotation-marks {

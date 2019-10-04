@@ -27,7 +27,7 @@ class Mobile extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ pageLoaded: !this.state.pageLoaded });
-    }, 4000);
+    }, );
   }
 
   render() {

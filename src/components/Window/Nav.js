@@ -9,7 +9,7 @@ const Nav = () => {
     <div className="main-nav-window">
       <div className="nav-logo">
         <HashLink to="/#home" smooth>
-          <img src={Logo} className='logo'/>
+          <img src={Logo} className='logo' alt='hlogo'/>
         </HashLink>
       </div>
       <div className="right-nav-items">

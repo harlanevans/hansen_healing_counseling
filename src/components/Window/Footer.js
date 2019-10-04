@@ -1,23 +1,16 @@
 import React from "react";
 import { FooterText } from "./Global";
-import { Grid } from "semantic-ui-react";
 
 const Footer = () => {
   return (
-    <footer>
-      <Grid columns={1}>
-        <Grid.Row textAlign="center" style={{ padding: "4em", width: '20em' }}>
-          <Grid.Column textAlign="center">
-            <FooterText>Hayley Hansen, MC, LPC ®</FooterText>
-            <FooterText>(480) 717-2223</FooterText>
-            <a href='mailto: hayleyhansen@gmail.com'>
-            <FooterText>
-              Hayleyhansen@gmail.com
-              </FooterText>
-            </a>
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
+    <footer className="footer-row">
+        <div className="footer-column">
+        <FooterText>Hayley Hansen, MC, LPC, RYT</FooterText>
+        <FooterText>480-382-7552</FooterText>
+        <a href="mailto: hayleyhansentherapy@gmail.com" className="footer-email">
+            <FooterText>hayleyhansentherapy@gmail.com</FooterText>
+          </a>
+      </div>
     </footer>
   );
 };

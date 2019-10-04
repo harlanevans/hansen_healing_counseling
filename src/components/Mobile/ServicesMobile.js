@@ -11,7 +11,7 @@ const ServicesMobile = () => {
       <div className="s-mob-bg-one">
         <SubTitleAbout>Services</SubTitleAbout>
     <Fade duration={2000} delay={500} right>
-        <img src={HYoga} className='services-m-img'/>
+        <img src={HYoga} className='services-m-img' alt='hyoga'/>
     </Fade>
       </div>
     </Fade>

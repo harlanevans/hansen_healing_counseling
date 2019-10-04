@@ -5,7 +5,7 @@ import About from "./About";
 import Services from "./Services";
 import Contact from "./Contact";
 import Loader from "./Loader";
-import { Fade } from 'react-reveal';
+// import { Fade } from 'react-reveal';
 
 // import CarouselWindow from "./CarouselWindow";
 import Quote from "./Quote";

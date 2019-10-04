@@ -11,23 +11,21 @@ body {
 
 
 /* ----------- FONT ----------*/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond|Cormorant+SC&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:700|Cormorant+SC&display=swap");
 
 @font-face {
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Quicksand', sans-serif;
+  /* TITLE */
+  font-family: "Cormorant SC", serif;
+  /* TEXT */
+  font-family: "Cormorant Garamond", serif;
 }
 
 /* ----------- Colors ----------*/
 /* ----------- Color Palette to Be Used!!!  ----------*/
-/* https://colorhunt.co/palette/107482 */
-/* ##FFD700 #ffb6b9, #fae3d9 #FFFFFF #bbded6 #61c0bf #425E4F*/
-
-/* #1D4C4B #217B5F #1EA855 #78C468 #F2D159 */
-/* #817F8D #D9E9F9 #5E654C #6C4939 #93C1E5*/
-
-/* https: //coolors.co/aeadb6-ceb7b6-979789-b2a592-ccdcef */
-/* https://coolors.co/1d4c4b-217b5f-1ea855-78c468-e0bd7d */
+/* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
+/* https: //coolors.co/efeae4-fbfaf2-f1e7da-c0d5d4-384734 */
 
 /* ----------- BackGrounds ----------*/
 
@@ -57,8 +55,12 @@ body {
   right: 0;
 }
 
-.leaf-icon {
-  color: #ffffff;
+.logo-mob {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  /* margin: -1.5em 0em; */
 }
 
 .fixed {
@@ -237,7 +239,7 @@ button.about-m-button {
   color: #61c0bf !important;
   font-size: 1em;
   /* border: none; */
-  border: solid 1px #61c0bf !important; 
+  border: solid 1px #61c0bf !important;
 }
 
 

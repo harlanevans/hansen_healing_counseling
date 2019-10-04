@@ -1,6 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import { Fade } from "react-reveal";
+// import { Fade } from "react-reveal";
 
 // IMPORTS
 // Window Size
