@@ -8,14 +8,16 @@ const Nav = () => {
   return (
     <div className="main-nav-window">
       <div className="nav-logo">
-        <HashLink to="/#home" smooth>
-          <img src={Logo} className='logo' alt='hlogo'/>
+        <HashLink to="/#home" smooth style={{padding: '0em', margin: '0em', height: '100%', width: '100%'}}>
+          <img src={Logo} className='logo' alt='hlogo' />
         </HashLink>
       </div>
       <div className="right-nav-items">
+      <div className='center-nav'>
         <HashLink to="/#about" smooth className="nav-item">
           About
         </HashLink>
+      </div>
         <HashLink to="/#services" smooth className="nav-item">
           Services
         </HashLink>
