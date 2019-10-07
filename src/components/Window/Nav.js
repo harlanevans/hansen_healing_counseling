@@ -1,7 +1,7 @@
 import React from "react";
 // import "../Global.css";
 // import { Link } from 'react-router-dom';
-import Logo from "../../assets/images/HLogoTransparent.png";
+import Logo from "../../assets/icons/HLogoTransparent.png";
 import { HashLink } from "react-router-hash-link";
 
 const Nav = () => {

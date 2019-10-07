@@ -1,20 +1,20 @@
 import React from "react";
-import { MainTitle, SubTitle } from "./Styles";
+import { LandingTitle, LandingSubTitle } from "./Styles";
 import { Fade } from "react-reveal";
 
 const LandingMobile = () => {
   return (
     <div className="background-image">
       <div className="landing-m-wrapper">
-        <div className="landing-m-row">
+        <div className="landing-m-row-title">
           <Fade duration={3000} delay={500}>
-            <MainTitle>Hayley Hansen Healing</MainTitle>
+            <LandingTitle>Hayley Hansen Healing</LandingTitle>
           </Fade>
         </div>
         <div className="landing-m-row">
           <Fade duration={3000} delay={500}>
             <div className="landing-m-sub-title">
-              <SubTitle>
+              <LandingSubTitle>
                 For the high acheiving, active Millennial who is ready to take
                 their{" "}
                 <b className="landing-b">
@@ -24,7 +24,7 @@ const LandingMobile = () => {
                 <b className="landing-b">
                   living in the present: feeling empowered, centered, and calm.
                 </b>
-              </SubTitle>
+              </LandingSubTitle>
             </div>
           </Fade>
         </div>

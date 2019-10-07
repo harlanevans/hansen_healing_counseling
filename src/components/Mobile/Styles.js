@@ -35,60 +35,69 @@ export const Text = styled.p`
   font-size: 1.5em;
   letter-spacing: 1px;
   line-height: 2em;
-`;
-export const SmallerText = styled.p`
+  `;
+  export const SmallerText = styled.p`
   font-family: "Cormorant Garamond", serif;
   color: black;
   font-size: 1.25em;
   letter-spacing: 1px;
   line-height: 2em;
-`;
-
-export const CompTitle = styled.h3`
+  `;
+  
+  export const CompTitle = styled.h3`
   font-family: "Cormorant SC", serif;
   color: black;
   font-size: 3em;
   letter-spacing: 1px;
   padding: 1em;
-`;
-
-
-export const MainTitle = styled.h1`
-font-family: "Quicksand", sans-serif;
-color: #FFFFFF;
-font-size: 2em;
-text-shadow: 1px 1px black;
-`;
-
-export const SubTitle = styled.h3`
-font-family: "Open Sans", sans-serif;
-color: #FFFFFF;
-font-size: 1.5em;
-text-shadow: 0.5px 0.5px black;
-background-color: rgba(0, 0, 0, 0.2)
-border-radius: 5px;
-text-align: center;
-letter-spacing: 1.5px;
-line-height: 2em;
-`;
-
-export const MobileLandingText = styled.p`
-font-family: "Open Sans", sans-serif;
-color: black;
-letter-spacing: 1.5px;
-line-height: 1.5em;
-
+  `;
+  
+  
+  export const LandingTitle = styled.h1` 
+  font-family: "Cormorant SC", serif;
+  color: black;
+  font-size: 2em;
+  `;
+  
+  export const LandingSubTitle = styled.h3`
+  font-family: "Cormorant Garamond", serif;
+  color: black;
+  font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0.2)
+  border-radius: 5px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  line-height: 2em;
+  `;
+  
+  export const MobileLandingText = styled.p`
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  letter-spacing: 1.5px;
+  line-height: 1.5em;
+  
+  `
+  
+  export const ButtonMobile = styled.button`
+  padding: 1em;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  font-family: "Cormorant Garamond", serif;
+  color: black !important;
+  font-size: 1.25em;
+  `;
+  
+  export const ModalButton = styled.button `
+  background-color: rgba(255, 255, 255, 1);
+  font-family: "Cormorant Garamond", serif;
+  color: black !important;
+  border-radius: 2px;
+  font-size: 1.25em;
+  padding: .25em;
+  width: 10em;
+  
 `
-
-export const ButtonMobile = styled.button`
-padding: 1em;
-border: 1px solid white;
-background-color: rgba(255, 255, 255, 1);
-border-radius: 5px;
-font-family: "Quicksand", sans - serif !important;
-color: #1d4c4b !important;
-font-size: 1.25em;
-`;
 
 export const SubTitleAbout = styled.h1`
 font-family: "Quicksand", sans-serif;

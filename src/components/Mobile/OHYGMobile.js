@@ -2,7 +2,7 @@ import React from "react";
 import { Fade } from "react-reveal";
 import { HashLink } from "react-router-hash-link";
 
-import { SubTitle, ServicesText } from "./Styles";
+import { LandingSubTitle, ServicesText } from "./Styles";
 import FooterMobile from "./FooterMobile";
 
 const OHYGMobile = () => {
@@ -10,7 +10,7 @@ const OHYGMobile = () => {
     <div>
       <div className="yoga-container">
         <Fade>
-          <SubTitle>Organic Healing Yoga Group</SubTitle>
+          <LandingSubTitle>Organic Healing Yoga Group</LandingSubTitle>
         </Fade>
         <ServicesText>
           <Fade>

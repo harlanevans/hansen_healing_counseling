@@ -2,7 +2,7 @@ import React from "react";
 import { Fade } from "react-reveal";
 import { HashLink } from "react-router-hash-link";
 
-import { SubTitle, ServicesText } from "./Styles";
+import { LandingSubTitle, ServicesText } from "./Styles";
 import FooterMobile from "./FooterMobile";
 
 const EMDRMobile = () => {
@@ -10,7 +10,7 @@ const EMDRMobile = () => {
     <div>
       <div className="yoga-container">
         <Fade>
-          <SubTitle>EMDR</SubTitle>
+          <LandingSubTitle>EMDR</LandingSubTitle>
         </Fade>
         <ServicesText>
           <Fade>

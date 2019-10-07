@@ -16,8 +16,9 @@ body {
 @import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:700|Cormorant+SC&display=swap");
 
 @font-face {
-  /* TITLE */
-  font-family: "Cormorant SC", serif;
+  src: url("https://fonts.googleapis.com/css?family=Cormorant+Garamond|Cormorant+SC&display=swap");
+    /* TITLE */
+    font-family: "Cormorant SC", serif;
   /* TEXT */
   font-family: "Cormorant Garamond", serif;
 }
@@ -30,7 +31,7 @@ body {
 /* ----------- BackGrounds ----------*/
 
 .background-image {
-  background-image: url('../../assets/images/YogaSpace.jpg');
+  background-image: url('../../assets/images/LandingCactus.jpg');
   background-position: center;
   height: 100vh;
   position: relative;
@@ -40,34 +41,50 @@ body {
 }
 
 /* --------------- Nav --------------- */
+/* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
+/* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
 
 .main-nav-mobile {
-  background-color: rgba(97, 192, 191, 1) !important;
+  background-color: #C0D5D4;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1.25em;
+  /* padding: 1.25em; */
   width: 100%;
   position: fixed !important;
   z-index: 10000;
-  top: 0;
-  left: 0;
-  right: 0;
+  height: 8.5%;
+}
+
+.logo-cont {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  
 }
 
 .logo-mob {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0;
-  /* margin: -1.5em 0em; */
+  width: 6em;
 }
+
 
 .fixed {
   position: fixed !important;
 }
 
+.drop-down {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  z-index: 500;
+  padding: 0em 2em;
+}
 
+.menu-mob-icon {
+  width: 2em;
+}
 
 /* --------------- Modal --------------- */
 
@@ -87,22 +104,29 @@ body {
   height: 50%;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
-  align-items: center;
-  align-content: space-around;
+  justify-content: space-between;
   padding: 0em 4em;
-  /* z-index: 3000; */
+  width: 100%;
 }
 
-a.modal-button {
+.modal-button-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   width: 100%;
-  margin: 1em 2em;
 }
+
 
 .modal-icon {
-  background-color: white;
+  /* background-color: white; */
+  /* height: 2em; */
+  width: 2.5em;
   border-radius: 5px;
-  padding: .5em;
+  /* padding: .5em; */
+}
+
+path {
+  fill: red;
 }
 
 .icon-container {
@@ -112,28 +136,30 @@ a.modal-button {
   width: 100%;
 }
 
-i.cancel.big {
-  margin: 0em;
-  color: red;
-}
-
 /* --------------- Landing --------------- */
-/* ##FFD700 #ffb6b9, #fae3d9 #FFFFFF #bbded6 #61c0bf #425E4F*/
+/* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
 
 .landing-m-wrapper {
+  flex-direction: column;
   display: flex;
   height: 100%;
   width: 100%;
-  display: flex;
-  flex-direction: column;
   padding: 6em 2em 0em;
-  background-color: rgba(0, 0, 0, 0.45);
 }
 
 .landing-m-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
+}
+
+.landing-m-row-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
 }
 
 .landing-m-sub-title {
