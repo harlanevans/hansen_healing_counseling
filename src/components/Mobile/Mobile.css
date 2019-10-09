@@ -250,7 +250,7 @@ b.landing-m-b-two {
 }
 
 ::-webkit-input-placeholder {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   color: rgb(163, 163, 163) !important;
   font-size: 1em;
   font-weight: 700;
@@ -294,6 +294,7 @@ input[type='email'].input-style {
   margin: 1em 0em;
   border-bottom: 1px solid black;
   height: 1em;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .select-style-mobile:hover {
