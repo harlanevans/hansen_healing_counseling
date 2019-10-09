@@ -8,34 +8,43 @@ import styled from "styled-components";
 /* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
 
 
-export const GlobalButton = styled.button`
+export const MobTitle = styled.h3`
+font-family: "Cormorant SC", serif;
+color: black;
+font-size: 2em;
+letter-spacing: 1px;
+`;
+
+export const MobText = styled.p`
   font-family: "Cormorant Garamond", serif;
+  color: black;
+  font-size: 1em;
+  letter-spacing: 1px;
+  line-height: 2em;
+  `;
+
+export const MobileButton = styled.button`
+  font-family: "Cormorant SC", serif;
   padding: 0.5em 2em;
   color: black;
   border: solid 1px black;
   background-color: transparent;
   border-radius: 2px;
-  font-size: 1.5em;
+  font-size: 1em;
   &:hover {
     background-color: #c0d5d4 !important;
     transition: 1s;
   }
 `;
 
-export const ButtonDiv = styled.div`
-  padding: 2em;
+export const ButtonDivMob = styled.div`
+  padding: 0em;
   display: flex;
   flex-direction: row;
   justify-content: center;
 `;
 
-export const Text = styled.p`
-  font-family: "Cormorant Garamond", serif;
-  color: black;
-  font-size: 1.5em;
-  letter-spacing: 1px;
-  line-height: 2em;
-  `;
+
   export const SmallerText = styled.p`
   font-family: "Cormorant Garamond", serif;
   color: black;
@@ -43,15 +52,6 @@ export const Text = styled.p`
   letter-spacing: 1px;
   line-height: 2em;
   `;
-  
-  export const CompTitle = styled.h3`
-  font-family: "Cormorant SC", serif;
-  color: black;
-  font-size: 3em;
-  letter-spacing: 1px;
-  padding: 1em;
-  `;
-  
   
   export const LandingTitle = styled.h1` 
   font-family: "Cormorant SC", serif;
@@ -62,7 +62,7 @@ export const Text = styled.p`
   export const LandingSubTitle = styled.h3`
   font-family: "Cormorant Garamond", serif;
   color: black;
-  font-size: 1.5em;
+  font-size: 1.15em;
   background-color: rgba(0, 0, 0, 0.2)
   border-radius: 5px;
   text-align: center;
@@ -71,22 +71,11 @@ export const Text = styled.p`
   `;
   
   export const MobileLandingText = styled.p`
-  font-family: "Open Sans", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   color: black;
   letter-spacing: 1.5px;
   line-height: 1.5em;
-  
   `
-  
-  export const ButtonMobile = styled.button`
-  padding: 1em;
-  border: 1px solid white;
-  background-color: rgba(255, 255, 255, 1);
-  border-radius: 5px;
-  font-family: "Cormorant Garamond", serif;
-  color: black !important;
-  font-size: 1.25em;
-  `;
   
   export const ModalButton = styled.button `
   background-color: rgba(255, 255, 255, 1);
@@ -95,43 +84,8 @@ export const Text = styled.p`
   border-radius: 2px;
   font-size: 1.25em;
   padding: .25em;
-  width: 10em;
-  
-`
-
-export const SubTitleAbout = styled.h1`
-font-family: "Quicksand", sans-serif;
-color: white;
-font-size: 2em;
-display: flex;
-flex-direction: row;
-justify-content: center;
-`;
-export const SubTitleContact = styled.h1`
-  font-family: "Quicksand", sans-serif;
-  color: #1d4c4b;
-  padding: 1em 2em;
-  font-size: 2em;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  `;
-  
-  export const AboutText = styled.p`
-  font-family: "Quicksand", sans-serif;
-  color: white;
-  padding: 0em 2em;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-size: 1em;
-  letter-spacing: 1.5px;
-  line-height: 1.5em;
-  z-index: 100;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  `;
+  width: 10em; 
+  `
   
   export const WhiteBGGlobal = styled.div`
   background-color: white;
@@ -141,7 +95,7 @@ export const SubTitleContact = styled.h1`
   width: 100vw;
   z-index: -500;
   `;
-
+  
   export const CaptionText = styled.h3`
   font-family: "Open Sans", sans-serif;
   text-shadow: 0.5px 0.5px black;
@@ -170,15 +124,15 @@ export const SubTitleContact = styled.h1`
   color: #1d4c4b;
   `
   
-export const QuoteMain = styled.h3`
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-  text-shadow: 0.5px 0.5px #425e4f;
-  color: #61c0bf;
-`;
-export const QuoteAuthor = styled.h3`
-  font-family: "Quicksand", sans-serif;
-  font-size: 1.5em;
-  text-shadow: 0.5px 0.5px #425e4f;
-  color: #61c0bf;
-`;
+  export const QuoteMain = styled.h3`
+  font-family: "Cormorant Garamond", serif;
+  letter-spacing: 5px;
+  color: black;
+  letter-spacing: 1.5px;
+  line-height: 1.5em;
+  `;
+  export const QuoteAuthor = styled.h3`
+  font-family: "Cormorant SC", serif;
+  font-size: 1em;
+  color: black;
+  `;

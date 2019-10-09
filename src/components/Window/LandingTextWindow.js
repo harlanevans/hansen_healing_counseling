@@ -15,11 +15,15 @@ const LandingTextWindow = () => {
             <b className="landing-b-text">you just cant seem to get centered</b>{" "}
             through your work outs anymore—they are few and far between,
             anyways.
-            <b className="landing-b-text">Taking care of yourself</b> seems to
+            <b className="landing-b-text"> Taking care of yourself</b> seems to
             be number 100 on the to do list. There is just{" "}
             <b className="landing-b-text">not enough time to do everything, </b>
             and there is so much <b className="landing-b-text">pressure</b> to
             do it all, and perfectly.{" "}
+          </Text>
+          <br />
+          <Text>
+          
             <b className="landing-b-text">Feeling disconnected</b> with your
             partner, family, and friends are no longer a rare occasion, and you
             know your{" "}

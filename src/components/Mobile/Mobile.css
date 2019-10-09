@@ -17,8 +17,8 @@ body {
 
 @font-face {
   src: url("https://fonts.googleapis.com/css?family=Cormorant+Garamond|Cormorant+SC&display=swap");
-    /* TITLE */
-    font-family: "Cormorant SC", serif;
+  /* TITLE */
+  font-family: "Cormorant SC", serif;
   /* TEXT */
   font-family: "Cormorant Garamond", serif;
 }
@@ -32,10 +32,10 @@ body {
 
 .background-image {
   background-image: url('../../assets/images/LandingCactus.jpg');
-  background-position: center;
-  height: 100vh;
-  position: relative;
+  background-position: 66% bottom;
   background-size: cover;
+  position: relative;
+  height: 100vh;
   width: 100vw;
   z-index: -500;
 }
@@ -49,9 +49,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* padding: 1.25em; */
   width: 100%;
-  position: fixed !important;
+  position: fixed;
   z-index: 10000;
   height: 8.5%;
 }
@@ -61,7 +60,7 @@ body {
   justify-content: center;
   flex-direction: column;
   height: 100%;
-  
+
 }
 
 .logo-mob {
@@ -93,7 +92,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-content: space-between;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   height: 100vh;
   width: 100%;
   z-index: 4000;
@@ -152,6 +151,9 @@ path {
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  color: white !important; */
 }
 
 .landing-m-row-title {
@@ -169,6 +171,7 @@ path {
 }
 
 /* --------------- Landing Text --------------- */
+/* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
 
 .landing-title-container-mobile {
   padding: 2em;
@@ -179,13 +182,10 @@ path {
   text-align: center;
 }
 
-b.landing-m-b {
-  color: #61c0bf;
-}
 
 b.landing-m-b-two {
-  color: #ffb6b9;
-  font-weight: 700 !important;
+  color: black;
+  font-weight: 900 !important;
   /* text-shadow: .5px .5px .5px black; */
 }
 
@@ -193,22 +193,21 @@ b.landing-m-b-two {
   display: flex;
   flex-direction: row;
   /* justify-content: center; */
-  padding: 1em 0em;
+  padding: .5em 0em;
   width: 100%;
 }
 
 
 /* --------------- About --------------- */
-/* ##FFD700 #ffb6b9, #fae3d9 #FFFFFF #bbded6 #61c0bf #425E4F*/
+/* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
 
-.about-container {
-  height: 100%;
-  width: 100%;
-  padding-top: 2.5em;
+.about-mob-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: space-around;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 100%;
+  padding: 0em 2em;
 }
 
 .hayley-image {
@@ -218,62 +217,24 @@ b.landing-m-b-two {
   padding: 1em 2em;
 }
 
-.about-background-one {
-  background-color: #fae3d9;
-  /* background-image: -webkit-linear-gradient(90deg, #ffb6b9 50%, #fae3d9 50%); */
-  background-position: center;
-  height: 100%;
-  position: center;
-  background-size: cover;
-  width: 100%;
-  z-index: -500;
-  padding: 2em 0em 0em;
+.mob-title {
+  text-align: center;
+  padding-top: 5em;
+  padding-bottom: 2em;
 }
 
-.about-background-two {
-  background-color: #ffb6b9;
-  /* background-image: -webkit-linear-gradient(90deg, #ffb6b9 50%, #fae3d9 50%); */
-  background-position: center;
-  height: 100%;
-  position: center;
-  background-size: cover;
-  width: 100%;
-  z-index: -500;
-  padding: 2em 0em 2em;
+.mob-abt-text {
+  text-align: center;
+  padding: .5em 0em;
+  border: 5px solid #EFEAE4;
+  /* background-color: #EFEAE4; */
 }
-
-.opacity {
-  /* background-color: rgba(0, 0, 0, 0.5); */
-  padding: 1em 0em;
-  margin: 2em;
-  z-index: 200;
-  border-radius: 5px;
-
-}
-
-.about-button-container {
-  padding: 1em 0em 0em 0em;
-
-}
-
-button.about-m-button {
-  width: 18em;
-  padding: 1em;
-  background-color: transparent;
-  border-radius: 5px;
-  font-family: "Quicksand", sans-serif !important;
-  color: #61c0bf !important;
-  font-size: 1em;
-  /* border: none; */
-  border: solid 1px #61c0bf !important;
-}
-
 
 /* --------------- Contact --------------- */
 
 
 .contact-wrapper {
-  padding: 4em 0em;
+  padding: 0em 2em;
   height: 100vh;
   width: 100%;
 }
@@ -388,7 +349,128 @@ textarea {
   padding: 2em;
 } */
 
-/* --------------- Carousel --------------- */
+
+/* --------------- Servives --------------- */
+/* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
+
+
+.services-m-container {
+  background-image: url('../../assets/images/LandingPlant.jpg');
+  background-position: 35% bottom;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  z-index: 500;
+}
+
+
+.s-mob-button {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  color: black;
+}
+
+.s-button-cont {
+  width: 100%;
+  height: 50%;
+  padding: 0em 2em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 550;
+  
+}
+
+/* --------------- Quote --------------- */
+/* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
+
+
+.quotation-m-marks {
+  /* font-size: 1.5em; */
+  font-family: "Cormorant Garamond", serif;
+  /* font-family: "Cormorant SC", serif; */
+
+}
+
+.quote-m-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+}
+
+.quote-m-wrapper {
+  padding: 2em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* --------------- Yoga --------------- */
+/* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
+
+
+.yoga-container {
+  padding: 2em;
+  height: 100%;
+  width: 100%;
+  position: center;
+}
+
+/* --------------- Footer --------------- */
+/* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
+
+
+footer {
+  width: 100%;
+  height: 15em;
+  background-color: #C0D5D4;
+  font-weight: lighter;
+}
+
+.footer-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* --------------- Animations --------------- */
+/* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
+
+
+.fadeIn-modal {
+  animation: fadein .5s ease-in-out !important;
+}
+
+.fadeOut-modal {
+  animation: fadeout .5s ease-out !important;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* @keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  
+  to {
+    opacity: 0;
+  }
+    /* --------------- Carousel --------------- */
 
 .c-img-mob {
   width: 100%;
@@ -417,7 +499,7 @@ textarea {
 }
 
 .caption-three {
-  /* position: absolute; */
+  position: absolute;
   top: 40%;
 }
 
@@ -425,144 +507,3 @@ textarea {
   top: 0;
 
 }
-
-/* --------------- Servives --------------- */
-/* ##FFD700 #ffb6b9, #fae3d9 #FFFFFF #bbded6 #61c0bf #425E4F*/
-
-.services-m-container {
-  height: 100%;
-  width: 100%;
-  padding: 2em 0em;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.s-mob-bg-one {
-  background-color: #425E4F;
-  background-position: center;
-  height: 100%;
-  position: center;
-  background-size: cover;
-  width: 100%;
-  z-index: -500;
-  padding: 2em 0em 2em;
-}
-
-.s-mob-bg-two {
-  background-color: #61c0bf;
-  background-position: center;
-  /* height: 50vh; */
-  position: center;
-  background-size: cover;
-  width: 100%;
-  z-index: -500;
-  padding: 2em 0em 2em;
-}
-
-
-a.service-link {
-  padding: 1em;
-  background-color: white;
-  border-radius: 5px;
-  font-family: "Quicksand", sans-serif !important;
-  color: #1d4c4b !important;
-  font-size: 1.25em;
-  border: solid 1px #D1D1D1;
-  width: 100%;
-  text-align: center;
-}
-
-.button-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 40vh;
-  width: 100%;
-  padding: 0em 2em;
-}
-
-.services-m-img {
-  width: 100%;
-  height: 100%;
-  padding: 1em 2em;
-}
-
-/* --------------- Quote --------------- */
-
-.quotation-m-marks {
-  font-family: "Quicksand", sans-serif;
-  font-size: 1.5em;
-}
-
-.quote-m-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-align: center;
-  width: 100%;
-}
-
-.quote-m-wrapper {
-  padding: 5em 2em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 40vh;
-}
-
-/* --------------- Yoga --------------- */
-
-.yoga-container {
-  padding: 2em;
-  height: 100%;
-  width: 100%;
-  position: center;
-}
-
-/* --------------- Footer --------------- */
-
-footer {
-  width: 100%;
-  height: 15em;
-  background-color: #1d4c4b;
-  font-weight: lighter;
-}
-
-.footer-wrapper {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-/* --------------- Animations --------------- */
-
-.fadeIn-modal {
-  animation: fadein .5s ease-in-out !important;
-}
-
-.fadeOut-modal {
-  animation: fadeout .5s ease-out !important;
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-/* @keyframes fadeout {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
-} */

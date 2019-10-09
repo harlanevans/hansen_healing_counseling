@@ -1,6 +1,6 @@
 import React from "react";
 // import axios from 'axios'
-import { SubTitleContact } from "./Styles";
+import { MobTitle } from "./Styles";
 // import { Form, } from "semantic-ui-react";
 import { Fade } from "react-reveal";
 
@@ -20,12 +20,15 @@ class ContactMobile extends React.Component {
     // })
   };
 
+
   render() {
     const { firstName, lastName, phone, email, questions } = this.state;
     return (
       <div className="contact-wrapper">
         <Fade>
-          <SubTitleContact>Contact</SubTitleContact>
+          <div className='mob-title'>
+          <MobTitle>Contact</MobTitle>
+          </div>
         </Fade>
         <Fade duration={2000}>
           {/* Either my own form orrr */}

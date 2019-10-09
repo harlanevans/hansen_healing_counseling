@@ -4,6 +4,7 @@ import { CompTitle, GlobalButton } from "./Global";
 import SImage from "../../assets/images/LandingCactus.jpg";
 import { Fade } from "react-reveal";
 
+
 class Services extends React.Component {
   render() {
     return (
@@ -26,7 +27,10 @@ class Services extends React.Component {
                   </GlobalButton>
                 </NavLink>
                 <NavLink to="/emdr">
-                  <GlobalButton className="service-button">EMDR</GlobalButton>
+                  <GlobalButton className="service-button">
+                  
+                  EMDR
+                  </GlobalButton>
                 </NavLink>
               </Fade>
             </div>
@@ -34,7 +38,7 @@ class Services extends React.Component {
           <Fade bottom duration={2000}>
             <div className="service-col" id="serv-box-two">
               <Fade bottom delay={500} duration={2000}>
-                <img src={SImage} className="service-image" alt="hayley-yoga" />
+                <img src={SImage} className="service-image" alt="services" />
               </Fade>
             </div>
           </Fade>

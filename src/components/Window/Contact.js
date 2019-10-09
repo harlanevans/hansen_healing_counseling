@@ -20,10 +20,9 @@ class Contact extends React.Component {
   handleSubmit = e => {
     e.preventDefault();
     const contact = { ...this.state };
-
-    axios.post("/api/contact", contact).then(res => {
-      this.props.history.push("/#contact");
-    });
+    // axios.post("/api/contact", contact).then(res => {
+    //   this.props.history.push("/#contact");
+    // });
   };
 
   render() {
@@ -31,11 +30,11 @@ class Contact extends React.Component {
     // const { name } = this.state;
     return (
       <div className="contact-form-wrapper">
-          <Fade duration={2000} top>
         <div className="contact-title">
-            <CompTitle>Contact</CompTitle>
-        </div>
+          <Fade duration={2000} top>
+            <CompTitle style={{paddingBottom: '0em'}}>Contact</CompTitle>
           </Fade>
+        </div>
         <Fade duration={3000}>
           <form
             className="contact-column-window"
