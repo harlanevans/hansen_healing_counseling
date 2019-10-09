@@ -52,7 +52,7 @@ class ContactMobile extends React.Component {
               value={lastName}
               onChange={this.handleChange}
             />
-            <input
+            <input 
               type="tel"
               placeholder="Phone"
               pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
