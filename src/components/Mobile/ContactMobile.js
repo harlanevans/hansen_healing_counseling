@@ -1,6 +1,6 @@
 import React from "react";
 // import axios from 'axios'
-import { MobTitle } from "./Styles";
+import { MobTitle, MobileButton, ButtonDivMob } from "./Styles";
 // import { Form, } from "semantic-ui-react";
 import { Fade } from "react-reveal";
 
@@ -26,8 +26,8 @@ class ContactMobile extends React.Component {
     return (
       <div className="contact-wrapper">
         <Fade>
-          <div className='mob-title'>
-          <MobTitle>Contact</MobTitle>
+          <div className="mob-title" style={{ paddingBottom: "1em" }}>
+            <MobTitle>Contact</MobTitle>
           </div>
         </Fade>
         <Fade duration={2000}>
@@ -74,6 +74,7 @@ class ContactMobile extends React.Component {
             <div className="select-window">
               <label>How did you hear about us?</label>
               <select name="where" className="select-style">
+                <option></option>
                 <option value="friend" name="friend">
                   Friend
                 </option>
@@ -91,66 +92,24 @@ class ContactMobile extends React.Component {
                 </option>
               </select>
             </div>
+            <label>Is there anything I should know before contacting you?</label>
             <textarea
               type="text"
-              placeholder="Is there anything I should know before contacting you?"
               className="textarea-style-mobile"
-              required
-              rows="3"
+              rows="1"
+              cols="10"
               name="questions"
               value={questions}
               onChange={this.handleChange}
+              wrap='hard'
             />
-            <div className="button">
-              <button type="submit" className="contact-button">
+            <ButtonDivMob style={{padding: '1em 0em'}}>
+              <MobileButton type="submit" className="contact-button">
                 Lets Chat
-              </button>
-            </div>
+              </MobileButton>
+            </ButtonDivMob>
           </form>
         </Fade>
-        {/* Semantic-form ? */}
-        {/* <Form>
-              <Form.Input
-                label="First Name"
-                className="label"
-                name="firstName"
-                value={firstName}
-                onChange={this.handleChange}
-              />
-              <Form.Input
-                label="Last Name"
-                className="label"
-                name="lastName"
-                value={lastName}
-                onChange={this.handleChange}
-              />
-              <Form.Input
-                label="Phone"
-                type="phone"
-                className="label"
-                name="phone"
-                value={phone}
-                onChange={this.handleChange}
-              />
-              <Form.Input
-                label="Email"
-                type="email"
-                className="label"
-                name="email"
-                value={email}
-                onChange={this.handleChange}
-              />
-              <Form.TextArea
-                label="Questions?"
-                className="label"
-                name="questions"
-                value={questions}
-                onChange={this.handleChange}
-              />
-              <div className='button'>
-              <button className='contact-button'>Lets Chat</button>
-              </div>
-            </Form> */}
       </div>
     );
   }

@@ -4,14 +4,14 @@ import { FooterText } from "./Styles";
 
 const FooterMobile = () => {
   return (
-    <footer>
+    <footer className="mobile-footer">
       <div className="footer-wrapper">
-        <FooterText>Hayley Hansen, MC, LPC ®</FooterText>
-        <a href='tel: 480-717-2223'>
-        <FooterText>(480) 717-2223</FooterText>
+        <FooterText>Hayley Hansen, MC, LPC, RYT</FooterText>
+        <a href="tel: 480-382-7552">
+          <FooterText>480-382-7552</FooterText>
         </a>
-        <a href="mailto: hayleyhansen@gmail.com">
-          <FooterText>Hayleyhansen@gmail.com</FooterText>
+        <a href="mailto: hayleyhansentherapy@gmail.com">
+          <FooterText>hayleyhansentherapy@gmail.com</FooterText>
         </a>
       </div>
     </footer>

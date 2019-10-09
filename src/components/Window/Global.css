@@ -352,6 +352,7 @@ select {
   border: 1.25px solid #384734;
   box-sizing: border-box;
   background-size: 1em;
+  outline: none;
 }
 
 .textarea-style-window {
@@ -385,6 +386,7 @@ input {
   font-family: "Cormorant Garamond", serif;
   border: none;
   border-bottom: 2px solid #384734;
+  outline: none;
 }
 
 input[type="text"],
@@ -403,6 +405,7 @@ textarea[type='text'] {
 }
 
 textarea {
+  outline: none;
   font-family: "Cormorant Garamond", serif;
   color: #384734;
   width: 100%;

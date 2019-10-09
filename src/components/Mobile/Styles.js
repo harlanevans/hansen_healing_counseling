@@ -108,9 +108,9 @@ export const ButtonDivMob = styled.div`
   `;
   
   export const FooterText = styled.h3`
-  font-family: "Quicksand", sans-serif;
+  font-family: "Cormorant SC", serif;
   color: white;
-  padding: 1em;
+  padding: .5em;
   margin: 0em;
   font-size: 1em;
   display: flex;
