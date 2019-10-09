@@ -37,7 +37,7 @@ export const MobileButton = styled.button`
   }
 `;
 
-export const ButtonDivMob = styled.div`
+export const ButtonDivMob = styled.div` 
   padding: 0em;
   display: flex;
   flex-direction: row;

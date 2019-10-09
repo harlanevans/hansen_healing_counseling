@@ -76,7 +76,7 @@ const AboutHayley = () => {
           </li>
           <li>
             {" "}
-            have personally experienced body centered healing, and it has
+            I have personally experienced body centered healing, and it has
             changed my life.{" "}
           </li>
         </ul>
