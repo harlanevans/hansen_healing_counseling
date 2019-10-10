@@ -12,6 +12,9 @@ import EMDR from "./components/services/EMDR";
 import OHYG from "./components/services/OHYG";
 // import ServThree from "./components/services/ServeThree";
 
+import NoMatch from './components/Window/NoMatch';
+import NoMatchMobile from './components/Mobile/NoMatchMobile';
+
 // Mobile Size
 import Mobile from "./components/Mobile/Mobile";
 import ContactMobile from "./components/Mobile/ContactMobile";
@@ -59,6 +62,7 @@ class App extends React.Component {
               <Route exact path='/about_hayley' component={AHayleyMobile} />
               <Route exact path="/emdr" component={EMDRMobile} />
               <Route exact path="/organic-healing-yoga-group" component={OHYGMobile} />
+            <Route component={NoMatchMobile} />
             </Switch>
         </>
         )
@@ -73,6 +77,7 @@ class App extends React.Component {
                 <Route exact path="/services" component={Services} />
                 <Route exact path="/emdr" component={EMDR} />
                 <Route exact path="/organic-healing-yoga-group" component={OHYG} />
+                <Route component={NoMatch} />
             </Switch>
         </>
     )

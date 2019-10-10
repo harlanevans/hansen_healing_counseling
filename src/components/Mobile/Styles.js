@@ -29,7 +29,7 @@ export const MobileButton = styled.button`
   color: black;
   border: solid 1px black;
   background-color: transparent;
-  border-radius: 2px;
+  border-radius: 2px; 
   font-size: 1em;
   &:hover {
     background-color: #c0d5d4 !important;
