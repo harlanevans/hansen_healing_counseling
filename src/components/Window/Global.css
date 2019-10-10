@@ -87,7 +87,7 @@ a {
   justify-content: flex-start;
   /* padding: 0em 1em;
   margin: 0em 1em; */
-  
+
 }
 
 .center-nav {
@@ -126,32 +126,32 @@ a {
   border-color: #F1E7DA !important;
   transition: 1s;
   border: solid 2px white; */
-  /* box-shadow: 0 0 60px 30px #fff; */
-  /* animation: spinning-logo infinite linear 5s; */
-  /* } */
+/* box-shadow: 0 0 60px 30px #fff; */
+/* animation: spinning-logo infinite linear 5s; */
+/* } */
 
-  a:hover {
-    color: #F1E7DA !important;
-    transition: 1s;
-    text-decoration: none;
-    
-  }
-  
-  @keyframes spinning-logo {
-    from {
-      transform: rotate(0deg);
-    }
-    
-    to {
-      transform: rotate(360deg);
-    }
+a:hover {
+  color: #F1E7DA !important;
+  transition: 1s;
+  text-decoration: none;
+
+}
+
+@keyframes spinning-logo {
+  from {
+    transform: rotate(0deg);
   }
 
-  /* ----------------- Landing ----------------- */
-  /* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
+  to {
+    transform: rotate(360deg);
+  }
+}
 
-  .landing-text-wrapper {
-    height: 100%;
+/* ----------------- Landing ----------------- */
+/* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
+
+.landing-text-wrapper {
+  height: 100%;
   flex: 50%;
   display: flex;
   flex-direction: column;
@@ -270,7 +270,7 @@ b.landing-b-text {
   padding: 2em;
   background-color: #FBFAF2;
   padding: 2em 5em;
-  
+
 }
 
 .about-col-two {
@@ -308,7 +308,7 @@ b.landing-b-text {
   width: 100%; */
   padding: 1.5em 0em;
   margin: 0;
-  
+
 }
 
 .contact-column-window {
@@ -378,7 +378,7 @@ select {
 
 option {
   font-family: "Cormorant Garamond", serif !important;
-  
+
 }
 
 input {
@@ -401,7 +401,7 @@ textarea[type='text'] {
   font-family: "Cormorant Garamond", serif;
   /* font-size: 1.25em; */
   height: 4em;
-  
+
 }
 
 textarea {
@@ -549,14 +549,12 @@ textarea {
 /* -----------------  Footer -----------------  */
 /* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
 
-footer {
+footer.footer-window {
   width: 100%;
-  height: 15em;
-  background-color: #C0D5D4 !important;
+  height: 100%;
+  background-color: #C0D5D4;
   font-weight: lighter;
-  /* position: absolute; */
-  bottom: 0;
-  text-align: center;
+  padding: 2em 0em;
 }
 
 .footer-column {
@@ -572,9 +570,42 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.logos-footer {
+  width: 2em;
+  height: 2em;
+  margin: 0em 2em;
+}
+
+.footer-row-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100%;
 }
 
 
+
+.footer-fb {
+  /* width: 100%; */
+  background-image: url("../../assets/icons/FB.png");
+  background-position: center;
+  background-size: cover;
+  width: 2em;
+  height: 2em;
+}
+
+.footer-insta {
+  /* width: 100%; */
+  background-image: url("../../assets/icons/Insta.png");
+  background-position: center;
+  background-size: cover;
+  width: 2em;
+  height: 2em;
+}
 
 /* -----------------  Services Pages - Yoga -----------------  */
 /* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/

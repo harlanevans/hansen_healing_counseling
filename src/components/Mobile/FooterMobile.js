@@ -8,22 +8,21 @@ const FooterMobile = () => {
   return (
     <footer className="mobile-footer">
       <div className="footer-mob-row">
-        <div style={{ height: "50%" }}>
           <a
             href="https://www.instagram.com/hayleyhansenhealing/?hl=en"
             target="_blank"
-          >
-            <img src={Insta} className="logos-mob" />
+            className='footer-mob-insta'
+            >
+            {/* <img src={Insta} className="logos-mob" /> */}
           </a>
-        </div>
 
-        <div>
-          <img src={FB} className="logos-mob" />
           <a
             href="https://www.facebook.com/Hayleyhansenhealing/"
             target="_blank"
-          ></a>
-        </div>
+            className='footer-mob-fb'
+          >
+          {/* <img src={FB} className="logos-mob" /> */}
+          </a>
       </div>
 
       <div className="footer-mob-row-v">
