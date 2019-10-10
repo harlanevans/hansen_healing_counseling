@@ -1,72 +1,184 @@
 import React from "react";
 import { Fade } from "react-reveal";
 import { HashLink } from "react-router-hash-link";
+import OHYGImage from "../../assets/images/OHYG.jpeg";
+import OHYGImageTwo from "../../assets/images/MobOHYG.jpg";
 
-import { LandingSubTitle, ServicesText } from "./Styles";
+import { MobTitle, MobText, MobileButton, ButtonDivMob } from "./Styles";
 import FooterMobile from "./FooterMobile";
+import Nav from "./NavMobile";
 
 const OHYGMobile = () => {
   return (
     <div>
-      <div className="yoga-container">
-        <Fade>
-          <LandingSubTitle>Organic Healing Yoga Group</LandingSubTitle>
-        </Fade>
-        <ServicesText>
-          <Fade>
-            Eye Movement Desensitization and Reprocessing (EMDR) is one of my
-            favorite trauma processing modalities. Our bodies and brains know
-            best how to heal themselves, but also need some preparation work
-            before getting started. I am now doing this preparation through
-            group experiential work. Phase Two in EMDR is designed to help
-            clients handle the emotional distress they encounter in between
-            sessions while they are working with their individual therapists.
-            The Phase 2 skills can not only help a person while doing the
-            intensive healing process, but long after the EMDR is over. In this
-            group, I combine Yoga and breathing practice, as well as teaching
-            Phase Two and Mindfulness skills to support clients as they become
-            ready to participate in EMDR processing. Read more below! About
-            Yoga: Yoga can be seen as a practice to strengthen the body, get a
-            good sweat going, or even a competition to see who has the bendiest
-            downward dog? Yoga can be these things, but it is so much more. Yoga
-            not only benefits the body, but has outstanding healing effects on
-            the mind, the body’s nervous system, and spiritual wellbeing. I have
-            had many years using movement and yoga to supplement my own healing
-            journey, and because of my experience I have recently become a
-            Registered Yoga Teacher with Yoga Alliance to supplement my clinical
-            training in healing trauma. I figured it was time I use this
-            experiential learning modality in a group format to help my clients
-            EXPERIENCE peace, and calm, not just talk about it. About
-            Mindfulness Skills: I have training in several mindfulness
-            modalities, not just Yoga. Mindfulness Based Stress Reduction, as
-            well as Dialectical Behavioral Therapy trainings have helped my
-            clients experience emotional balance in their life and wellbeing.
-            Put the two together: The first half of group will be practicing
-            Yoga and Skills techniques, and the in the second half of group, you
-            can expect to sit back on your Yoga props and get ready to learn and
-            practice some serious mindfulness and emotional regulation skills
-            that will help you regulate, both on and off your Yoga mat. See you
-            on your mat weekly, for a two hour fantastic, downward dogging,
-            mind-calming, connecting group experience. Important Facts: Cost:
-            50$ per session, for 6 weeks, and must be able to commit to 6 weeks.
-            You can pay weekly or upfront. I also provide a workbook/binder with
-            the skill teachings in it, a 10$ one time fee. When: TBD Where: TBD
-            What to Bring: You, water, an open mind, and your yoga mat if you
-            have one! If you don’t, I have extra:) Try not to eat a heavy meal
-            before hand (yoga+food baby don’t mix well), and feel free to bring
-            a snack for the second half of session if you would like. Other: You
-            don’t have to have any experience in Yoga, or in any sort of
-            mindfulness training. I am trained how to help beginners as well as
-            experienced Yogis. Must be seeing a therapist and prepping for EMDR
-            processing to be in group.
+      <Nav />
+      <Fade>
+        <div className="yoga-container">
+          <Fade duration={2000}>
+            <div className="ohyg-img-mob-cont">
+              <img src={OHYGImage} alt="healing" className="ohyg-img-mob" />
+            </div>
           </Fade>
-        </ServicesText>
-        <Fade>
-          <HashLink to="/#services">
-            <button>Go Back To Services</button>
-          </HashLink>
-        </Fade>
-      </div>
+          <div style={{ textAlign: "center", padding: "1em" }}>
+            <Fade duration={2000} delay={500}>
+              <MobTitle>Organic Healing Yoga Group</MobTitle>
+            </Fade>
+          </div>
+          <hr />
+          <Fade duration={2000} delay={750}>
+            <div className="ohyg-text-cont">
+              <MobText style={{ fontSize: "1.25em" }}>
+                Are you a high achieving, stressed out, active Millennial who is
+                ready
+                <b className="landing-m-b-two">
+                  to start to feel empowered, centered, and calm?{" "}
+                </b>
+              </MobText>
+            </div>
+          </Fade>
+          {/* <hr /> */}
+          <Fade duration={2000}>
+            <div className="ohyg-text-cont-two">
+              <MobText>
+                My deep intention for this group is to hold a space where you
+                can
+                <b className="landing-m-b-two">
+                  {" "}
+                  come and allow your body heal itself.
+                </b>{" "}
+                Just like when we accidentally cut our finger and our body goes
+                wild to repair itself,{" "}
+                <b className="landing-m-b-two">
+                  we have what we need within us to heal our minds and hearts.
+                </b>{" "}
+                Our bodies are so incredibly wise, and when given the space,
+                tools, and some movement,{" "}
+                <b className="landing-m-b-two">miracles happen.</b>
+              </MobText>
+            </div>
+          </Fade>
+          <hr />
+          <Fade duration={2000}>
+            <div style={{ textAlign: "center" }}>
+              <MobText>
+                This group is for you if you are feeling like{" "}
+                <b className="landing-m-b-two"> you need a miracle </b>
+                to help you with:
+              </MobText>
+            </div>
+            <div className="ohyg-list">
+              <MobText>
+                <ul>
+                  <li>
+                    Physical symptoms like headaches, insomnia, and constant
+                    aches and pains from all the{" "}
+                    <b className="landing-m-b-two">
+                      stress, anxiety, and pressure
+                    </b>{" "}
+                    life demands
+                  </li>
+                  <li>
+                    The <b className="landing-m-b-two">disconnection</b> from
+                    your true self and ask yourself things like{" "}
+                    <b className="landing-m-b-two">“who am I...?"</b> and{" "}
+                    <b className="landing-m-b-two">
+                      "what is the point of all this?"
+                    </b>
+                  </li>
+                  <li>
+                    Your{" "}
+                    <b className="landing-m-b-two">
+                      thoughts. They run the show,
+                    </b>{" "}
+                    and you're <b className="landing-m-b-two">tired.</b>
+                  </li>
+                  <li>
+                    Feeling <b className="landing-m-b-two">EXHAUSTED</b> from
+                    your <b className="landing-m-b-two">never-ending</b> to-do
+                    lists and intense, insanely busy schedule.
+                  </li>
+                </ul>
+              </MobText>
+            </div>
+          </Fade>
+          <Fade duration={2000}>
+            <div className="ohyg-img-mob-cont-two">
+              <img src={OHYGImageTwo} alt="healing" className="ohyg-img-mob" />
+            </div>
+          </Fade>
+          <Fade duration={2000}>
+            <div style={{ textAlign: "center" }}>
+              <MobText>
+                Through <b className="landing-m-b-tow">organic</b> and{" "}
+                <b className="landing-m-b-tow">natural bodywork </b>methods, I
+                hold a space to help you embody:
+              </MobText>
+            </div>
+            <div className="ohyg-list">
+              <MobText>
+                <ul>
+                  <li>
+                    <b className="landing-m-b-two">Simplicity</b> and more space
+                    to access <b className="landing-m-b-two">joy</b>{" "}
+                    (#yesplease).
+                  </li>
+                  <li>
+                    Feeling more{" "}
+                    <b className="landing-m-b-two">
+                      connected, rooted, and grounded
+                    </b>{" "}
+                    to your body and the{" "}
+                    <b className="landing-m-b-two">present</b> moment.
+                  </li>
+                  <li>
+                    A feeling of{" "}
+                    <b className="landing-m-b-two">being in charge</b> of your{" "}
+                    <b className="landing-m-b-two">
+                      emotions, your thoughts, and your life.
+                    </b>
+                  </li>
+                  <li>
+                    Increased self-confidence that{" "}
+                    <b className="landing-m-b-two">
+                      you can show up as your truest and best authentic self at
+                      work
+                    </b>{" "}
+                    and in your treasured
+                    <b className="landing-m-b-two">relationships.</b>
+                  </li>
+                  <li>
+                    Practices and skills to{" "}
+                    <b className="landing-m-b-two">put yourself first,</b> with
+                    out having to sacrifice your{" "}
+                    <b className="landing-m-b-two">goals.</b>
+                  </li>
+                </ul>
+              </MobText>
+            </div>
+          </Fade>
+          <hr />
+          <ButtonDivMob style={{paddingTop: '1em'}}>
+            <HashLink to="/#contact">
+              <MobileButton>Contact Me</MobileButton>
+            </HashLink>
+          </ButtonDivMob>
+          <MobTitle
+            style={{
+              textAlign: "center",
+              fontSize: "1.25em",
+              padding: "2em",
+              paddingBottom: '1em'
+            }}
+          >
+            Or
+          </MobTitle>
+          <ButtonDivMob>
+            <HashLink to="/#services">
+              <MobileButton>Go Back To Services</MobileButton>
+            </HashLink>
+          </ButtonDivMob>
+        </div>
+      </Fade>
       <FooterMobile />
     </div>
   );

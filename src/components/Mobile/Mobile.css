@@ -274,6 +274,7 @@ b.landing-m-b-two {
   text-align: center;
   font-weight: bolder;
 }
+
 .hlist {
   margin: 1em 0em;
 }
@@ -427,6 +428,101 @@ textarea[type='text'].textarea-style-mobile {
 
 }
 
+/* --------------- ORGANIC HEALING YOGA GROUP --------------- */
+/* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
+
+
+.yoga-container {
+  padding: 2em;
+  height: 100%;
+  width: 100%;
+  position: center;
+}
+
+.ohyg-text-cont {
+  /* margin: 1em 0em; */
+  text-align: center;
+}
+
+.ohyg-text-cont-two {
+  text-align: center;
+  padding: .5em 0.5em;
+  /* background-color: #EFEAE4; */
+  border-radius: 2px;
+}
+
+.ohyg-img-mob-cont {
+  width: 100%;
+  height: 100%;
+  padding-top: 2em;
+}
+
+.ohyg-img-mob-cont-two {
+  width: 100%;
+  height: 100%;
+}
+
+.ohyg-img-mob {
+  width: 100%;
+  height: 100%;
+  margin: 1em 0em;
+  /* padding: 2em; */
+}
+
+.ohyg-list {
+  line-height: 1.5em;
+}
+
+/* --------------- EMDR --------------- */
+
+.emdr-mob-cont {
+  padding: 2em;
+  height: 100%;
+  width: 100%;
+  position: center;
+}
+
+.emdr-img-mob-cont {
+  width: 100%;
+  height: 100%;
+  padding-top: 2em;
+}
+.emdr-img-mob-cont-two {
+  width: 100%;
+  height: 100%;
+}
+
+.emdr-img-mob-one {
+  width: 100%;
+  height: 100%;
+  margin: 1em 0em;
+}
+
+.emdr-mob-text-cont {
+  text-align: center;
+}
+
+.mob-one-emdr {
+  border-top: solid 1px #E8E8E8;
+  padding-top: 1em;
+}
+
+.mob-two-emdr {
+  border-top: solid 1px #E8E8E8;
+  padding-top: 1em;
+}
+
+.emdr-mob-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.emdr-ul {
+  padding: 0;
+
+}
+
 /* --------------- Quote --------------- */
 /* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
 
@@ -455,16 +551,6 @@ textarea[type='text'].textarea-style-mobile {
   height: 100vh;
 }
 
-/* --------------- Yoga --------------- */
-/* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
-
-
-.yoga-container {
-  padding: 2em;
-  height: 100%;
-  width: 100%;
-  position: center;
-}
 
 /* --------------- Footer --------------- */
 /* #EFEAE4 #FBFAF2 #F1E7DA #C0D5D4 #384734*/
@@ -472,17 +558,39 @@ textarea[type='text'].textarea-style-mobile {
 
 footer.mobile-footer {
   width: 100%;
-  height: 10em;
+  height: 100%;
   background-color: #C0D5D4;
   font-weight: lighter;
   padding: 2em 0em;
 }
 
-.footer-wrapper {
+.footer-mob-wrapper {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+.footer-mob-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: .5em;
+}
+.footer-mob-row-v  {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: .5em;
+  margin: 0;
+  width: 100%;
+  height: 2em;
+}
+
+.logos-mob {
+  width: 2em;
+  height: 2em;
+  margin: 0em 2em;
 }
 
 /* --------------- Animations --------------- */
