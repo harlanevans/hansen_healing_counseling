@@ -33,7 +33,8 @@ class ContactMobile extends React.Component {
         <Fade duration={2000}>
           {/* Either my own form orrr */}
           {/* --------------------- */}
-          <form className="contact-column-mobile">
+          <form className="contact-column-mobile" action="https://formspree.io/hayleyhansentherapy@gmail.com"
+            method="POST">
             <input
               type="text"
               placeholder="First Name"
