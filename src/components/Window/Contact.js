@@ -26,13 +26,13 @@ class Contact extends React.Component {
   };
 
   render() {
-    const { firstName, lastName, phone, email, questions } = this.state;
+    const { firstName, lastName, phone, email, questions, where } = this.state;
     // const { name } = this.state;
     return (
       <div className="contact-form-wrapper">
         <div className="contact-title">
           <Fade duration={2000} top>
-            <CompTitle style={{paddingBottom: '0em'}}>Contact</CompTitle>
+            <CompTitle style={{ paddingBottom: "0em" }}>Contact</CompTitle>
           </Fade>
         </div>
         <Fade duration={3000}>
@@ -80,8 +80,13 @@ class Contact extends React.Component {
             />
             <div className="select-window">
               <label>How did you hear about me?</label>
-              <select name="where" className="select-style">
-              <option></option>
+              <select
+                name="where"
+                className="select-style"
+                value={where}
+                onChange={this.handleChange}
+              >
+                <option value=""></option>
                 <option value="friend" name="friend">
                   Friend
                 </option>
@@ -110,7 +115,13 @@ class Contact extends React.Component {
               value={questions}
               onChange={this.handleChange}
             />
-            <ButtonDiv style={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
+            <ButtonDiv
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "center"
+              }}
+            >
               <GlobalButton type="submit" className="contact-button">
                 Lets Chat
               </GlobalButton>

@@ -28,10 +28,16 @@ const OHYGMobile = () => {
           <Fade duration={2000} delay={750}>
             <div className="ohyg-text-cont">
               <MobText style={{ fontSize: "1.25em" }}>
-                Are you a high achieving, stressed out, active Millennial who is
-                ready
                 <b className="landing-m-b-two">
-                  to start to feel empowered, centered, and calm?{" "}
+                  Allow your body to heal itself.
+                </b>
+              </MobText>
+              <MobText style={{ fontSize: "1.25em" }}>
+                We have what we need, organically, to heal our minds and hearts.
+                When our wise bodies are given the space, tools, and some
+                movement, {""}
+                <b className="landing-m-b-two">
+                miracles happen.
                 </b>
               </MobText>
             </div>
@@ -39,22 +45,7 @@ const OHYGMobile = () => {
           {/* <hr /> */}
           <Fade duration={2000}>
             <div className="ohyg-text-cont-two">
-              <MobText>
-                My deep intention for this group is to hold a space where you
-                can
-                <b className="landing-m-b-two">
-                  {" "}
-                  come and allow your body heal itself.
-                </b>{" "}
-                Just like when we accidentally cut our finger and our body goes
-                wild to repair itself,{" "}
-                <b className="landing-m-b-two">
-                  we have what we need within us to heal our minds and hearts.
-                </b>{" "}
-                Our bodies are so incredibly wise, and when given the space,
-                tools, and some movement,{" "}
-                <b className="landing-m-b-two">miracles happen.</b>
-              </MobText>
+        
             </div>
           </Fade>
           <hr />
@@ -109,7 +100,7 @@ const OHYGMobile = () => {
           <Fade duration={2000}>
             <div style={{ textAlign: "center" }}>
               <MobText>
-                Through <b className="landing-m-b-tow">organic</b> and{" "}
+                Through {" "}
                 <b className="landing-m-b-tow">natural bodywork </b>methods, I
                 hold a space to help you embody:
               </MobText>
@@ -157,7 +148,7 @@ const OHYGMobile = () => {
             </div>
           </Fade>
           <hr />
-          <ButtonDivMob style={{paddingTop: '1em'}}>
+          <ButtonDivMob style={{ paddingTop: "1em" }}>
             <HashLink to="/#contact">
               <MobileButton>Contact Me</MobileButton>
             </HashLink>
@@ -167,7 +158,7 @@ const OHYGMobile = () => {
               textAlign: "center",
               fontSize: "1.25em",
               padding: "2em",
-              paddingBottom: '1em'
+              paddingBottom: "1em"
             }}
           >
             Or

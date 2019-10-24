@@ -20,15 +20,10 @@ class Landing extends React.Component {
           <Fade duration={3000} delay={1000}>
             <div className="landing-title-container">
               <LandingTitleText>
-                For the high acheiving, active Millennial who is ready to take
-                their{" "}
+                  Go from  {" "}
                 <b className="landing-bold">
-                  stressed out, overthinking, anxious{" "}
-                </b>
-                lifestyle to{" "}
-                <b className="landing-bold">
-                  living in the present: feeling empowered, centered, and calm.
-                </b>
+                    Chaos</b> {" "} to  {" "}
+                    <i> Calm. </i>
               </LandingTitleText>
             </div>
           </Fade>

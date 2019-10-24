@@ -15,15 +15,10 @@ const LandingMobile = () => {
           <Fade duration={3000} delay={500}>
             <div className="landing-m-sub-title">
               <LandingSubTitle>
-                For the high acheiving, active Millennial who is ready to take
-                their{" "}
-                <b className="landing-b">
-                  stressed out, overthinking, anxious{" "}
-                </b>
-                lifestyle to{" "}
-                <b className="landing-b">
-                  living in the present: feeling empowered, centered, and calm.
-                </b>
+                Go from {""}
+                <b className="landing-b">Choas {""}</b>
+                to {""}
+                <i>Calm. </i>
               </LandingSubTitle>
             </div>
           </Fade>

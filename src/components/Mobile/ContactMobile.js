@@ -26,7 +26,7 @@ class ContactMobile extends React.Component {
     return (
       <div className="contact-wrapper">
         <Fade>
-          <div className="mob-title" style={{ paddingBottom: "1em" }}>
+          <div className="mob-title" style={{ paddingBottom: "4em" }}>
             <MobTitle>Contact</MobTitle>
           </div>
         </Fade>
