@@ -8,36 +8,24 @@ const FooterMobile = () => {
   return (
     <footer className="mobile-footer">
       <div className="footer-mob-row">
-          <a
-            href="https://www.instagram.com/hayleyhansenhealing/?hl=en"
-            target="_blank"
-            className='footer-mob-insta'
-            >
-            {/* <img src={Insta} className="logos-mob" /> */}
-          </a>
+        <a
+          href="https://www.instagram.com/hayleyhansenhealing/?hl=en"
+          target="_blank"
+          className="footer-mob-insta"
+        >
+          {/* <img src={Insta} className="logos-mob" /> */}
+        </a>
 
-          <a
-            href="https://www.facebook.com/Hayleyhansenhealing/"
-            target="_blank"
-            className='footer-mob-fb'
-          >
+        <a
+          href="https://www.facebook.com/Hayleyhansenhealing/"
+          target="_blank"
+          className="footer-mob-fb"
+        >
           {/* <img src={FB} className="logos-mob" /> */}
-          </a>
-      </div>
-
-      <div className="footer-mob-row-v">
-        <FooterText style={{ padding: "0" }}>
-          <a
-            href="https://www.psychologytoday.com/profile/307980"
-            target="_blank"
-            style={{ color: "black", padding: "0" }}
-          >
-            Verified by Psychology Today
-          </a>
-        </FooterText>
+        </a>
       </div>
       <div className="footer-mob-wrapper">
-        <FooterText>Hayley Hansen, MC, LPC, RYT</FooterText>
+        <FooterText>Hayley Hansen, MC, RYT</FooterText>
         <a href="tel: 480-382-7552">
           <FooterText>480-382-7552</FooterText>
         </a>
