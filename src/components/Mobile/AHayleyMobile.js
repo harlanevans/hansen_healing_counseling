@@ -17,7 +17,7 @@ const AHayleyMobile = () => {
       <MobileNav />
       <div className="habout-cont">
         <div>
-          <img src={Hayley} className="habout-image" />
+          <img src={Hayley} className="habout-image" alt='hayley hansen'/>
         </div>
         <MobTitle style={{ textAlign: "center", paddingTop: "1em" }}>
           Meet Hayley

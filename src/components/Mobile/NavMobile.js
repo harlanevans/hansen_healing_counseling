@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/icons/HLogoTransparent.png";
+// import Logo from "../../assets/icons/HLogoTransparent.png";
 import LogoBlack from "../../assets/icons/HHHBlackLogo.png";
 import MenuLogo from "../../assets/icons/Menu.svg";
 import { HashLink } from "react-router-hash-link";
@@ -13,7 +13,7 @@ const NavMobile = ({ toggleModal }) => {
         <img src={LogoBlack} alt="hlogo" className="logo-mob" />
       </HashLink>
       <div className="drop-down">
-        <img src={MenuLogo} onClick={toggleModal} className="menu-mob-icon" />
+        <img src={MenuLogo} onClick={toggleModal} className="menu-mob-icon" alt='menu-icon'/>
       </div>
     </div>
   );

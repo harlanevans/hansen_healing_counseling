@@ -1,7 +1,7 @@
 import React from "react";
 import { FooterText } from "./Styles";
-import Insta from "../../assets/icons/Insta.png";
-import FB from "../../assets/icons/FB.png";
+// import Insta from "../../assets/icons/Insta.png";
+// import FB from "../../assets/icons/FB.png";
 // import { Grid } from "semantic-ui-react";
 
 const FooterMobile = () => {
@@ -12,6 +12,7 @@ const FooterMobile = () => {
           href="https://www.instagram.com/hayleyhansenhealing/?hl=en"
           target="_blank"
           className="footer-mob-insta"
+          rel="noopener noreferrer"
         >
           {/* <img src={Insta} className="logos-mob" /> */}
         </a>
@@ -20,6 +21,7 @@ const FooterMobile = () => {
           href="https://www.facebook.com/Hayleyhansenhealing/"
           target="_blank"
           className="footer-mob-fb"
+          rel="noopener noreferrer"
         >
           {/* <img src={FB} className="logos-mob" /> */}
         </a>

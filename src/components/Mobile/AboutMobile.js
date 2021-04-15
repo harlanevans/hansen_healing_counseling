@@ -1,6 +1,6 @@
 import React from "react";
 import { MobTitle, MobText, MobileButton, ButtonDivMob } from "./Styles";
-import Hayley from "../../assets/images/HMeditate.jpg";
+// import Hayley from "../../assets/images/HMeditate.jpg";
 import { Link } from "react-router-dom";
 import { Fade } from "react-reveal";
 // import { Grid } from "semantic-ui-react";

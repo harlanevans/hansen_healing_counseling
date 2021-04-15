@@ -7,7 +7,7 @@ import EMDRMan from "../../assets/images/EMDRMan.jpg";
 import { MobTitle, MobText, MobileButton, ButtonDivMob } from "./Styles";
 import FooterMobile from "./FooterMobile";
 import Nav from "./NavMobile";
-import Contact from "./ContactMobile";
+// import Contact from "./ContactMobile";
 
 const EMDRMobile = () => {
   return (
@@ -17,7 +17,7 @@ const EMDRMobile = () => {
         <div className="emdr-mob-cont">
           <Fade duration={2000}>
             <div className="emdr-img-mob-cont">
-              <img src={EMDRImage} className="emdr-img-mob-one" />
+              <img src={EMDRImage} className="emdr-img-mob-one" alt='emdr'/>
             </div>
           </Fade>
           <div style={{ paddingTop: "1em", textAlign: "center" }}>
@@ -88,7 +88,7 @@ const EMDRMobile = () => {
           </Fade>
           <Fade duration={2000}>
             <div className="emdr-img-mob-cont-two">
-              <img src={EMDRMan} className="emdr-img-mob-one" />
+              <img src={EMDRMan} className="emdr-img-mob-one" alt='emdr' />
             </div>
           </Fade>
           <Fade duration={2000}>

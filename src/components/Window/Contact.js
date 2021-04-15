@@ -1,5 +1,5 @@
 import React from "react";
-import axios from "axios";
+// import axios from "axios";
 import { Fade } from "react-reveal";
 import { CompTitle, GlobalButton, ButtonDiv } from "./Global";
 
@@ -19,7 +19,7 @@ class Contact extends React.Component {
 
   handleSubmit = e => {
     e.preventDefault();
-    const contact = { ...this.state };
+    // const contact = { ...this.state };
     // axios.post("/api/contact", contact).then(res => {
     //   this.props.history.push("/#contact");
     // });

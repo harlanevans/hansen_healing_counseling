@@ -1,6 +1,6 @@
 import React from "react";
 import { FooterText } from "./Global";
-import Insta from "../../assets/icons/Insta.png";
+// import Insta from "../../assets/icons/Insta.png";
 
 const Footer = () => {
   return (
@@ -12,13 +12,15 @@ const Footer = () => {
               href="https://www.instagram.com/hayleyhansenhealing/?hl=en"
               target="_blank"
               className="footer-insta"
-            ></a>
+              rel="noopener noreferrer"
+            >{""}</a>
 
             <a
               href="https://www.facebook.com/Hayleyhansenhealing/"
               target="_blank"
               className="footer-fb"
-            />
+              rel="noopener noreferrer"
+            >{""}</a>
           </div>
 
           <FooterText>Hayley Hansen, MC, RYT</FooterText>

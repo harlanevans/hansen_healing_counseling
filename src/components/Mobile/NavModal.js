@@ -2,7 +2,7 @@ import React from "react";
 // import { Link } from 'react-router-dom';
 import { HashLink } from "react-router-hash-link";
 import { ModalButton } from "./Styles";
-import { Icon } from "semantic-ui-react";
+// import { Icon } from "semantic-ui-react";
 import { Fade } from "react-reveal";
 import Exit from '../../assets/icons/Exit.svg'
 
@@ -15,7 +15,7 @@ const NavModal = ({ showModal, toggleModal }) => {
           <div className="icon-container">
             <div className="modal-icon">
             {/* Color is in svg Fill: 'white' and background color in modal-icon css */}
-              <img src={Exit} onClick={toggleModal} className='exit-icon'/>
+              <img src={Exit} onClick={toggleModal} className='exit-icon' alt='exit'/>
             </div>
           </div>
           <div className="modal-button-cont">
