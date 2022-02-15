@@ -216,8 +216,8 @@ b.landing-m-b-two {
 .about-mob-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  height: 100vh;
+  justify-content: space-between;
+  height: 70vh;
   width: 100%;
   padding: 0em 2em;
 }
@@ -237,7 +237,7 @@ b.landing-m-b-two {
 
 .mob-abt-text {
   text-align: center;
-  padding: .5em 0em;
+  padding: 1em;
   border: 5px solid #EFEAE4;
   /* background-color: #EFEAE4; */
 }
@@ -284,7 +284,6 @@ b.landing-m-b-two {
 
 .ps-habout {
   text-align: center;
-  font-weight: bolder;
 }
 
 .hlist {

@@ -3,7 +3,6 @@ import { Fade } from "react-reveal";
 import {
   CompTitle,
   SmallerText,
-  Text,
   GlobalButton,
   ButtonDiv
 } from "../Window/Global";
@@ -21,82 +20,54 @@ const AboutHayley = () => {
         </Fade>
         <Fade duration={3000} delay={500}>
           <SmallerText>
-            In 2007, I received a Bachelors of Science in Psychology and Family
-            Consumer Human Development from Utah State University. I proceeded
-            to graduate from Arizona State University with a Masters in
-            Counseling in 2013, and have been practicing the art of healing
-            since.
+            It has taken me 15 years of collegiate study, introspection, dozens of continuing education
+            and training, healing, and practice to land in my
+            dharma of holding space as a bodyworker.
+            The more I practice and trust Vitality the more I know it is where I
+            am meant to be to help raise humanity's vibration.
           </SmallerText>
           <SmallerText>
-            In my fifth year of practice, I received my 200 level Registered
-            Yoga Teacher (RYT) certificate in 2018. I also have training and
-            experience in EMDR, Mindfulness Based Stress Reduction, and
-            Dialectical Behavioral Therapy (DBT).
+            If there’s one thing I’ve learned since the pandemic began
+            is that we heal in connection. In the compassionate presence of another person,
+            our bodies have potential to reach a new normal.
+            A normal that feels like our wildest dreams and fullest potential.
           </SmallerText>
           <SmallerText>
-            I dont think talk therapy is always the best route for everyone.
-            Sometimes a person needs to <b className="landing-bold">move.</b> A
-            person needs actual{" "}
-            <b className="landing-bold">
-              <i>practice </i>
-            </b>{" "}
-            using skills will help them in their lives, so when they are
-            suffering, they deeply know what to do. Science is proving that that
-            our bodies have more wisdom and natural ability to heal on their
-            own, especially in the realm of emotional and mental healing. 
-            <b className="landing-bold">
-              We need to give these amazing bodies of ours the space to do so.
-            </b>
+            Lovely human, beyond injury and trauma lies deep vitality.
           </SmallerText>
         </Fade>
         <Fade duration={3000} delay={1000}>
-          <Text style={{ textAlign: "center" }}>
-            <b className="landing-bold">
-              {" "}
-              P.S. I’ve given you the clinical stuff. Now I’ll give you the
-              dirt.
-            </b>
-          </Text>
+          <SmallerText>
+            It is my intention that after you leave my table, you begin to feel settled,
+            free, creative, and connected--to yourself and others.
+          </SmallerText>
         </Fade>
         <Fade duration={3000} delay={1500}>
-          <div className="bullet-hay">
-            <SmallerText>
-              <ul>
-                <li>
-                  I’ve been obsessed with mindful movement ever since I could
-                  walk—climbing trees, playing sports, trail running, swimming,
-                  lifting, and now moving and breathing Yoga.
-                </li>
-                <li>
-                  I was sorted into Hufflepuff, wish I could major in Herbology,
-                  and often ask myself “What Would Dumbledore Do”?
-                </li>
-                <li>
-                  Recently, I’m crazy about the ocean. We haven’t explored all
-                  the mystery in there, so obviously I believe in mermaids.
-                </li>
-                <li>Phoebe from Friends is my spirit animal. </li>
-                <li>
-                  My favorite yoga pose is either Happy Baby or Tree Pose. I’m
-                  tied because I love babies and trees with all my heart!
-                </li>
-                <li>
-                  Brutus and Kiko are my two dogs and absolute favorite souls to
-                  be around.
-                </li>
-                <li>
-                  My favorite fleeting scent that can never be captured is the
-                  Creosote Bush after it rains. If you rub the leaves together,
-                  it smells like Phoenix after a good rain.
-                </li>
-                <li>
-                  {" "}
-                  I have personally experienced body centered healing, and it
-                  has changed my life.{" "}
-                </li>
-              </ul>
-            </SmallerText>
-          </div>
+          <SmallerText style={{ paddingTop: '2em' }}>
+            <div style={{marginBottom: '1em'}}>
+            <b >Training: </b>
+            </div>
+            <div>
+              Bachelors in Psychology from Utah State University
+              <hr />
+            </div>
+            <div>
+              Masters in Counseling from Arizona State University
+              <hr />
+            </div>
+            <div>
+              200 (RYT) Yoga Teacher Training at Gilbert Yoga
+              <hr />
+            </div>
+            <div>
+              MBSR Experiential Training (2018)
+              <hr />
+            </div>
+            <div>
+              Transforming the Experience Based Brain (TEB) current
+              <hr />
+            </div>
+          </SmallerText>
           <ButtonDiv>
             <HashLink to="/#about">
               <GlobalButton>Go Back</GlobalButton>

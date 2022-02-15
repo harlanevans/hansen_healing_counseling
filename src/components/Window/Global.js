@@ -63,7 +63,7 @@ export const SmallerText = styled.p`
   color: black;
   font-size: 3em;
   letter-spacing: 1px;
-  padding: 1em;
+  padding: 1em 0em;
   `;
   
   export const SubTitle = styled.h1`
