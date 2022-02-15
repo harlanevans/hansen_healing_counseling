@@ -196,18 +196,29 @@ b.landing-bold {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10em 10em;
+  padding: 0em 10em;
   /* z-index: 200; */
   /* height: 100vh; */
-  min-height: 100vh;
+  min-height: 90vh;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 
 b.landing-b-text {
   color: black;
   font-weight: 900 !important;
+}
+
+.landing-b-text-noun {
+  text-align: left;
+  padding: .5em 0em;
+}
+
+.landing-b-text-noun-two {
+  text-align: left;
+  padding: .5em 0em;
+  margin-left: 2em;
 }
 
 /* -----------------  About -----------------  */
