@@ -9,9 +9,7 @@ const Quote = () => {
         <i>
           <Fade duration={3000}>
             <QuoteMain>
-              <span className="quotation-marks">&#8220;</span>If you want to
-              conquer the anxiety of life, live in the moment, live in the
-              breath.
+              <span className="quotation-marks">&#8220;</span>To touch is to give life 
               <span className="quotation-marks">&#8221;</span>
             </QuoteMain>
           </Fade>
@@ -20,7 +18,7 @@ const Quote = () => {
       </div>
       <div className="quote-row">
         <Fade duration={3000}>
-          <QuoteAuthor>– Amit Ray</QuoteAuthor>
+          <QuoteAuthor>- Michelangelo</QuoteAuthor>
         </Fade>
       </div>
     </div>
