@@ -13,7 +13,7 @@ const AboutMobile = () => {
           <MobTitle>About Hayley</MobTitle>
         </div>
       </Fade>
-      <Fade duration={2000} delay={500} left>
+      <Fade duration={2000}>
         <MobText className="mob-abt-text">
           We are here to feel really good in our bodies, to feel really safe and connected in relationship. We are here to feel alive! Your body is designed to explore Earth and experience all the wonder and bliss.
           Maybe post pandemic you are feeling sick or sad. Maybe it started before that.

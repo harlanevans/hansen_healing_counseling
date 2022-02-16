@@ -29,6 +29,11 @@ const NavModal = ({ showModal, toggleModal }) => {
             </HashLink>
           </div>
           <div className="modal-button-cont">
+            <HashLink to="/#faq" smooth>
+              <ModalButton onClick={toggleModal}>FAQ</ModalButton>
+            </HashLink>
+          </div>
+          <div className="modal-button-cont">
             <HashLink to="/#contact" smooth>
               <ModalButton onClick={toggleModal}>Contact</ModalButton>
             </HashLink>

@@ -6,7 +6,7 @@ const LandingText = () => {
   return (
     <div className="landing-title-container-mobile">
       <div className="landing-m-text">
-        <Fade duration={2000}>
+        <Fade duration={3000} delay={500}>
           <MobileLandingText>
             <div className="landing-b-m-text-noun">
               <b className="landing-m-b-two">vitality (n)</b>
