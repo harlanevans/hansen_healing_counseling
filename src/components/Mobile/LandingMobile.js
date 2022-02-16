@@ -15,10 +15,7 @@ const LandingMobile = () => {
           <Fade duration={3000} delay={500}>
             <div className="landing-m-sub-title">
               <LandingSubTitle>
-                Go from {""}
-                <b className="landing-b">Choas {""}</b>
-                to {""}
-                <i>Calm. </i>
+              Deep healing to reach your highest potential
               </LandingSubTitle>
             </div>
           </Fade>

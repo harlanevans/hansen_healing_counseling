@@ -3,6 +3,7 @@ import Landing from "./Landing";
 import LandingTextWindow from "./LandingTextWindow";
 import About from "./About";
 import Services from "./Services";
+import FAQ from './FAQ'
 import Contact from "./Contact";
 import Loader from "./Loader";
 // import { Fade } from 'react-reveal';
@@ -39,7 +40,10 @@ class Window extends React.Component {
         <Quote />
         <div id="services">
           <Services />
-        </div>
+          </div>
+          <div id='faq'>
+            <FAQ />
+          </div>
         <div id="contact">
           <Contact />
         </div>

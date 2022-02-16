@@ -18,7 +18,7 @@ letter-spacing: 1px;
 export const MobText = styled.p`
   font-family: "Cormorant Garamond", serif;
   color: black;
-  font-size: 1em;
+  font-size: 1.15em;
   letter-spacing: 1px;
   line-height: 2em;
   `;
@@ -56,13 +56,13 @@ export const ButtonDivMob = styled.div`
   export const LandingTitle = styled.h1` 
   font-family: "Cormorant SC", serif;
   color: black;
-  font-size: 2em;
+  font-size: 3em;
   `;
   
   export const LandingSubTitle = styled.h3`
   font-family: "Cormorant Garamond", serif;
   color: black;
-  font-size: 1.15em;
+  font-size: 2em;
   background-color: rgba(0, 0, 0, 0.2)
   border-radius: 5px;
   text-align: center;
@@ -75,6 +75,7 @@ export const ButtonDivMob = styled.div`
   color: black;
   letter-spacing: 1.5px;
   line-height: 1.5em;
+  font-size: 1.25em;
   `
   
   export const ModalButton = styled.button `
@@ -130,9 +131,10 @@ export const ButtonDivMob = styled.div`
   color: black;
   letter-spacing: 1.5px;
   line-height: 1.5em;
+  font-size: 2em;
   `;
   export const QuoteAuthor = styled.h3`
   font-family: "Cormorant SC", serif;
-  font-size: 1em;
+  font-size: 1.5em;
   color: black;
   `;

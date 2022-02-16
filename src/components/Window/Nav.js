@@ -22,6 +22,9 @@ const Nav = () => {
         <HashLink to="/#services" smooth className="nav-item">
           Services
         </HashLink>
+        <HashLink to="/#faq" smooth className="nav-item">
+          FAQ
+        </HashLink>
         <HashLink to="/#contact" smooth className="nav-item">
           Contact
         </HashLink>

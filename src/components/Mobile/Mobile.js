@@ -6,6 +6,7 @@ import LandingText from "./LandingText";
 import AboutMobile from "./AboutMobile";
 import ContactMobile from "./ContactMobile";
 import ServicesMobile from "./ServicesMobile";
+import FAQMobile from "./FAQMobile";
 import QuoteMobile from "./QuoteMobile";
 import FooterMobile from "./FooterMobile";
 import "./Mobile.css";
@@ -57,6 +58,11 @@ class Mobile extends React.Component {
         <ScrollToTop>
           <div id="services">
             <ServicesMobile />
+          </div>
+        </ScrollToTop>
+        <ScrollToTop>
+          <div id="faq">
+            <FAQMobile />
           </div>
         </ScrollToTop>
         <ScrollToTop>

@@ -6,48 +6,25 @@ const LandingText = () => {
   return (
     <div className="landing-title-container-mobile">
       <div className="landing-m-text">
-        <Fade duration={2000}>
+        <Fade duration={3000} delay={500}>
           <MobileLandingText>
-            You're <b className="landing-m-b-two">done. </b>
-            <br />
-            You need a vacation, but you <i>just</i> went on a weekend getaway.
-            Your thoughts seem to run your life, along with your busy schedule,
-            and{" "}
-            <b className="landing-m-b-two">
-              you just cant seem to get centered
-            </b>{" "}
-            through your work outs anymore—they are few and far between,
-            anyways.
-            <b className="landing-m-b-two">Taking care of yourself</b> seems to
-            be number 100 on the to do list. There is just{" "}
-            <b className="landing-m-b-two">
-              not enough time to do everything,{" "}
-            </b>
-            and there is so much <b className="landing-m-b-two">pressure</b> to
-            do it all, and perfectly.{" "}
-          </MobileLandingText>
-        </Fade>
-      </div>
-      <div className="landing-m-text">
-        <Fade duration={2000} delay={500}>
-          <MobileLandingText>
-            <b className="landing-m-b-two">Feeling disconnected</b> with your
-            partner, family, and friends are no longer a rare occasion, and you
-            know your{" "}
-            <b className="landing-m-b-two">
-              boss is starting to lose patience with you.
-            </b>{" "}
-            You can’t afford to cut anything out of your busy schedule, but you
-            are starting to <b className="landing-m-b-two">lose it.</b> Things
-            just feel so <b className="landing-m-b-two">out of control.</b> You
-            don’t want to go <b className="landing-m-b-two">talk</b> to a
-            therapist, but you know{" "}
-            <b className="landing-m-b-two">you need something.</b> Feeling{" "}
-            <b className="landing-m-b-two">lost, confused, and overwhelmed</b>{" "}
-            is just a part of your daily routine, right along side your cup of
-            coffee—oh, and make that a double espresso? Is{" "}
-            <b className="landing-m-b-two">#stress </b>
-            what <b className="landing-m-b-two">adulting</b> has to offer?
+            <div className="landing-b-m-text-noun">
+              <b className="landing-m-b-two">vitality (n)</b>
+            </div>
+            <div style={{ marginLeft: '2em' }}>
+              exuberant physical strength or mental vigor: a person of great vitality.
+              capacity for survival or for the continuation of a meaningful or purposeful existence:
+              power to live or grow: <a href="https://www.dictionary.com/browse/vital-force" target="_blank" rel="noopener noreferrer">vital force</a> or principle.
+            </div>
+            <div className="landing-b-m-text-noun-two">
+              <b className="landing-m-b-two">vital force (n)</b>
+            </div>
+            <div style={{ marginLeft: '4em' }}>
+              the force that animates and perpetuates living beings and organisms.
+            </div>
+            <div style={{ paddingTop: '2em' }}>
+              Together, let's tap into your vital force and allow for the possibility of healing into vitality.
+            </div>
           </MobileLandingText>
         </Fade>
       </div>
